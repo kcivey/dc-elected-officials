@@ -5,7 +5,13 @@ var fs = require('fs'),
     request = require('request'),
     cheerio = require('cheerio'),
     moment = require('moment'),
-    mainUrl = 'http://www.dcboee.org/candidate_info/historic_officials/history.asp';
+    csv = require('csv'),
+    mainUrl = 'http://www.dcboee.org/candidate_info/historic_officials/history.asp',
+    outFile = path.join('data', 'council-and-mayor.csv'),
+    csvHandle = csv().to(outFile, {
+        columns: ['election_date', 'office', 'name', 'party', 'final_reason'],
+        header: true
+    });
 
 getPage(mainUrl, processMainPage);
 
@@ -28,11 +34,11 @@ function processOfficePage(err, body) {
         throw err;
     }
     var $ = cheerio.load(body),
-        title = $('h3').text().trim();
+        office = $('h3').text().trim();
     $('#main_content table').eq(0).find('tr').each(function () {
         var $row = $(this),
-            party = '',
-            $cells, name, dates, finalReason, i, line;
+            record = {office: office, party: ''},
+            $cells, name, dates, finalReason, i;
         if ($row.hasClass('row_header')) {
             // skip header
         }
@@ -40,9 +46,9 @@ function processOfficePage(err, body) {
             $cells = $row.find('td');
             $cells.find('sup').remove();
             $cells.eq(2).find('br').replaceWith(', ');
-            name = $cells.eq(0).text().trim()
+            record.name = $cells.eq(0).text().trim()
                 .replace(/\s*\((\w+)\)$/, function (m0, m1) {
-                    party = m1;
+                    record.party = m1;
                     return '';
                 });
             dates = [$cells.eq(1).text().trim()];
@@ -52,10 +58,9 @@ function processOfficePage(err, body) {
             finalReason = $cells.eq(3).text().trim().replace(/\s+/, ' ')
                 .replace(/\b\d+-\d+-\d+\b/, convertDate);
             for (i = 0; i < dates.length; i++) {
-                line = [dates[i], title, name, party, i == dates.length - 1 ? finalReason : '']
-                    .map(function (s) { return /,/.test(s) ? '"' + s + '"' : s; })
-                    .join(',');
-                console.log(line);
+                record.election_date = dates[i];
+                record.final_reason = i == dates.length - 1 ? finalReason : '';
+                csvHandle.write(record);
             }
         }
     });
