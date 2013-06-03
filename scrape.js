@@ -38,7 +38,7 @@ function processOfficePage(err, body) {
     $('#main_content table').eq(0).find('tr').each(function () {
         var $row = $(this),
             record = {office: office, party: ''},
-            $cells, name, dates, finalReason, i;
+            $cells, dates, finalReason, i, weekday;
         if ($row.hasClass('row_header')) {
             // skip header
         }
@@ -59,6 +59,11 @@ function processOfficePage(err, body) {
                 .replace(/\b\d+-\d+-\d+\b/, convertDate);
             for (i = 0; i < dates.length; i++) {
                 record.election_date = dates[i];
+                weekday = moment(record.election_date).format('ddd');
+                if (weekday != 'Tue') {
+                    console.log(record.election_date + ' is ' + weekday +
+                        ', not Tue');
+                }
                 record.final_reason = i == dates.length - 1 ? finalReason : '';
                 csvHandle.write(record);
             }
