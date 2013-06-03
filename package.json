@@ -1,11 +1,8 @@
 {
   "name": "dc-elected-officials",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Scraper for historical elected officials from DC Board of Elections",
   "main": "scrape.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/kcivey/dc-elected-officials.git"

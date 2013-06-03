@@ -7,7 +7,7 @@ var fs = require('fs'),
     moment = require('moment'),
     csv = require('csv'),
     mainUrl = 'http://www.dcboee.org/candidate_info/historic_officials/history.asp',
-    outFile = path.join('data', 'council-and-mayor.csv'),
+    outFile = path.join('data', 'officials.csv'),
     csvHandle = csv().to(outFile, {
         columns: ['election_date', 'office', 'name', 'party', 'final_reason'],
         header: true
