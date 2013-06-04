@@ -22,7 +22,8 @@ stream.on('data', function (line) {
         // haven't reached beginning of table yet, so skip line
     }
     else if (/^Nov/.test(line)) {
-        values = line.trim().split(/\s{2,}/);
+        // Put '____' in empty columns as placeholder
+        values = line.trim().replace(/  \s{23}/g, '  _____').split(/\s{2,}/);
         date = moment(values[0]);
         weekday = date.format('ddd');
         if (weekday != 'Tue') {
@@ -32,7 +33,9 @@ stream.on('data', function (line) {
         for (i = 1; i < values.length; i++) {
             record.anc = headers[i];
             record.name = values[i] || '';
-            csvHandle.write(record);
+            if (record.name != '_____') {
+                csvHandle.write(record);
+            }
         }
     }
     else if (!/\S/.test(line)) {

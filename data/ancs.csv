@@ -1065,36 +1065,36 @@ election_date,anc,name
 1981-11-03,2C19,Charles Richardson
 1981-11-03,2D01,No candidate
 1981-11-03,2D02,Charles W. Hargrave
-1984-11-06,2C19,"Willie L. Reeves, Jr."
-1984-11-06,2D01,Aquanetta Anderson
-1986-11-04,2C19,"Willie L. Reeves, Jr."
-1986-11-04,2D01,Mark C. Alexander
-1988-11-08,2C19,"Willie L. Reeves, Jr."
-1988-11-08,2D01,Carolyn A. Fleming
-1990-11-06,2C19,"Willie L. Reeves, Jr."
-1990-11-06,2D01,Charles W. Hargrave
-1992-11-03,2C19,Richard S. Westbrook
-1992-11-03,2D01,Charles W. Hargrave
-1994-11-08,2C19,Richard S. Westbrook
-1994-11-08,2D01,Charles W. Hargrave
-1996-11-05,2C19,Richard S. Westbrook
-1996-11-05,2D01,George E. Holmes
-1998-11-03,2C19,Richard S. Westbrook
-1998-11-03,2D01,Roxana E. Folescu
-2000-11-07,2C19,Richard S. Westbrook
-2000-11-07,2D01,Trevor J. Saccente
-2002-11-05,2C19,Sandra Perlmutter
-2002-11-05,2D01,MaryEva Candon
-2004-11-02,2C19,Sandra Perlmutter
-2004-11-02,2D01,MaryEva Candon
-2006-11-07,2C19,Sandra Perlmutter
-2006-11-07,2D01,MaryEva Candon
-2008-11-04,2C19,Dana S. Greenwald
-2008-11-04,2D01,MaryEva Candon
-2010-11-02,2C19,David R. Bender
-2010-11-02,2D01,Eric Lamar
-2012-11-06,2C19,David R. Bender
-2012-11-06,2D01,Eric Lamar
+1984-11-06,2D01,"Willie L. Reeves, Jr."
+1984-11-06,2D02,Aquanetta Anderson
+1986-11-04,2D01,"Willie L. Reeves, Jr."
+1986-11-04,2D02,Mark C. Alexander
+1988-11-08,2D01,"Willie L. Reeves, Jr."
+1988-11-08,2D02,Carolyn A. Fleming
+1990-11-06,2D01,"Willie L. Reeves, Jr."
+1990-11-06,2D02,Charles W. Hargrave
+1992-11-03,2D01,Richard S. Westbrook
+1992-11-03,2D02,Charles W. Hargrave
+1994-11-08,2D01,Richard S. Westbrook
+1994-11-08,2D02,Charles W. Hargrave
+1996-11-05,2D01,Richard S. Westbrook
+1996-11-05,2D02,George E. Holmes
+1998-11-03,2D01,Richard S. Westbrook
+1998-11-03,2D02,Roxana E. Folescu
+2000-11-07,2D01,Richard S. Westbrook
+2000-11-07,2D02,Trevor J. Saccente
+2002-11-05,2D01,Sandra Perlmutter
+2002-11-05,2D02,MaryEva Candon
+2004-11-02,2D01,Sandra Perlmutter
+2004-11-02,2D02,MaryEva Candon
+2006-11-07,2D01,Sandra Perlmutter
+2006-11-07,2D02,MaryEva Candon
+2008-11-04,2D01,Dana S. Greenwald
+2008-11-04,2D02,MaryEva Candon
+2010-11-02,2D01,David R. Bender
+2010-11-02,2D02,Eric Lamar
+2012-11-06,2D01,David R. Bender
+2012-11-06,2D02,Eric Lamar
 1979-11-06,2D03,No candidate
 1979-11-06,2D04,No candidate
 1979-11-06,2D05,Ethel James Williams
@@ -1257,15 +1257,15 @@ election_date,anc,name
 2000-11-07,2E08,Mark P. Ryan
 2000-11-07,2F01,David H. Stephens
 2002-11-05,2E07,Mark P. Ryan
-2002-11-05,2E08,Cary Silverman
+2002-11-05,2F01,Cary Silverman
 2004-11-02,2E07,"Charles F. Eason, Jr."
-2004-11-02,2E08,Charles Reed
+2004-11-02,2F01,Charles Reed
 2006-11-07,2E07,"Charles F. Eason, Jr."
-2006-11-07,2E08,Charles Reed
+2006-11-07,2F01,Charles Reed
 2008-11-04,2E07,"Charles F. Eason, Jr."
-2008-11-04,2E08,Charles Reed
+2008-11-04,2F01,Charles Reed
 2010-11-02,2E07,"Charles F. Eason, Jr."
-2010-11-02,2E08,Charles Reed
+2010-11-02,2F01,Charles Reed
 2012-11-06,2E07,"Charles F. Eason, Jr."
 2012-11-06,2E08,Peter Prindiville
 2012-11-06,2F01,Peter Lallas
@@ -1325,8 +1325,8 @@ election_date,anc,name
 2012-11-06,2F05,Jim Lamare
 2012-11-06,2F06,Greg Melcher
 2012-11-06,2F07,Matt Raymond
-1979-11-06,2F08,No candidate
-1981-11-03,2F08,No candidate
+1979-11-06,3A01,No candidate
+1981-11-03,3A01,No candidate
 2012-11-06,2F08,Matthew Connolly
 1979-11-06,3A02,Harry A. Sellery
 1979-11-06,3A03,No candidate
@@ -1340,21 +1340,21 @@ election_date,anc,name
 1981-11-03,3A05,Timothy L. Robinson
 1981-11-03,3A06,Raymond J. Kukulski
 1981-11-03,3B01,George A. Gavalla
-1984-11-06,3A05,Ausha Ronde
-1986-11-04,3A05,Ausha Ronde
-1988-11-08,3A05,Barbara A. Hamer
-1990-11-06,3A05,Barbara A. Hamer
-1992-11-03,3A05,Barbara A. Hamer
-1994-11-08,3A05,Sprague Simonds
-1996-11-05,3A05,Sprague Simonds
-1998-11-03,3A05,Richard Mario Procida
-2000-11-07,3A05,No candidate
-2002-11-05,3A05,Toni A. Ritzenberg
-2004-11-02,3A05,Tamela Gordon
-2006-11-07,3A05,Kathleen W. Fiorillo
-2008-11-04,3A05,Cathy Fiorillo
-2010-11-02,3A05,Ben Thielen
-2012-11-06,3A05,Joe Fiorillo
+1984-11-06,3B01,Ausha Ronde
+1986-11-04,3B01,Ausha Ronde
+1988-11-08,3B01,Barbara A. Hamer
+1990-11-06,3B01,Barbara A. Hamer
+1992-11-03,3B01,Barbara A. Hamer
+1994-11-08,3B01,Sprague Simonds
+1996-11-05,3B01,Sprague Simonds
+1998-11-03,3B01,Richard Mario Procida
+2000-11-07,3B01,No candidate
+2002-11-05,3B01,Toni A. Ritzenberg
+2004-11-02,3B01,Tamela Gordon
+2006-11-07,3B01,Kathleen W. Fiorillo
+2008-11-04,3B01,Cathy Fiorillo
+2010-11-02,3B01,Ben Thielen
+2012-11-06,3B01,Joe Fiorillo
 1979-11-06,3B02,Michael S. Marcus
 1979-11-06,3B03,Mark W. Looney
 1979-11-06,3B04,No candidate
@@ -1425,27 +1425,27 @@ election_date,anc,name
 1990-11-06,3B06,Dianne Samaya-Barnes
 1990-11-06,3C01,Cheryl A. Opacinch
 1992-11-03,3B05,Joe Corey
-1992-11-03,3B06,Cheryl A. Opacinch
+1992-11-03,3C01,Cheryl A. Opacinch
 1994-11-08,3B05,Joe Corey
-1994-11-08,3B06,Cheryl A. Opacinch
+1994-11-08,3C01,Cheryl A. Opacinch
 1996-11-05,3B05,James C. Lively
-1996-11-05,3B06,Cheryl A. Opacinch
+1996-11-05,3C01,Cheryl A. Opacinch
 1998-11-03,3B05,James C. Lively
-1998-11-03,3B06,Cheryl A. Opacinch
+1998-11-03,3C01,Cheryl A. Opacinch
 2000-11-07,3B05,James C. Lively
-2000-11-07,3B06,Cheryl A. Opacinch
+2000-11-07,3C01,Cheryl A. Opacinch
 2002-11-05,3B05,Christopher J. Lively
-2002-11-05,3B06,Allen Hahn
+2002-11-05,3C01,Allen Hahn
 2004-11-02,3B05,Amy Bowman
-2004-11-02,3B06,Dia Black
+2004-11-02,3C01,Dia Black
 2007-11-06,3B05,Brian A. Cohen
-2007-11-06,3B06,Dia Black
+2007-11-06,3C01,Dia Black
 2008-11-04,3B05,Brian A. Cohen
-2008-11-04,3B06,Lee Brian Reba
+2008-11-04,3C01,Lee Brian Reba
 2010-11-02,3B05,Brian A. Cohen
-2010-11-02,3B06,Lee Brian Reba
+2010-11-02,3C01,Lee Brian Reba
 2012-11-06,3B05,Brian A. Cohen
-2012-11-06,3B06,Lee Brian Reba
+2012-11-06,3C01,Lee Brian Reba
 1979-11-06,3C02,Ruth Haugen
 1979-11-06,3C03,Thomas R. Asher
 1979-11-06,3C04,Joe Jeff Goldblatt
@@ -1920,36 +1920,36 @@ election_date,anc,name
 1981-11-03,3F08,Mark A. Heller
 1981-11-03,3G01,Heleny Cook
 1981-11-03,3G02,Allen E. Beach
-1984-11-06,3F08,Heleny Cook
-1984-11-06,3G01,Ed Rich
-1986-11-04,3F08,Vance Hyndman
-1986-11-04,3G01,No candidate
-1988-11-08,3F08,"Byron J. Grayson, Sr."
-1988-11-08,3G01,Lelia Z. Moore
-1990-11-06,3F08,"Byron J. Grayson, Sr."
-1990-11-06,3G01,Robert A. Diamond
-1992-11-03,3F08,Joe McGuire
-1992-11-03,3G01,Robert A. Diamond
-1994-11-08,3F08,Steve Kearney
-1994-11-08,3G01,Francis S. (Frank) Carr
-1996-11-05,3F08,Joseph L. Bishop
-1996-11-05,3G01,Francis S. (Frank) Carr
-1998-11-03,3F08,Joseph L. Bishop
-1998-11-03,3G01,Frank D. Buchholz
-2000-11-07,3F08,Joseph L. Bishop
-2000-11-07,3G01,Frank D. Buchholz
-2002-11-05,3F08,Deborah L. Redmond
-2002-11-05,3G01,Frank D. Buchholz
-2004-11-02,3F08,Deborah L. Redmond
-2004-11-02,3G01,Frank D. Buchholz
-2006-11-07,3F08,Carol Seitz
-2006-11-07,3G01,Gary Thompson
-2008-11-04,3F08,Carolyn A. Cook
-2008-11-04,3G01,Gary Thompson
-2010-11-02,3F08,Carolyn A. Cook
-2010-11-02,3G01,Gary Thompson
-2012-11-06,3F08,"Carolyn ""Callie"" Cook"
-2012-11-06,3G01,Gary Thompson
+1984-11-06,3G01,Heleny Cook
+1984-11-06,3G02,Ed Rich
+1986-11-04,3G01,Vance Hyndman
+1986-11-04,3G02,No candidate
+1988-11-08,3G01,"Byron J. Grayson, Sr."
+1988-11-08,3G02,Lelia Z. Moore
+1990-11-06,3G01,"Byron J. Grayson, Sr."
+1990-11-06,3G02,Robert A. Diamond
+1992-11-03,3G01,Joe McGuire
+1992-11-03,3G02,Robert A. Diamond
+1994-11-08,3G01,Steve Kearney
+1994-11-08,3G02,Francis S. (Frank) Carr
+1996-11-05,3G01,Joseph L. Bishop
+1996-11-05,3G02,Francis S. (Frank) Carr
+1998-11-03,3G01,Joseph L. Bishop
+1998-11-03,3G02,Frank D. Buchholz
+2000-11-07,3G01,Joseph L. Bishop
+2000-11-07,3G02,Frank D. Buchholz
+2002-11-05,3G01,Deborah L. Redmond
+2002-11-05,3G02,Frank D. Buchholz
+2004-11-02,3G01,Deborah L. Redmond
+2004-11-02,3G02,Frank D. Buchholz
+2006-11-07,3G01,Carol Seitz
+2006-11-07,3G02,Gary Thompson
+2008-11-04,3G01,Carolyn A. Cook
+2008-11-04,3G02,Gary Thompson
+2010-11-02,3G01,Carolyn A. Cook
+2010-11-02,3G02,Gary Thompson
+2012-11-06,3G01,"Carolyn ""Callie"" Cook"
+2012-11-06,3G02,Gary Thompson
 1979-11-06,3G03,Gail R. Carlson
 1979-11-06,3G04,Janet Walton Gisleson
 1979-11-06,3G05,No candidate
@@ -2355,17 +2355,17 @@ election_date,anc,name
 1990-11-06,4B11,Amanda Hatcher Lyon
 1990-11-06,4B12,Edna S. Southerland
 1990-11-06,4C01,Taalib-Din Ugdah
-1992-11-03,4B11,Audrey Joan Hendricks
-1994-11-08,4B11,Audrey Joan Hendricks
-1996-11-05,4B11,Audrey Joan Hendricks
-1998-11-03,4B11,Chi Heard
-2000-11-07,4B11,Robert Hendricks
-2002-11-05,4B11,Alfreda C. Mauuso
-2004-11-02,4B11,Harold W. Prince
-2006-11-07,4B11,Dee Jolley
-2008-11-04,4B11,Michael Yates
-2010-11-02,4B11,Michael Yates
-2012-11-06,4B11,Michael Yates
+1992-11-03,4C01,Audrey Joan Hendricks
+1994-11-08,4C01,Audrey Joan Hendricks
+1996-11-05,4C01,Audrey Joan Hendricks
+1998-11-03,4C01,Chi Heard
+2000-11-07,4C01,Robert Hendricks
+2002-11-05,4C01,Alfreda C. Mauuso
+2004-11-02,4C01,Harold W. Prince
+2006-11-07,4C01,Dee Jolley
+2008-11-04,4C01,Michael Yates
+2010-11-02,4C01,Michael Yates
+2012-11-06,4C01,Michael Yates
 1979-11-06,4C02,"Geneva ""Ruby"" Jones"
 1979-11-06,4C03,No candidate
 1979-11-06,4C04,Phyllis E. Young
@@ -2684,28 +2684,28 @@ election_date,anc,name
 1990-11-06,4D13,Helen H. Mitchell
 1990-11-06,5A01,James W. Johnson
 1990-11-06,5A02,Clayton L. Butler
-1992-11-03,4D13,James W. Johnson
-1992-11-03,5A01,Kathryn A. Pearson-West
-1994-11-08,4D13,Etta Marie Marshall
-1994-11-08,5A01,Norma M. Broadnax
-1996-11-05,4D13,Etta Marie Marshall
-1996-11-05,5A01,Norma M. Broadnax
-1998-11-03,4D13,James W. Johnson
-1998-11-03,5A01,Norma M. Broadnax
-2000-11-07,4D13,James W. Johnson
-2000-11-07,5A01,Norma M. Broadnax
-2002-11-05,4D13,Lenora Richardson
-2002-11-05,5A01,James M. Johnson
-2004-11-02,4D13,Sandra L. Washington
-2004-11-02,5A01,Frank Wilds
-2006-11-07,4D13,Sandi Washington
-2006-11-07,5A01,Patricia Roberts
-2008-11-04,4D13,Sandi Washington
-2008-11-04,5A01,Patricia Roberts
-2010-11-02,4D13,Sandi Washington
-2010-11-02,5A01,Patricia Roberts
-2012-11-06,4D13,Frank Wilds
-2012-11-06,5A01,Michael Williams
+1992-11-03,5A01,James W. Johnson
+1992-11-03,5A02,Kathryn A. Pearson-West
+1994-11-08,5A01,Etta Marie Marshall
+1994-11-08,5A02,Norma M. Broadnax
+1996-11-05,5A01,Etta Marie Marshall
+1996-11-05,5A02,Norma M. Broadnax
+1998-11-03,5A01,James W. Johnson
+1998-11-03,5A02,Norma M. Broadnax
+2000-11-07,5A01,James W. Johnson
+2000-11-07,5A02,Norma M. Broadnax
+2002-11-05,5A01,Lenora Richardson
+2002-11-05,5A02,James M. Johnson
+2004-11-02,5A01,Sandra L. Washington
+2004-11-02,5A02,Frank Wilds
+2006-11-07,5A01,Sandi Washington
+2006-11-07,5A02,Patricia Roberts
+2008-11-04,5A01,Sandi Washington
+2008-11-04,5A02,Patricia Roberts
+2010-11-02,5A01,Sandi Washington
+2010-11-02,5A02,Patricia Roberts
+2012-11-06,5A01,Frank Wilds
+2012-11-06,5A02,Michael Williams
 1979-11-06,5A03,Joseph L. Bowser
 1979-11-06,5A04,Raymond L. Dickey
 1979-11-06,5A05,Clifton A. Roberson
@@ -2902,28 +2902,28 @@ election_date,anc,name
 1990-11-06,5A15,Robert King
 1990-11-06,5B01,Enez W. Martin
 1990-11-06,5B02,Altha R. Elliott
-1992-11-03,5A15,Enez W. Martin
-1992-11-03,5B01,Altha R. Elliott
-1994-11-08,5A15,"Horace M. Roberts, Sr."
-1994-11-08,5B01,"Harry Thomas, Jr."
-1996-11-05,5A15,"Horace M. Roberts, Sr."
-1996-11-05,5B01,"Harry Thomas, Jr."
-1998-11-03,5A15,Mercile V. Banks
-1998-11-03,5B01,"Harry Thomas, Jr."
-2000-11-07,5A15,Mercile V. Banks
-2000-11-07,5B01,Muriel L. Coles
-2002-11-05,5A15,William Shelton
-2002-11-05,5B01,Rebecca Scates
-2004-11-02,5A15,William Shelton
-2004-11-02,5B01,Rebecca Scates
-2006-11-07,5A15,William C. Shelton
-2006-11-07,5B01,Patricia Brown-Daniels
-2008-11-04,5A15,William C. Shelton
-2008-11-04,5B01,Patricia Brown-Daniels
-2010-11-02,5A15,William C. Shelton
-2010-11-02,5B01,Patricia Brown-Daniels
-2012-11-06,5A15,Shirley Rivens Smith
-2012-11-06,5B01,Ursula Higgins
+1992-11-03,5B01,Enez W. Martin
+1992-11-03,5B02,Altha R. Elliott
+1994-11-08,5B01,"Horace M. Roberts, Sr."
+1994-11-08,5B02,"Harry Thomas, Jr."
+1996-11-05,5B01,"Horace M. Roberts, Sr."
+1996-11-05,5B02,"Harry Thomas, Jr."
+1998-11-03,5B01,Mercile V. Banks
+1998-11-03,5B02,"Harry Thomas, Jr."
+2000-11-07,5B01,Mercile V. Banks
+2000-11-07,5B02,Muriel L. Coles
+2002-11-05,5B01,William Shelton
+2002-11-05,5B02,Rebecca Scates
+2004-11-02,5B01,William Shelton
+2004-11-02,5B02,Rebecca Scates
+2006-11-07,5B01,William C. Shelton
+2006-11-07,5B02,Patricia Brown-Daniels
+2008-11-04,5B01,William C. Shelton
+2008-11-04,5B02,Patricia Brown-Daniels
+2010-11-02,5B01,William C. Shelton
+2010-11-02,5B02,Patricia Brown-Daniels
+2012-11-06,5B01,Shirley Rivens Smith
+2012-11-06,5B02,Ursula Higgins
 1979-11-06,5B03,Mary Ann Bennekin
 1979-11-06,5B04,Rubell Bing
 1979-11-06,5B05,No candidate
@@ -3117,28 +3117,28 @@ election_date,anc,name
 1990-11-06,5B15,No candidate
 1990-11-06,5C01,"James D. Berry, Jr."
 1990-11-06,5C02,Mary Ann Wilmer
-1992-11-03,5B15,"James D. Berry, Jr."
-1992-11-03,5C01,Mary Ann Wilmer
-1994-11-08,5B15,"James D. Berry, Jr."
-1994-11-08,5C01,Mary Ann Wilmer
-1996-11-05,5B15,"James D. Berry, Jr."
-1996-11-05,5C01,Joyce A. Robinson-Paul
-1998-11-03,5B15,"James D. Berry, Jr."
-1998-11-03,5C01,Joyce A. Robinson-Paul
-2000-11-07,5B15,"James D. Berry, Jr."
-2000-11-07,5C01,Joyce A. Robinson-Paul
-2002-11-05,5B15,"James D. Berry, Jr."
-2002-11-05,5C01,Joyce A. Robinson-Paul
-2004-11-02,5B15,"James D. Berry, Jr."
-2004-11-02,5C01,Cleopatra Jones
-2006-11-07,5B15,Anita D. Bonds
-2006-11-07,5C01,Kris Hammond
-2008-11-04,5B15,Anita D. Bonds
-2008-11-04,5C01,Sylvia Pinkney
-2010-11-02,5B15,Bradley A. Thomas
-2010-11-02,5C01,Sylvia Pinkney
-2012-11-06,5B15,Antonette E. Russell
-2012-11-06,5C01,Karla Butler
+1992-11-03,5C01,"James D. Berry, Jr."
+1992-11-03,5C02,Mary Ann Wilmer
+1994-11-08,5C01,"James D. Berry, Jr."
+1994-11-08,5C02,Mary Ann Wilmer
+1996-11-05,5C01,"James D. Berry, Jr."
+1996-11-05,5C02,Joyce A. Robinson-Paul
+1998-11-03,5C01,"James D. Berry, Jr."
+1998-11-03,5C02,Joyce A. Robinson-Paul
+2000-11-07,5C01,"James D. Berry, Jr."
+2000-11-07,5C02,Joyce A. Robinson-Paul
+2002-11-05,5C01,"James D. Berry, Jr."
+2002-11-05,5C02,Joyce A. Robinson-Paul
+2004-11-02,5C01,"James D. Berry, Jr."
+2004-11-02,5C02,Cleopatra Jones
+2006-11-07,5C01,Anita D. Bonds
+2006-11-07,5C02,Kris Hammond
+2008-11-04,5C01,Anita D. Bonds
+2008-11-04,5C02,Sylvia Pinkney
+2010-11-02,5C01,Bradley A. Thomas
+2010-11-02,5C02,Sylvia Pinkney
+2012-11-06,5C01,Antonette E. Russell
+2012-11-06,5C02,Karla Butler
 1979-11-06,5C03,Victor B. Blackburn
 1979-11-06,5C04,Annie L. Britt
 1979-11-06,5C05,No candidate
@@ -3316,37 +3316,37 @@ election_date,anc,name
 1979-11-06,5C16,Estella Edds Sims
 1981-11-03,5C15,Vivian C. Ashton
 1981-11-03,5C16,No candidate
-2012-11-06,5C15,Peta-Gay S. Lewis
+2012-11-06,5D01,Peta-Gay S. Lewis
 2012-11-06,5D02,Vonetta Dumas
 2012-11-06,5D03,India A. Henderson
 2012-11-06,5D04,Bernice S Blacknell
 2012-11-06,5D05,Kathy Henderson
 2012-11-06,5D06,Tina Laskaris
 2012-11-06,5D07,David Hooper
-2012-11-06,5D08,Debbie Smith-Steiner
-2012-11-06,5E01,Christy 'Love' Davis
+2012-11-06,5E01,Debbie Smith-Steiner
+2012-11-06,5E02,Christy 'Love' Davis
 2012-11-06,5E03,Tim Clark
 2012-11-06,5E04,Sylvia M. Pinkney
 2012-11-06,5E05,Joyce Robinson-Paul
 2012-11-06,5E06,Teri Janine Quinn
 2012-11-06,5E07,Wanda B. Foster
 2012-11-06,5E08,Mark Mueller
-1979-11-06,5E09,No candidate
-1981-11-03,5E09,No candidate
-1984-11-06,5E09,Frances L. Queen
-1986-11-04,5E09,Clarence Martin
-1988-11-08,5E09,Clarence Martin
-1990-11-06,5E09,Herb Harris
-1992-11-03,5E09,Keith Mitchell
-1994-11-08,5E09,Keith Mitchell
-1996-11-05,5E09,Robin Denegal
-1998-11-03,5E09,Terri Bishop
-2000-11-07,5E09,No candidate
-2002-11-05,5E09,Wanda Stevens-Harris
-2004-11-02,5E09,Robyn Holden
-2007-11-06,5E09,Raphael V. Marshall
-2008-11-04,5E09,Raphael V. Marshall
-2010-11-02,5E09,Adam C. Healy
+1979-11-06,6A01,No candidate
+1981-11-03,6A01,No candidate
+1984-11-06,6A01,Frances L. Queen
+1986-11-04,6A01,Clarence Martin
+1988-11-08,6A01,Clarence Martin
+1990-11-06,6A01,Herb Harris
+1992-11-03,6A01,Keith Mitchell
+1994-11-08,6A01,Keith Mitchell
+1996-11-05,6A01,Robin Denegal
+1998-11-03,6A01,Terri Bishop
+2000-11-07,6A01,No candidate
+2002-11-05,6A01,Wanda Stevens-Harris
+2004-11-02,6A01,Robyn Holden
+2007-11-06,6A01,Raphael V. Marshall
+2008-11-04,6A01,Raphael V. Marshall
+2010-11-02,6A01,Adam C. Healy
 2012-11-06,5E09,C. Dianne Barnes
 2012-11-06,5E10,Angela C. Blanks
 2012-11-06,6A01,J. Omar Mahmud
@@ -3545,21 +3545,21 @@ election_date,anc,name
 1981-11-03,6A17,No candidate
 1981-11-03,6A18,Pearl Greene
 1981-11-03,6B01,Robert Donaldson
-1984-11-06,6A17,Donald Dinan
-1986-11-04,6A17,Marilyn McMillen
-1988-11-08,6A17,Jane E. Atlenhofen
-1990-11-06,6A17,Donna Scheeder
-1992-11-03,6A17,Peter J. Waldron
-1994-11-08,6A17,Peter J. Waldron
-1996-11-05,6A17,Peter J. Waldron
-1998-11-03,6A17,Peter J. Waldron
-2000-11-07,6A17,David P. Sheldon
-2002-11-05,6A17,David P. Sheldon
-2004-11-02,6A17,David P. Sheldon
-2006-11-07,6A17,David Garrison
-2008-11-04,6A17,David Garrison
-2010-11-02,6A17,David Garrison
-2012-11-06,6A17,Dave Garrison
+1984-11-06,6B01,Donald Dinan
+1986-11-04,6B01,Marilyn McMillen
+1988-11-08,6B01,Jane E. Atlenhofen
+1990-11-06,6B01,Donna Scheeder
+1992-11-03,6B01,Peter J. Waldron
+1994-11-08,6B01,Peter J. Waldron
+1996-11-05,6B01,Peter J. Waldron
+1998-11-03,6B01,Peter J. Waldron
+2000-11-07,6B01,David P. Sheldon
+2002-11-05,6B01,David P. Sheldon
+2004-11-02,6B01,David P. Sheldon
+2006-11-07,6B01,David Garrison
+2008-11-04,6B01,David Garrison
+2010-11-02,6B01,David Garrison
+2012-11-06,6B01,Dave Garrison
 1979-11-06,6B02,No candidate
 1979-11-06,6B03,No candidate
 1979-11-06,6B04,No candidate
@@ -3968,38 +3968,38 @@ election_date,anc,name
 2012-11-06,6E05,Marge Maceda
 2012-11-06,6E06,Mark Dixon
 2012-11-06,6E07,Alfreda S. Judd
-1979-11-06,6E09,No candidate
 1979-11-06,7A01,No candidate
-1981-11-03,6E09,Kimi Gray
-1981-11-03,7A01,Regina T. Rutledge
-1984-11-06,6E09,No candidate
-1984-11-06,7A01,Herman B. Greene
-1986-11-04,6E09,No candidate
-1986-11-04,7A01,Herman B. Greene
-1988-11-08,6E09,Kimi O. Gray
-1988-11-08,7A01,Herman B. Greene
-1990-11-06,6E09,Kimi O. Gray
-1990-11-06,7A01,Herman B. Greene
-1992-11-03,6E09,Constance Thompson
-1992-11-03,7A01,Yvonne M. Rice
-1994-11-08,6E09,Rodney H. Stewart
-1994-11-08,7A01,Karen M. Settles
-1996-11-05,6E09,Rodney H. Stewart
-1996-11-05,7A01,Karen M. Settles
-1998-11-03,6E09,Constance M. Thompson
-1998-11-03,7A01,Karen M. Settles
-2000-11-07,6E09,Constance M. Thompson
-2000-11-07,7A01,Karen M. Settles
-2002-11-05,6E09,Sheila M. Carson-Carr
-2002-11-05,7A01,Angela Thompson-Murphy
-2004-11-02,6E09,Sheila M. Carson-Carr
-2004-11-02,7A01,Angela Thompson-Murphy
-2006-11-07,6E09,Sheila M. Carson-Carr
-2006-11-07,7A01,Deborah Evans-Baliey
-2008-11-04,6E09,Sheila M. Carson-Carr
-2008-11-04,7A01,No candidate
-2010-11-02,6E09,Sheila M. Carson-Carr
-2010-11-02,7A01,Eboni Rose Thompson
+1979-11-06,7A02,No candidate
+1981-11-03,7A01,Kimi Gray
+1981-11-03,7A02,Regina T. Rutledge
+1984-11-06,7A01,No candidate
+1984-11-06,7A02,Herman B. Greene
+1986-11-04,7A01,No candidate
+1986-11-04,7A02,Herman B. Greene
+1988-11-08,7A01,Kimi O. Gray
+1988-11-08,7A02,Herman B. Greene
+1990-11-06,7A01,Kimi O. Gray
+1990-11-06,7A02,Herman B. Greene
+1992-11-03,7A01,Constance Thompson
+1992-11-03,7A02,Yvonne M. Rice
+1994-11-08,7A01,Rodney H. Stewart
+1994-11-08,7A02,Karen M. Settles
+1996-11-05,7A01,Rodney H. Stewart
+1996-11-05,7A02,Karen M. Settles
+1998-11-03,7A01,Constance M. Thompson
+1998-11-03,7A02,Karen M. Settles
+2000-11-07,7A01,Constance M. Thompson
+2000-11-07,7A02,Karen M. Settles
+2002-11-05,7A01,Sheila M. Carson-Carr
+2002-11-05,7A02,Angela Thompson-Murphy
+2004-11-02,7A01,Sheila M. Carson-Carr
+2004-11-02,7A02,Angela Thompson-Murphy
+2006-11-07,7A01,Sheila M. Carson-Carr
+2006-11-07,7A02,Deborah Evans-Baliey
+2008-11-04,7A01,Sheila M. Carson-Carr
+2008-11-04,7A02,No candidate
+2010-11-02,7A01,Sheila M. Carson-Carr
+2010-11-02,7A02,Eboni Rose Thompson
 1979-11-06,7A03,No candidate
 1979-11-06,7A04,No candidate
 1979-11-06,7A05,No candidate
@@ -4096,7 +4096,7 @@ election_date,anc,name
 2010-11-02,7A06,No candidate
 2010-11-02,7A07,Villareal (VJ) Johnson
 2010-11-02,7B01,Holly Muhammad
-2012-11-06,7A06,Patricia Howard-Chittams
+2012-11-06,7B01,Patricia Howard-Chittams
 1979-11-06,7B02,Maryland D. Kemp
 1979-11-06,7B03,William Blount
 1979-11-06,7B04,Wilmur A. Davis
@@ -4204,24 +4204,24 @@ election_date,anc,name
 1981-11-03,7B09,Ada W. Carter
 1981-11-03,7C01,Rita L. Ferrall
 1984-11-06,7B08,Ada W. Carter
-1984-11-06,7B09,Lawrence E. Perry
+1984-11-06,7C01,Lawrence E. Perry
 1986-11-04,7B08,Ada W. Carter
-1986-11-04,7B09,Lawrence E. Perry
+1986-11-04,7C01,Lawrence E. Perry
 1988-11-08,7B08,Ada W. Carter
-1988-11-08,7B09,Lawrence E. Perry
+1988-11-08,7C01,Lawrence E. Perry
 1990-11-06,7B08,Fred R. Crews
-1990-11-06,7B09,Lawrence E. Perry
-1992-11-03,7B08,Edward H. Harris
-1994-11-08,7B08,Edward H. Harris
-1996-11-05,7B08,Edward H. Harris
-1998-11-03,7B08,Edward H. Harris
-2000-11-07,7B08,No candidate
-2002-11-05,7B08,No candidate
-2004-11-02,7B08,Patricia Malloy
-2006-11-07,7B08,Patricia Malloy
-2008-11-04,7B08,Patricia Malloy
-2010-11-02,7B08,Patricia Malloy
-2012-11-06,7B08,Patricia A. Malloy
+1990-11-06,7C01,Lawrence E. Perry
+1992-11-03,7C01,Edward H. Harris
+1994-11-08,7C01,Edward H. Harris
+1996-11-05,7C01,Edward H. Harris
+1998-11-03,7C01,Edward H. Harris
+2000-11-07,7C01,No candidate
+2002-11-05,7C01,No candidate
+2004-11-02,7C01,Patricia Malloy
+2006-11-07,7C01,Patricia Malloy
+2008-11-04,7C01,Patricia Malloy
+2010-11-02,7C01,Patricia Malloy
+2012-11-06,7C01,Patricia A. Malloy
 1979-11-06,7C02,Carolyn Wright Ricanek
 1979-11-06,7C03,Alice Chandler
 1979-11-06,7C04,No candidate
@@ -4326,25 +4326,25 @@ election_date,anc,name
 1981-11-03,7C09,Mary L. Gaffney
 1981-11-03,7D01,Jean Ann McNeil
 1984-11-06,7C08,Mary L. Gaffney
-1984-11-06,7C09,Natalie C. Greene
+1984-11-06,7D01,Natalie C. Greene
 1986-11-04,7C08,Mary L. Gaffney
-1986-11-04,7C09,Natalie C. Greene
+1986-11-04,7D01,Natalie C. Greene
 1988-11-08,7C08,Mary L. Gaffney
-1988-11-08,7C09,Natalie C. Greene
+1988-11-08,7D01,Natalie C. Greene
 1990-11-06,7C08,Mary L. Gaffney
-1990-11-06,7C09,Natalie C. Greene
-1992-11-03,7C08,Natalie C. Greene
-1994-11-08,7C08,Sheila J. Bennett
-1996-11-05,7C08,Natalie C. Greene
-1998-11-03,7C08,Michael D. Creasey
-2000-11-07,7C08,Michael D. Creasey
-2002-11-05,7C08,Veronica E. Raglin
-2004-11-02,7C08,Veronica E. Raglin
-2006-11-07,7C08,Veronica E. Raglin
-2008-11-04,7C08,Veronica E. Raglin
-2008-11-04,7C08,Veronica E. Raglin
-2010-11-02,7C08,Lisa White
-2012-11-06,7C08,Lisa White
+1990-11-06,7D01,Natalie C. Greene
+1992-11-03,7D01,Natalie C. Greene
+1994-11-08,7D01,Sheila J. Bennett
+1996-11-05,7D01,Natalie C. Greene
+1998-11-03,7D01,Michael D. Creasey
+2000-11-07,7D01,Michael D. Creasey
+2002-11-05,7D01,Veronica E. Raglin
+2004-11-02,7D01,Veronica E. Raglin
+2006-11-07,7D01,Veronica E. Raglin
+2008-11-04,7D01,Veronica E. Raglin
+2008-11-04,7D01,Veronica E. Raglin
+2010-11-02,7D01,Lisa White
+2012-11-06,7D01,Lisa White
 1979-11-06,7D02,David O. Leacraft
 1979-11-06,7D03,James Parks
 1979-11-06,7D04,"James F. Onley, Sr."
@@ -4588,11 +4588,11 @@ election_date,anc,name
 1981-11-03,7E10,"Calvin E. Lindo, Sr."
 1981-11-03,7E11,Joyce E. Thomas
 1981-11-03,7F01,Constance M. Thompson
-1984-11-06,7E10,Constance M. Thompson
-1986-11-04,7E10,Constance M. Thompson
-1988-11-08,7E10,Constance M. Thompson
-1990-11-06,7E10,Constance M. Thompson
-2012-11-06,7E10,Evie L. Washington
+1984-11-06,7F01,Constance M. Thompson
+1986-11-04,7F01,Constance M. Thompson
+1988-11-08,7F01,Constance M. Thompson
+1990-11-06,7F01,Constance M. Thompson
+2012-11-06,7F01,Evie L. Washington
 1979-11-06,7F02,No candidate
 1979-11-06,7F03,"Walter C. Lewis, Sr."
 1979-11-06,7F04,No candidate
@@ -4625,23 +4625,23 @@ election_date,anc,name
 2012-11-06,7F05,Karen Settles
 2012-11-06,7F06,Elizabeth H. Traver
 2012-11-06,7F07,No candidate
-1979-11-06,7F08,No candidate
-1981-11-03,7F08,William C. Larkins
-1984-11-06,7F08,Ann McMillian
-1986-11-04,7F08,Ann McMillian
-1988-11-08,7F08,Geraldine M. Law
-1990-11-06,7F08,Dorothea Ferrell
-1992-11-03,7F08,Hannah M. Hawkins
-1994-11-08,7F08,"David ""DJ"" White"
-1996-11-05,7F08,"David ""DJ"" White"
-1998-11-03,7F08,"David ""DJ"" White"
-2000-11-07,7F08,Juanita W. Jefferson
-2002-11-05,7F08,Anthony Muhammad
-2004-11-02,7F08,Anthony Muhammad
-2007-11-06,7F08,Anthony Muhammad
-2008-11-04,7F08,Anthony Muhammad
-2010-11-02,7F08,Anthony Muhammad
-2012-11-06,7F08,Holly Muhammad
+1979-11-06,8A01,No candidate
+1981-11-03,8A01,William C. Larkins
+1984-11-06,8A01,Ann McMillian
+1986-11-04,8A01,Ann McMillian
+1988-11-08,8A01,Geraldine M. Law
+1990-11-06,8A01,Dorothea Ferrell
+1992-11-03,8A01,Hannah M. Hawkins
+1994-11-08,8A01,"David ""DJ"" White"
+1996-11-05,8A01,"David ""DJ"" White"
+1998-11-03,8A01,"David ""DJ"" White"
+2000-11-07,8A01,Juanita W. Jefferson
+2002-11-05,8A01,Anthony Muhammad
+2004-11-02,8A01,Anthony Muhammad
+2007-11-06,8A01,Anthony Muhammad
+2008-11-04,8A01,Anthony Muhammad
+2010-11-02,8A01,Anthony Muhammad
+2012-11-06,8A01,Holly Muhammad
 1979-11-06,8A02,Art Lloyd
 1979-11-06,8A03,Michael A. Wheeler
 1979-11-06,8A04,No candidate
@@ -4750,21 +4750,21 @@ election_date,anc,name
 1981-11-03,8A08,No candidate
 1981-11-03,8A09,Mary M. Jones
 1981-11-03,8B01,Ronald L. Williams
-1984-11-06,8A08,Harold Thomas-Boulding
-1986-11-04,8A08,No candidate
-1988-11-08,8A08,"Alexander King, Sr."
-1990-11-06,8A08,Sarah C. Blyther
-1992-11-03,8A08,Jacqueline B. Shillings
-1994-11-08,8A08,Jacqueline B. Shillings
-1996-11-05,8A08,Hope B. Etienne
-1998-11-03,8A08,Hope B. Etienne
-2000-11-07,8A08,Richard L. Graham
-2002-11-05,8A08,Leonard Watson
-2004-11-02,8A08,Ahmad Braxton-Jones
-2006-11-07,8A08,Ahmed Braxton-Jones
-2008-11-04,8A08,Mary Buckley
-2010-11-02,8A08,Khadijah Watson
-2012-11-06,8A08,Khadijah Watson
+1984-11-06,8B01,Harold Thomas-Boulding
+1986-11-04,8B01,No candidate
+1988-11-08,8B01,"Alexander King, Sr."
+1990-11-06,8B01,Sarah C. Blyther
+1992-11-03,8B01,Jacqueline B. Shillings
+1994-11-08,8B01,Jacqueline B. Shillings
+1996-11-05,8B01,Hope B. Etienne
+1998-11-03,8B01,Hope B. Etienne
+2000-11-07,8B01,Richard L. Graham
+2002-11-05,8B01,Leonard Watson
+2004-11-02,8B01,Ahmad Braxton-Jones
+2006-11-07,8B01,Ahmed Braxton-Jones
+2008-11-04,8B01,Mary Buckley
+2010-11-02,8B01,Khadijah Watson
+2012-11-06,8B01,Khadijah Watson
 1979-11-06,8B02,No candidate
 1979-11-06,8B03,Shirley E. Woolridge
 1979-11-06,8B04,Mary F. Ross
@@ -4881,28 +4881,28 @@ election_date,anc,name
 1990-11-06,8B08,Jacques Chevalier
 1990-11-06,8C01,Newton Smith
 1990-11-06,8C02,William O. Lockridge
-1992-11-03,8B08,Cynthia Smith
-1992-11-03,8C01,No candidate
-1994-11-08,8B08,William C. Lewis
-1994-11-08,8C01,No candidate
-1996-11-05,8B08,William C. Lewis
-1996-11-05,8C01,No candidate
-1998-11-03,8B08,Glenda T. Neamo
-1998-11-03,8C01,No candidate
-2000-11-07,8B08,Renee D. Lucas
-2000-11-07,8C01,No candidate
-2002-11-05,8B08,No candidate
-2002-11-05,8C01,Dion Jordan
-2004-11-02,8B08,Dorothea M. Ferrell
-2004-11-02,8C01,Barbara A. Hodge
-2006-11-07,8B08,Dorothea Ferrell
-2006-11-07,8C01,No candidate
-2008-11-04,8B08,William R. Ellis
-2008-11-04,8C01,Dion Jordan
-2010-11-02,8B08,William R. Ellis
-2010-11-02,8C01,Dion Jordan
-2012-11-06,8B08,No candidate
-2012-11-06,8C01,Alicia Fremling
+1992-11-03,8C01,Cynthia Smith
+1992-11-03,8C02,No candidate
+1994-11-08,8C01,William C. Lewis
+1994-11-08,8C02,No candidate
+1996-11-05,8C01,William C. Lewis
+1996-11-05,8C02,No candidate
+1998-11-03,8C01,Glenda T. Neamo
+1998-11-03,8C02,No candidate
+2000-11-07,8C01,Renee D. Lucas
+2000-11-07,8C02,No candidate
+2002-11-05,8C01,No candidate
+2002-11-05,8C02,Dion Jordan
+2004-11-02,8C01,Dorothea M. Ferrell
+2004-11-02,8C02,Barbara A. Hodge
+2006-11-07,8C01,Dorothea Ferrell
+2006-11-07,8C02,No candidate
+2008-11-04,8C01,William R. Ellis
+2008-11-04,8C02,Dion Jordan
+2010-11-02,8C01,William R. Ellis
+2010-11-02,8C02,Dion Jordan
+2012-11-06,8C01,No candidate
+2012-11-06,8C02,Alicia Fremling
 1979-11-06,8C03,Julia R. Andrews
 1979-11-06,8C04,Kellis Sylvester
 1979-11-06,8C05,No candidate
