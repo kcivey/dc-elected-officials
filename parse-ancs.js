@@ -14,17 +14,37 @@ var fs = require('fs'),
 
 stream.on('data', function (line) {
     var record = {},
-        values, i;
+        values, date, weekday, i;
     if (/^\s*Election Date/.test(line)) {
         headers = line.trim().split(/\s{2,}/);
     }
+    else if (!headers) {
+        // haven't reached beginning of table yet, so skip line
+    }
     else if (/^Nov/.test(line)) {
         values = line.trim().split(/\s{2,}/);
-        record.election_date = moment(values[0]).format('YYYY-MM-DD');
+        date = moment(values[0]);
+        weekday = date.format('ddd');
+        if (weekday != 'Tue') {
+            console.log('%s is %s, not Tue', values[0], weekday);
+        }
+        record.election_date = date.format('YYYY-MM-DD');
         for (i = 1; i < values.length; i++) {
             record.anc = headers[i];
             record.name = values[i] || '';
             csvHandle.write(record);
         }
+    }
+    else if (!/\S/.test(line)) {
+        // blank line
+    }
+    else if (/^\s*\d+\s*$/.test(line)) {
+        // page number
+    }
+    else if (/^The shaded boxes|^\s*HISTORICAL LISTING|^\s*ANC\/SMD\s*|^Redistricting\.|^\s*COMMISIONERS/.test(line)) {
+        // page header/footer
+    }
+    else {
+        throw 'Unexpected line: ' + line;
     }
 });
