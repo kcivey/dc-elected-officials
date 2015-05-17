@@ -38,8 +38,9 @@ election_date,office,name,party,final_reason
 1997-07-22,Chairman of the Council of the District of Columbia,Linda Cropp,D,
 1994-11-08,Chairman of the Council of the District of Columbia,Linda Cropp,D,
 1998-11-03,Chairman of the Council of the District of Columbia,Linda Cropp,D,
-2002-11-07,Chairman of the Council of the District of Columbia,Linda Cropp,D,Ran for Mayor and was defeated in the Primary 2006-09-12
-2006-11-07,Chairman of the Council of the District of Columbia,Vincent C. Gray,D,
+2002-11-07,Chairman of the Council of the District of Columbia,Linda Cropp,D,Ran for Mayor and was defeated in the Primary 2020-09-12
+2006-11-07,Chairman of the Council of the District of Columbia,Vincent C. Gray,D,Ran for Mayor and won 2020-11-02
+2012-11-06,Chairman of the Council of the District of Columbia,Phil Mendelson (D) 1,,Ran for chairman in special election and won 2020-11-06
 1974-11-05,At-Large Member of the Council of the District of Columbia,Douglas Moore,D,"Ran for Chairman, was defeated in Primary 1978-09-12"
 1974-11-05,At-Large Member of the Council of the District of Columbia,Julius Hobson,STD,Died while in office 1977-03-23
 1974-11-05,At-Large Member of the Council of the District of Columbia,Marion Barry,D,
@@ -62,7 +63,9 @@ election_date,office,name,party,final_reason
 1986-11-04,At-Large Member of the Council of the District of Columbia,Hilda H.M. Mason,STD,
 1990-11-06,At-Large Member of the Council of the District of Columbia,Hilda H.M. Mason,STD,
 1994-11-08,At-Large Member of the Council of the District of Columbia,Hilda H.M. Mason,STD,Defeated in re-election 1998-11-03
-1984-11-06,At-Large Member of the Council of the District of Columbia,Carol Schwartz,R,Did not seek re-election
+1984-11-06,At-Large Member of the Council of the District of Columbia,Carol Schwartz,R,
+2000-11-07,At-Large Member of the Council of the District of Columbia,Carol Schwartz,R,
+2004-11-02,At-Large Member of the Council of the District of Columbia,Carol Schwartz,R,Did not seek re-election
 1988-11-08,At-Large Member of the Council of the District of Columbia,William Lightfoot,IND,
 1992-11-03,At-Large Member of the Council of the District of Columbia,William Lightfoot,IND,Did not seek re-election
 1990-11-06,At-Large Member of the Council of the District of Columbia,Linda Cropp,D,
@@ -75,12 +78,13 @@ election_date,office,name,party,final_reason
 1997-12-02,At-Large Member of the Council of the District of Columbia,David Catania,R,
 1998-11-03,At-Large Member of the Council of the District of Columbia,David Catania,R,
 2002-11-07,At-Large Member of the Council of the District of Columbia,David Catania,R,
-2006-11-07,At-Large Member of the Council of the District of Columbia,David Catania,R,
+2006-11-07,At-Large Member of the Council of the District of Columbia,David Catania,R,Did not seek re-election
 1998-11-03,At-Large Member of the Council of the District of Columbia,Phil Mendelson,D,
-2002-11-07,At-Large Member of the Council of the District of Columbia,Phil Mendelson,D,
+2002-11-07,At-Large Member of the Council of the District of Columbia,Phil Mendelson,D,Ran for chairman in special election and won 2012-11-06
 2004-11-02,At-Large Member of the Council of the District of Columbia,Kwame R. Brown,D,
-2008-11-04,At-Large Member of the Council of the District of Columbia,Kwame R. Brown,D,
-2008-11-04,At-Large Member of the Council of the District of Columbia,Michael A. Brown,IND,
+2008-11-04,At-Large Member of the Council of the District of Columbia,Kwame R. Brown,D,Ran for Chairman and won 2020-11-02
+2008-11-04,At-Large Member of the Council of the District of Columbia,Michael A. Brown,IND,Defeated in re-election 2020-11-06
+2013-04-23,At-Large Member of the Council of the District of Columbia,Anita Bonds (D) 5,,"Filled seat vacated by Phil Mendelson in November 2012, won special election for At-Large Member of the Council on 2020-04-23"
 1974-11-05,Ward 1 Member of the Council of the District of Columbia,David A. Clarke,D,
 1978-11-07,Ward 1 Member of the Council of the District of Columbia,David A. Clarke,D,Ran for Chairman and won 1982-11-02
 1982-11-02,Ward 1 Member of the Council of the District of Columbia,Frank Smith,D,
@@ -122,7 +126,7 @@ election_date,office,name,party,final_reason
 1992-11-03,Ward 4 Member of the Council of the District of Columbia,Charlene Drew Jarvis,D,
 1996-11-05,Ward 4 Member of the Council of the District of Columbia,Charlene Drew Jarvis,D,Defeated in re-election in Primary 2000-09-12
 2000-11-07,Ward 4 Member of the Council of the District of Columbia,Adrian Fenty,D,
-2004-11-02,Ward 4 Member of the Council of the District of Columbia,Adrian Fenty,D,Ran for Mayor and won 2006-11-07
+2004-11-02,Ward 4 Member of the Council of the District of Columbia,Adrian Fenty,D,Ran for Mayor and won 2020-11-07
 2007-05-01,Ward 4 Member of the Council of the District of Columbia,Muriel Bowser,D,
 2008-11-04,Ward 4 Member of the Council of the District of Columbia,Muriel Bowser,D,
 2012-11-06,Ward 4 Member of the Council of the District of Columbia,Muriel Bowser,D,
@@ -135,8 +139,8 @@ election_date,office,name,party,final_reason
 1998-11-03,Ward 5 Member of the Council of the District of Columbia,Vincent Orange,D,
 2002-11-05,Ward 5 Member of the Council of the District of Columbia,Vincent Orange,D,Ran for Mayor  and was defeated  in Primary  2006-09-12
 2006-11-07,Ward 5 Member of the Council of the District of Columbia,"Harry Thomas, Jr.",D,
-2010-11-02,Ward 5 Member of the Council of the District of Columbia,"Harry Thomas, Jr.",D,Resigned
-2012-05-15,Ward 5 Member of the Council of the District of Columbia,Kenyan McDuffie,,
+2010-11-02,Ward 5 Member of the Council of the District of Columbia,"Harry Thomas, Jr.",D,Resigned 2020-11-05
+2012-05-15,Ward 5 Member of the Council of the District of Columbia,Kenyan McDuffie,,"Elected in special Election 2020-05-15 to fill the unexpired term on Harry Thomas, Jr."
 1974-11-05,Ward 6 Member of the Council of the District of Columbia,Nadine Winter,D,
 1978-11-07,Ward 6 Member of the Council of the District of Columbia,Nadine Winter,D,
 1982-11-02,Ward 6 Member of the Council of the District of Columbia,Nadine Winter,D,
@@ -190,5 +194,5 @@ election_date,office,name,party,final_reason
 2002-11-05,US Representative,Ray Browne,D,
 2004-11-02,US Representative,Ray Browne,D,Did not seek re-election
 2006-11-07,US Representative,Mike Panetta,D,
-2008-11-04,US Representative,Mike Panetta,D,
+2008-11-04,US Representative,Mike Panetta,D,Did not seek re-election
 2012-11-06,US Representative,Nate Bennett-Fleming,,

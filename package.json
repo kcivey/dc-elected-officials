@@ -16,10 +16,11 @@
     "url": "https://github.com/kcivey/dc-elected-officials/issues"
   },
   "dependencies": {
-    "request": "~2.21.0",
-    "cheerio": "~0.11.0",
-    "moment": "~2.0.0",
-    "csv": "~0.3.2",
-    "byline": "~2.0.3"
+    "async": "^0.9.0",
+    "byline": "^4.2.0",
+    "cheerio": "^0.11.0",
+    "csv": "^0.3.2",
+    "moment": "^2.0.0",
+    "request": "^2.21.0"
   }
 }

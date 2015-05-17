@@ -4,6 +4,7 @@ var fs = require('fs'),
     url = require('url'),
     request = require('request'),
     cheerio = require('cheerio'),
+    async = require('async'),
     moment = require('moment'),
     csv = require('csv'),
     mainUrl = 'http://www.dcboee.org/candidate_info/historic_officials/history.asp',
@@ -20,13 +21,27 @@ function processMainPage(err, body) {
         throw err;
     }
     var $ = cheerio.load(body);
-    $('#main_content .list_items a').each(function () {
-        var officeUrl = url.resolve(mainUrl, $(this).attr('href'));
-        if (/\.pdf$/.test(officeUrl)) {
-            return; // skip PDFs for now
+    async.eachSeries(
+        $('#main_content .list_items a'),
+        function (a, next) {
+            var officeUrl = url.resolve(mainUrl, $(a).attr('href'));
+            if (/\.pdf$/.test(officeUrl)) {
+                setImmediate(next); // skip PDFs for now
+                return;
+            }
+            getPage(officeUrl, function(err, body) {
+                console.log(officeUrl);
+                processOfficePage(err, body);
+                next(err);
+            });
+        },
+        function (err) {
+            if (err) {
+                throw err;
+            }
+            console.log('Finished');
         }
-        getPage(officeUrl, processOfficePage);
-    });
+    );
 }
 
 function processOfficePage(err, body) {
@@ -72,7 +87,7 @@ function processOfficePage(err, body) {
 }
 
 function convertDate(d) {
-    return moment(d).format('YYYY-MM-DD');
+    return moment(d, 'M-D-YY').format('YYYY-MM-DD');
 }
 
 // Kluge to avoid redownloading during development
