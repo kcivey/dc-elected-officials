@@ -1,12 +1,10 @@
-var fs = require('fs'),
-    path = require('path'),
-    crypto = require('crypto'),
+var path = require('path'),
     url = require('url'),
-    request = require('request'),
     cheerio = require('cheerio'),
     async = require('async'),
     moment = require('moment'),
     csv = require('csv'),
+    getPage = require('./get-page'),
     mainUrl = 'http://www.dcboee.org/candidate_info/historic_officials/history.asp',
     outFile = path.join('data', 'officials.csv'),
     csvHandle = csv().to(outFile, {
@@ -88,29 +86,4 @@ function processOfficePage(err, body) {
 
 function convertDate(d) {
     return moment(d, 'M-D-YY').format('YYYY-MM-DD');
-}
-
-// Kluge to avoid redownloading during development
-function getPage(url, callback) {
-    var hash = crypto.createHash('md5').update(url).digest('hex'),
-        file = path.join(__dirname, 'cache', hash);
-    if (fs.existsSync(file)) {
-        fs.readFile(file, callback);
-    }
-    else {
-        request(url, function (err, response, body) {
-            if (err) {
-                return callback(err);
-            }
-            if (response.statusCode != 200) {
-                return callback('status code ' + response.statusCode);
-            }
-            fs.writeFile(file, body, function (err) {
-                if (err) {
-                    return callback(err);
-                }
-                callback(null, body);
-            });
-        })
-    }
 }
