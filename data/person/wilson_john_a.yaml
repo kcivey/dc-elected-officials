@@ -1,6 +1,8 @@
 code: wilson_john_a
 name: John A. Wilson
 wikipedia: 'https://en.wikipedia.org/wiki/John_A._Wilson_(politician)'
+birth_date: '1943-09-29'
+death_date: '1993-05-19'
 positions:
   - office: 'Ward 2 Member, Council of the District of Columbia'
     start: '1975-01-02'
