@@ -12,6 +12,7 @@ positions:
     end: '1991-01-02'
   - office: 'Chairman, Council of the District of Columbia'
     election: '1993-09-14'
+    start: '1993-09-27'
     start_type: special
     end: '1997-03-27'
     end_type: death

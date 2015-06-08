@@ -5,5 +5,6 @@ birth_date: '1941-07-31'
 positions:
   - office: 'Ward 4 Member, Council of the District of Columbia'
     election: '1979-05-01'
+    start: '1979-05-17'
     start_type: special
     end: '2001-01-02'

@@ -5,5 +5,6 @@ birth_date: c 1955
 positions:
   - office: 'Ward 8 Member, Council of the District of Columbia'
     election: '1995-05-02'
+    start: '1995-05-30'
     start_type: special
     end: '1997-01-02'

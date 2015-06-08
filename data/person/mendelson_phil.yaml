@@ -9,5 +9,6 @@ positions:
     end_type: higher
   - office: 'Chairman, Council of the District of Columbia'
     election: '2012-11-06'
+    start: '2012-11-29'
     start_type: special
     end: null

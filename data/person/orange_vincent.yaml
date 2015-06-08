@@ -8,5 +8,6 @@ positions:
     end: '2007-01-02'
   - office: 'At-Large Member, Council of the District of Columbia'
     election: '2011-04-26'
+    start: '2011-05-10'
     start_type: special
     end: null

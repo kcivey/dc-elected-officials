@@ -5,5 +5,6 @@ birth_date: '1961-10-01'
 positions:
   - office: 'Ward 7 Member, Council of the District of Columbia'
     election: '2007-05-01'
+    start: '2007-05-15'
     start_type: special
     end: null
