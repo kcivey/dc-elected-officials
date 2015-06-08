@@ -4,11 +4,12 @@ wikipedia: 'https://en.wikipedia.org/wiki/Vincent_C._Gray'
 birth_date: '1942-11-08'
 positions:
   - office: 'Ward 7 Member, Council of the District of Columbia'
-    start: '2005'
-    end: '2007'
+    start: '2005-01-02'
+    end: '2007-01-02'
+    end_type: higher
   - office: 'Chairman, Council of the District of Columbia'
-    start: '2007'
-    end: '2011'
+    start: '2007-01-02'
+    end: '2011-01-02'
   - office: Mayor of the District of Columbia
-    start: '2011'
-    end: '2015'
+    start: '2011-01-02'
+    end: '2015-01-02'

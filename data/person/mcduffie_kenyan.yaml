@@ -3,5 +3,6 @@ name: Kenyan McDuffie
 wikipedia: 'https://en.wikipedia.org/wiki/Kenyan_McDuffie'
 positions:
   - office: 'Ward 5 Member, Council of the District of Columbia'
-    start: '2012'
+    election: '2012-05-15'
+    start_type: special
     end: null

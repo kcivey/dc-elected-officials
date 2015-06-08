@@ -4,5 +4,6 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jack_Evans_(D.C._politician)'
 birth_date: '1953-10-31'
 positions:
   - office: 'Ward 2 Member, Council of the District of Columbia'
-    start: '1991'
+    election: '1991-04-30'
+    start_type: special
     end: null

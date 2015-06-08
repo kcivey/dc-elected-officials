@@ -3,5 +3,6 @@ name: Eydie Whittington
 wikipedia: 'https://en.wikipedia.org/wiki/Eydie_Whittington'
 positions:
   - office: 'Ward 8 Member, Council of the District of Columbia'
-    start: '1995'
-    end: '1997'
+    election: '1995-05-02'
+    start_type: special
+    end: '1997-01-02'

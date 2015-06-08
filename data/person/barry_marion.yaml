@@ -5,17 +5,20 @@ birth_date: '1936-03-06'
 death_date: '2014-11-23'
 positions:
   - office: 'At-Large Member, Council of the District of Columbia'
-    start: '1975'
-    end: '1979'
-  - office: 'Ward 8 Member, Council of the District of Columbia'
-    start: '1993'
-    end: '1995'
-  - office: 'Ward 8 Member, Council of the District of Columbia'
-    start: '2005'
-    end: '2014'
+    start: '1975-01-02'
+    end: '1979-01-02'
+    end_type: higher
   - office: Mayor of the District of Columbia
-    start: '1979'
-    end: '1991'
+    start: '1979-01-02'
+    end: '1991-01-02'
+  - office: 'Ward 8 Member, Council of the District of Columbia'
+    start: '1993-01-02'
+    end: '1995-01-02'
+    end_type: higher
   - office: Mayor of the District of Columbia
-    start: '1995'
-    end: '1999'
+    start: '1995-01-02'
+    end: '1999-01-02'
+  - office: 'Ward 8 Member, Council of the District of Columbia'
+    start: '2005-01-02'
+    end: '2014-11-23'
+    end_type: death

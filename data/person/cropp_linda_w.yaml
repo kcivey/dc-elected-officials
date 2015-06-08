@@ -4,8 +4,10 @@ wikipedia: 'https://en.wikipedia.org/wiki/Linda_W._Cropp'
 birth_date: '1947-10-05'
 positions:
   - office: 'At-Large Member, Council of the District of Columbia'
-    start: '1991'
-    end: '1997'
+    start: '1991-01-02'
+    end: '1997-07-22'
+    end_type: higher
   - office: 'Chairman, Council of the District of Columbia'
-    start: '1997'
-    end: '2007'
+    election: '1997-07-22'
+    start_type: special
+    end: '2007-01-02'

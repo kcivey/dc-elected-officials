@@ -3,8 +3,10 @@ name: John A. Wilson
 wikipedia: 'https://en.wikipedia.org/wiki/John_A._Wilson_(politician)'
 positions:
   - office: 'Ward 2 Member, Council of the District of Columbia'
-    start: '1975'
-    end: '1991'
+    start: '1975-01-02'
+    end: '1991-01-02'
+    end_type: higher
   - office: 'Chairman, Council of the District of Columbia'
-    start: '1991'
-    end: '1993'
+    start: '1991-01-02'
+    end: '1993-05-19'
+    end_type: death

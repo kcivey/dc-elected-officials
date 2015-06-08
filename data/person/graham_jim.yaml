@@ -4,5 +4,5 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jim_Graham'
 birth_date: '1945-08-26'
 positions:
   - office: 'Ward 1 Member, Council of the District of Columbia'
-    start: '1999'
-    end: '2015'
+    start: '1999-01-02'
+    end: '2015-01-02'

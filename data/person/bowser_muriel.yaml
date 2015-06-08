@@ -4,8 +4,10 @@ wikipedia: 'https://en.wikipedia.org/wiki/Muriel_Bowser'
 birth_date: '1972-08-02'
 positions:
   - office: 'Ward 4 Member, Council of the District of Columbia'
-    start: '2007'
-    end: '2015'
+    start: '2007-05-01'
+    start_type: special
+    end: '2015-01-02'
+    end_type: higher
   - office: Mayor of the District of Columbia
-    start: '2015'
+    start: '2015-01-02'
     end: null

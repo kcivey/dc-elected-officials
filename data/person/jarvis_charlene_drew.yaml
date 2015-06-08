@@ -4,5 +4,6 @@ wikipedia: 'https://en.wikipedia.org/wiki/Charlene_Drew_Jarvis'
 birth_date: '1941-07-31'
 positions:
   - office: 'Ward 4 Member, Council of the District of Columbia'
-    start: '1979'
-    end: '2001'
+    election: '1979-05-01'
+    start_type: special
+    end: '2001-01-02'

@@ -4,8 +4,10 @@ wikipedia: 'https://en.wikipedia.org/wiki/Phil_Mendelson'
 birth_date: '1952-11-08'
 positions:
   - office: 'At-Large Member, Council of the District of Columbia'
-    start: '1999'
-    end: '2012'
+    start: '1999-01-02'
+    end: '2012-11-06'
+    end_type: higher
   - office: 'Chairman, Council of the District of Columbia'
-    start: '2012'
+    election: '2012-11-06'
+    start_type: special
     end: null

@@ -3,11 +3,14 @@ name: Arrington Dixon
 wikipedia: 'https://en.wikipedia.org/wiki/Arrington_Dixon'
 positions:
   - office: 'Ward 4 Member, Council of the District of Columbia'
-    start: '1975'
-    end: '1979'
+    start: '1975-01-02'
+    end: '1979-01-02'
+    end_type: higher
   - office: 'Chairman, Council of the District of Columbia'
-    start: '1979'
-    end: '1983'
+    start: '1979-01-02'
+    end: '1983-01-02'
   - office: 'At-Large Member, Council of the District of Columbia'
-    start: '1997'
-    end: '1997'
+    start: '1997-07-29'
+    start_type: appointment
+    end: '1997-12-02'
+    end_type: defeat

@@ -3,5 +3,6 @@ name: LaRuby May
 wikipedia: 'https://en.wikipedia.org/wiki/LaRuby_May'
 positions:
   - office: 'Ward 8 Member, Council of the District of Columbia'
-    start: '2015'
+    election: '2015-04-28'
+    start_type: special
     end: null
