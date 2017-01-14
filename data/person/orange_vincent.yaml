@@ -11,4 +11,5 @@ positions:
     election: '2011-04-26'
     start: '2011-05-10'
     start_type: special
-    end: null
+    end: '2016-08-15'
+    end_type: resignation
