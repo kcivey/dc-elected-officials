@@ -13,8 +13,9 @@ getPage(categoryUrl, function (err, body) {
     }
     var $ = cheerio.load(body);
     $('div.mw-category a').each(function () {
-        var personUrl = url.resolve(categoryUrl, this.attr('href')),
-            personName = this.attr('title').replace(/\s+\([^)]*\)$/, '');
+        var $a = $(this),
+            personUrl = url.resolve(categoryUrl, $a.attr('href')),
+            personName = $a.attr('title').replace(/\s+\([^)]*\)$/, '');
         if (/^List of/.test(personName)) {
             return;
         }
@@ -54,7 +55,7 @@ function processPerson(personName, personUrl, body) {
         delete data.death_date;
     }
     $('table.succession-box tr').each(function () {
-        var cells = this.find('td'),
+        var cells = $(this).find('td'),
             start, end, parts, dates, office;
         if (cells.length !== 3) {
             return;
