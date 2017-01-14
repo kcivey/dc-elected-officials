@@ -16,7 +16,7 @@ getPage(categoryUrl, function (err, body) {
         var $a = $(this),
             personUrl = url.resolve(categoryUrl, $a.attr('href')),
             personName = $a.attr('title').replace(/\s+\([^)]*\)$/, '');
-        if (/^List of/.test(personName)) {
+        if (/^(?:Council|List) of/.test(personName)) {
             return;
         }
         getPage(personUrl, function (err, body) {
@@ -26,7 +26,7 @@ getPage(categoryUrl, function (err, body) {
 });
 
 function processPerson(personName, personUrl, body) {
-    var reversedName = personName.replace(/^(.+?)\s+(\S+)(, [JS]r\.)?$/, '$2, $1$3'),
+    var reversedName = personName.replace(/^(.+?)\s+(\S+)(,? [JS]r\.)?$/, '$2, $1$3'),
         personCode = reversedName.toLowerCase().replace(/\W+/g, '_').replace(/^_|_$/g, ''),
         $ = cheerio.load(body),
         data = {
