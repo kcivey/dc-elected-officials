@@ -1,7 +1,7 @@
 code: cheh_mary
 name: Mary Cheh
 wikipedia: 'https://en.wikipedia.org/wiki/Mary_Cheh'
-birth_date: 1950
+birth_date: '1950-06-02' # https://twitter.com/councilofdc/status/738410085945212928
 gender: F
 positions:
   - office: 'Ward 3 Member, Council of the District of Columbia'

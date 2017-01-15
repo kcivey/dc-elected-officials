@@ -1,7 +1,7 @@
 code: nadeau_brianne
 name: Brianne Nadeau
 wikipedia: 'https://en.wikipedia.org/wiki/Brianne_Nadeau'
-birth_date: c 1980
+birth_date: '1980-10-11' # https://twitter.com/councilofdc/status/785815469219381249 and 32 when she announced in Dec 2012
 gender: F
 positions:
   - office: 'Ward 1 Member, Council of the District of Columbia'

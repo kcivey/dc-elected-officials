@@ -1,7 +1,7 @@
 code: bonds_anita
 name: Anita Bonds
 wikipedia: 'https://en.wikipedia.org/wiki/Anita_Bonds'
-birth_date: 1945
+birth_date: '1945-04-22' # https://twitter.com/councilofdc/status/723562018394001409
 gender: F
 positions:
   - office: 'At-Large Member, Council of the District of Columbia'

@@ -1,7 +1,7 @@
 code: crawford_h_r
 name: H.R. Crawford
 wikipedia: 'https://en.wikipedia.org/wiki/H.R._Crawford'
-birth_date: c 1938
+birth_date: '1938-01-18' # https://twitter.com/councilofdc/status/689126361538007040 and 42 in Sep 1980
 gender: M
 positions:
   - office: 'Ward 7 Member, Council of the District of Columbia'

@@ -1,7 +1,7 @@
 code: allen_charles
 name: Charles Allen
 wikipedia: 'https://en.wikipedia.org/wiki/Charles_Allen_(Washington,_D.C._politician)'
-birth_date: 1977
+birth_date: '1977-01-10' # https://twitter.com/councilofdc/status/818820856470245377
 gender: M
 positions:
   - office: 'Ward 6 Member, Council of the District of Columbia'
