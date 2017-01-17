@@ -82,6 +82,7 @@
                 if (p.start) {
                     if (!councils[p.start]) {
                         councils[p.start] = new Council();
+                        councils[p.start].date = p.start;
                     }
                     councils[p.start].add.push(person);
                 }
@@ -91,6 +92,7 @@
                 if (p.end) {
                     if (!councils[p.end]) {
                         councils[p.end] = new Council();
+                        councils[p.end].date = p.end;
                     }
                     councils[p.end].remove.push(person);
                 }
@@ -106,7 +108,7 @@
 
     function draw(councils) {
         var data = [],
-            prevCouncil, date;
+            prevCouncil, date, now;
         _.each(councils, function (council, ymd) {
             date = new Date(ymd + 'T12:00');
             if (prevCouncil) {
@@ -127,7 +129,11 @@
             ]);
             prevCouncil = council;
         });
-        date = new Date();
+        now = new Date();
+        date = moment(prevCouncil.date).add(180, 'd').toDate();
+        if (now.getTime() > date.getTime()) {
+            date = now;
+        }
         data.push([
             date,
             prevCouncil.men(),
@@ -151,6 +157,7 @@
                     }
                 },
                 fillGraph: true,
+                includeZero: true,
                 labels: ['Date', 'Men', 'Women'],
                 labelsUTC: true,
                 stackedGraph: true,
