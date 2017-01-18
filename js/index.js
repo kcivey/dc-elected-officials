@@ -14,11 +14,12 @@
             return moment(date).diff(moment(birth, 'YYYY-MM-DD'), 'd') / 365.2425;
         },
 
-        experience: function (date) {
+        experience: function (date, includeMayor) {
             var ymd = moment(date).format('YYYY-MM-DD'),
+                regexp = new RegExp('Council' + (includeMayor ? '|Mayor' : '')),
                 days = 0;
             this.positions.forEach(function (p) {
-                if (p.start <= ymd && /Council/.test(p.office)) {
+                if (p.start <= ymd && regexp.test(p.office)) {
                     var end = p.end <= ymd ? moment(p.end, 'YYYY-MM-DD') : moment(date);
                     days += end.diff(moment(p.start, 'YYYY-MM-DD'), 'd');
                 }
@@ -36,7 +37,7 @@
     }
     _.extend(Council.prototype, {
 
-        genderCount: function(gender) {
+        genderCount: function (gender) {
             return this.members.reduce(function (previousValue, currentPerson) {
                 if (currentPerson.gender == gender) {
                     previousValue++;
@@ -45,25 +46,37 @@
             }, 0);
         },
 
-        women: function() {
+        women: function () {
             return this.genderCount('F');
         },
 
-        men: function() {
+        men: function () {
             return this.genderCount('M');
         },
 
-        averageAge: function averageAge(date) {
+        ages: function (date) {
             return this.members.map(function (person) {
-                    return person.age(date);
-                }).reduce(function (previous, current) {
+                return person.age(date);
+            });
+        },
+
+        averageAge: function (date) {
+            return this.ages(date).reduce(function (previous, current) {
                     return previous + current;
                 }, 0) / this.members.length;
         },
 
-        totalExperience: function totalExperience(date) {
+        minAge: function (date) {
+            return _.min(this.ages(date));
+        },
+
+        maxAge: function (date) {
+            return _.max(this.ages(date));
+        },
+
+        totalExperience: function (date, includeMayor) {
             return this.members.reduce(function (previousValue, currentPerson) {
-                return previousValue + currentPerson.experience(date);
+                return previousValue + currentPerson.experience(date, includeMayor);
             }, 0);
         }
     });
@@ -106,27 +119,28 @@
         draw(councils);
     }
 
+    function dataRow(council, date) {
+        return {
+            date: date,
+            men: council.men(),
+            women: council.women(),
+            experience: council.totalExperience(date),
+            experienceWithMayor: council.totalExperience(date, true),
+            averageAge: council.averageAge(date),
+            minAge: council.minAge(date),
+            maxAge: council.maxAge(date)
+        };
+    }
+
     function draw(councils) {
         var data = [],
             prevCouncil, date, now;
         _.each(councils, function (council, ymd) {
             date = new Date(ymd + 'T12:00');
             if (prevCouncil) {
-                data.push([
-                    new Date(date.getTime() - 1),
-                    prevCouncil.men(),
-                    prevCouncil.women(),
-                    prevCouncil.totalExperience(date),
-                    prevCouncil.averageAge(date)
-                ]);
+                data.push(dataRow(prevCouncil, new Date(date.getTime() - 1)));
             }
-            data.push([
-                date,
-                council.men(),
-                council.women(),
-                council.totalExperience(date),
-                council.averageAge(date)
-            ]);
+            data.push(dataRow(council, date));
             prevCouncil = council;
         });
         now = new Date();
@@ -134,18 +148,12 @@
         if (now.getTime() > date.getTime()) {
             date = now;
         }
-        data.push([
-            date,
-            prevCouncil.men(),
-            prevCouncil.women(),
-            prevCouncil.totalExperience(date),
-            prevCouncil.averageAge(date)
-        ]);
+        data.push(dataRow(prevCouncil, date));
         new Dygraph(
             'women-graph',
             function () {
                 return data.map(function (row) {
-                    return [row[0], row[1], row[2]];
+                    return [row.date, row.men, row.women];
                 });
             },
             {
@@ -168,7 +176,7 @@
             'experience-graph',
             function () {
                 return data.map(function (row) {
-                    return [row[0], row[3]];
+                    return [row.date, row.experience, row.experienceWithMayor];
                 });
             },
             {
@@ -180,7 +188,7 @@
                     }
                 },
                 fillGraph: true,
-                labels: ['Date', 'Experience'],
+                labels: ['Date', 'Experience', 'Including Mayoral'],
                 labelsUTC: true,
                 title: 'Total Years of Experience of DC Council'
             }
@@ -189,7 +197,7 @@
             'age-graph',
             function () {
                 return data.map(function (row) {
-                    return [row[0], row[4]];
+                    return [row.date, row.averageAge, row.minAge, row.maxAge];
                 });
             },
             {
@@ -201,7 +209,7 @@
                     }
                 },
                 fillGraph: true,
-                labels: ['Date', 'Average Age'],
+                labels: ['Date', 'Average Age', 'Min', 'Max'],
                 labelsUTC: true,
                 title: 'Average Age of DC Council'
             }
