@@ -162,7 +162,9 @@
                         council;
                     if (data.x != null) {
                         council = councils[millisToYmd(data.x)];
-                        html += '<p>' + council.changes().replace('\n', '<br>') + '</p>';
+                        if (council) {
+                            html += '<p>' + council.changes().replace('\n', '<br>') + '</p>';
+                        }
                     }
                     return html;
                 },
