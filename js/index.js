@@ -78,6 +78,17 @@
             return this.members.reduce(function (previousValue, currentPerson) {
                 return previousValue + currentPerson.experience(date, includeMayor);
             }, 0);
+        },
+
+        changes: function () {
+            var texts = [];
+            if (this.remove.length) {
+                texts.push('− ' + _.pluck(this.remove, 'name').join(', '));
+            }
+            if (this.add.length) {
+                texts.push('+ ' + _.pluck(this.add, 'name').join(', '));
+            }
+            return texts.join('\n');
         }
     });
 
@@ -132,17 +143,29 @@
         };
     }
 
+    function millisToYmd(millis) {
+        return moment(millis).utc().format('YYYY-MM-DD');
+    }
+
     function draw(councils) {
         var data = [],
             baseOptions = {
                 axes: {
                     x: {
-                        valueFormatter: function (millis) {
-                            return moment(millis).utc().format('YYYY-MM-DD');
-                        }
+                        valueFormatter: millisToYmd
                     }
                 },
                 fillGraph: true,
+                legend: 'always',
+                legendFormatter: function (data) {
+                    var html = defaultLegendFormatter(data),
+                        council;
+                    if (data.x != null) {
+                        council = councils[millisToYmd(data.x)];
+                        html += '<p>' + council.changes().replace('\n', '<br>') + '</p>';
+                    }
+                    return html;
+                },
                 labelsUTC: true
             },
             prevCouncil, date, now;
@@ -177,6 +200,7 @@
             _.extend({}, baseOptions, {
                 includeZero: true,
                 labels: ['Date', 'Men', 'Women'],
+                labelsDiv: 'women-legend',
                 stackedGraph: true,
                 title: 'Gender Representation on DC Council'
             })
@@ -190,6 +214,7 @@
             },
             _.extend({}, baseOptions, {
                 labels: ['Date', 'Experience', 'Including Mayoral'],
+                labelsDiv: 'experience-legend',
                 title: 'Total Years of Experience of DC Council'
             })
         );
@@ -202,9 +227,48 @@
             },
             _.extend({}, baseOptions, {
                 labels: ['Date', 'Average Age', 'Min', 'Max'],
+                labelsDiv: 'age-legend',
                 title: 'Average Age of DC Council'
             })
         );
     }
 
+    // Copied from dygraphs source
+    function defaultLegendFormatter(data) {
+        var g = data.dygraph;
+
+        // TODO(danvk): deprecate this option in place of {legend: 'never'}
+        // XXX should this logic be in the formatter?
+        if (g.getOption('showLabelsOnHighlight') !== true) return '';
+
+        var sepLines = g.getOption('labelsSeparateLines');
+        var html;
+
+        if (typeof data.x === 'undefined') {
+            // TODO: this check is duplicated in generateLegendHTML. Put it in one place.
+            if (g.getOption('legend') != 'always') {
+                return '';
+            }
+
+            html = '';
+            for (var i = 0; i < data.series.length; i++) {
+                var series = data.series[i];
+                if (!series.isVisible) continue;
+
+                if (html !== '') html += sepLines ? '<br/>' : ' ';
+                html += "<span style='font-weight: bold; color: " + series.color + ";'>" + series.dashHTML + " " + series.labelHTML + "</span>";
+            }
+            return html;
+        }
+
+        html = data.xHTML + ':';
+        for (var i = 0; i < data.series.length; i++) {
+            var series = data.series[i];
+            if (!series.isVisible) continue;
+            if (sepLines) html += '<br>';
+            var cls = series.isHighlighted ? ' class="highlight"' : '';
+            html += "<span" + cls + "> <b><span style='color: " + series.color + ";'>" + series.labelHTML + "</span></b>:&#160;" + series.yHTML + "</span>";
+        }
+        return html;
+    }
 })(jQuery);
