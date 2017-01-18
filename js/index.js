@@ -134,6 +134,17 @@
 
     function draw(councils) {
         var data = [],
+            baseOptions = {
+                axes: {
+                    x: {
+                        valueFormatter: function (millis) {
+                            return moment(millis).utc().format('YYYY-MM-DD');
+                        }
+                    }
+                },
+                fillGraph: true,
+                labelsUTC: true
+            },
             prevCouncil, date, now;
         _.each(councils, function (council, ymd) {
             date = new Date(ymd + 'T12:00');
@@ -156,21 +167,12 @@
                     return [row.date, row.men, row.women];
                 });
             },
-            {
-                axes: {
-                    x: {
-                        valueFormatter: function (millis) {
-                            return moment(millis).utc().format('YYYY-MM-DD');
-                        }
-                    }
-                },
-                fillGraph: true,
+            _.extend({}, baseOptions, {
                 includeZero: true,
                 labels: ['Date', 'Men', 'Women'],
-                labelsUTC: true,
                 stackedGraph: true,
                 title: 'Gender Representation on DC Council'
-            }
+            })
         );
         new Dygraph(
             'experience-graph',
@@ -179,19 +181,10 @@
                     return [row.date, row.experience, row.experienceWithMayor];
                 });
             },
-            {
-                axes: {
-                    x: {
-                        valueFormatter: function (millis) {
-                            return moment(millis).utc().format('YYYY-MM-DD');
-                        }
-                    }
-                },
-                fillGraph: true,
+            _.extend({}, baseOptions, {
                 labels: ['Date', 'Experience', 'Including Mayoral'],
-                labelsUTC: true,
                 title: 'Total Years of Experience of DC Council'
-            }
+            })
         );
         new Dygraph(
             'age-graph',
@@ -200,19 +193,10 @@
                     return [row.date, row.averageAge, row.minAge, row.maxAge];
                 });
             },
-            {
-                axes: {
-                    x: {
-                        valueFormatter: function (millis) {
-                            return moment(millis).utc().format('YYYY-MM-DD');
-                        }
-                    }
-                },
-                fillGraph: true,
+            _.extend({}, baseOptions, {
                 labels: ['Date', 'Average Age', 'Min', 'Max'],
-                labelsUTC: true,
                 title: 'Average Age of DC Council'
-            }
+            })
         );
     }
 
