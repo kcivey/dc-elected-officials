@@ -159,6 +159,13 @@
         if (now.getTime() > date.getTime()) {
             date = now;
         }
+        else {
+            baseOptions.underlayCallback = function(canvas, area, g) {
+                var left = g.toDomCoords(now, 0)[0];
+                canvas.fillStyle = 'rgba(224, 224, 224, 1)';
+                canvas.fillRect(left, area.y, area.w, area.h);
+            };
+        }
         data.push(dataRow(prevCouncil, date));
         new Dygraph(
             'women-graph',
