@@ -198,11 +198,11 @@
                 });
             },
             _.extend({}, baseOptions, {
-                includeZero: true,
                 labels: ['Date', 'Men', 'Women'],
                 labelsDiv: 'women-legend',
                 stackedGraph: true,
-                title: 'Gender Representation on DC Council'
+                title: 'Gender Representation on DC Council',
+                valueRange: [0, 13.2]
             })
         );
         new Dygraph(
