@@ -1,6 +1,6 @@
 {
   "name": "dc-elected-officials",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Information on current and historical elected officials of the District of Columbia",
   "main": "scrape.js",
   "repository": {
