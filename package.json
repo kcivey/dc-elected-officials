@@ -1,7 +1,7 @@
 {
   "name": "dc-elected-officials",
   "version": "0.1.1",
-  "description": "Scraper for historical elected officials from DC Board of Elections",
+  "description": "Information on current and historical elected officials of the District of Columbia",
   "main": "scrape.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "name": "Keith C. Ivey",
     "email": "keith@iveys.org"
   },
-  "license": "BSD",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/kcivey/dc-elected-officials/issues"
   },
