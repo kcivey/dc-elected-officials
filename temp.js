@@ -28,10 +28,13 @@ _.each(personData, function (person) {
 
 councils = _.pick(councils, _.keys(councils).sort());
 
-var councilList = [];
+var councilList = [],
+    prevMdate,
+    maxYears = -Infinity;
 _.each(councils, function (c, date) {
     var mdate = moment(date, 'YYYY-MM-DD'),
-        text = '[new Date(' + mdate.format('YYYY') + ', ' + (mdate.format('M') - 1) + ', ' + mdate.format('D') + '), ';
+        text = '[new Date(' + mdate.format('YYYY') + ', ' + (mdate.format('M') - 1) + ', ' + mdate.format('D') + '), ',
+        years;
     if (councilList.length) {
         console.log(text, totalExperience(councilList, mdate) + '],');
     }
@@ -43,8 +46,19 @@ _.each(councils, function (c, date) {
     });
     councilList = _.union(_.difference(councilList, _.keys(c.remove)), _.keys(c.add));
     console.log(text, totalExperience(councilList, mdate) + '],');
+    if (prevMdate) {
+        years = mdate.diff(prevMdate, 'days', true) / 365.2425;
+        text = years;
+        if (years > maxYears) {
+            maxYears = years;
+            text += '*';
+        }
+        console.log(text);
+    }
+    prevMdate = mdate;
 });
 console.log('[new Date(), ' + totalExperience(councilList, moment()) + ']');
+console.log(moment().diff(prevMdate, 'days', true) / 364.2425);
 
 function women(councilList) {
     return councilList.reduce(function (previousValue, currentKey) {
