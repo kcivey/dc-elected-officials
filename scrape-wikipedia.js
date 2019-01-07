@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var url = require('url'),
     fs = require('fs'),
     cheerio = require('cheerio'),

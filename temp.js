@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var moment = require('moment'),
     _ = require('underscore'),
     personData = require('./data/person.json'),

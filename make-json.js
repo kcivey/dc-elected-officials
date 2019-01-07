@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs'),
     yaml = require('js-yaml'),
     personDir = __dirname + '/data/person',
