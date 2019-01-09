@@ -149,66 +149,64 @@
 
     function draw(councils) {
         var data = [],
-            baseOptions = {
-                axes: {
-                    x: {
-                        valueFormatter: millisToYmd
+            today = moment().format('YYYY-MM-DD'),
+            options = {
+                maintainAspectRatio: false,
+                spanGaps: false,
+                elements: {
+                    line: {
+                        tension: 0
                     }
                 },
-                fillGraph: true,
-                legend: 'always',
-                legendFormatter: function (data) {
-                    var html = defaultLegendFormatter(data),
-                        council;
-                    if (data.x != null) {
-                        council = councils[millisToYmd(data.x)];
-                        if (council) {
-                            html += '<p>' + council.changes().replace('\n', '<br>') + '</p>';
+                scales: {
+                    xAxes: [{
+                        type: 'time',
+                        time: {
+                            min: '1975-01-01',
+                            max: today,
+                            stepSize: 20
                         }
-                    }
-                    return html;
-                },
-                labelsUTC: true
+                    }],
+                    yAxes: [{
+                        stacked: true
+                    }]
+                }
             },
-            prevCouncil, date, now;
+            prevCouncil;
         _.each(councils, function (council, ymd) {
-            date = new Date(ymd + 'T12:00');
             if (prevCouncil) {
-                data.push(dataRow(prevCouncil, new Date(date.getTime() - 1)));
+                data.push(dataRow(prevCouncil, ymd));
             }
-            data.push(dataRow(council, date));
+            data.push(dataRow(council, ymd));
             prevCouncil = council;
         });
-        now = new Date();
-        date = moment(prevCouncil.date).add(180, 'd').toDate();
-        if (now.getTime() > date.getTime()) {
-            date = now;
-        }
-        else {
-            baseOptions.underlayCallback = function(canvas, area, g) {
-                var left = g.toDomCoords(now, 0)[0];
-                canvas.fillStyle = 'rgba(224, 224, 224, 1)';
-                canvas.fillRect(left, area.y, area.w, area.h);
-            };
-        }
-        data.push(dataRow(prevCouncil, date));
-        new Dygraph(
-            'women-graph',
-            function () {
-                return data.map(function (row) {
-                    return [row.date, row.men, row.women];
-                });
-            },
-            _.extend({}, baseOptions, {
-                labels: ['Date', 'Men', 'Women'],
-                labelsDiv: 'women-legend',
-                stackedGraph: true,
-                title: 'Gender Representation on DC Council',
-                valueRange: [0, 13.2]
-            })
+
+        data.push(dataRow(prevCouncil, today));
+        new Chart(
+            'women-chart',
+            {
+                type: 'line',
+                data: {
+                    datasets: [
+                        {
+                            label: 'Women',
+                            data: data.map(function (d) { return {x: d.date, y: d.women}; }),
+                            pointRadius: 0
+                        },
+                        {
+                            label: 'Men',
+                            data: data.map(function (d) { return {x: d.date, y: d.men}; }),
+                            pointRadius: 0
+                        }
+                    ]
+
+                },
+                options: options
+            }
         );
-        new Dygraph(
-            'experience-graph',
+        /*
+        new Chart(
+            'experience-chart',
             function () {
                 return data.map(function (row) {
                     return [row.date, row.experience, row.experienceWithMayor];
@@ -220,8 +218,8 @@
                 title: 'Total Years of Experience of DC Council'
             })
         );
-        new Dygraph(
-            'age-graph',
+        new Chart(
+            'age-chart',
             function () {
                 return data.map(function (row) {
                     return [row.date, row.averageAge, row.minAge, row.maxAge];
@@ -233,44 +231,6 @@
                 title: 'Average Age of DC Council'
             })
         );
-    }
-
-    // Copied from dygraphs source
-    function defaultLegendFormatter(data) {
-        var g = data.dygraph;
-
-        // TODO(danvk): deprecate this option in place of {legend: 'never'}
-        // XXX should this logic be in the formatter?
-        if (g.getOption('showLabelsOnHighlight') !== true) return '';
-
-        var sepLines = g.getOption('labelsSeparateLines');
-        var html;
-
-        if (typeof data.x === 'undefined') {
-            // TODO: this check is duplicated in generateLegendHTML. Put it in one place.
-            if (g.getOption('legend') != 'always') {
-                return '';
-            }
-
-            html = '';
-            for (var i = 0; i < data.series.length; i++) {
-                var series = data.series[i];
-                if (!series.isVisible) continue;
-
-                if (html !== '') html += sepLines ? '<br/>' : ' ';
-                html += "<span style='font-weight: bold; color: " + series.color + ";'>" + series.dashHTML + " " + series.labelHTML + "</span>";
-            }
-            return html;
-        }
-
-        html = data.xHTML + ':';
-        for (var i = 0; i < data.series.length; i++) {
-            var series = data.series[i];
-            if (!series.isVisible) continue;
-            if (sepLines) html += '<br>';
-            var cls = series.isHighlighted ? ' class="highlight"' : '';
-            html += "<span" + cls + "> <b><span style='color: " + series.color + ";'>" + series.labelHTML + "</span></b>:&#160;" + series.yHTML + "</span>";
-        }
-        return html;
+        */
     }
 })(jQuery);
