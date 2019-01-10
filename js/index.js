@@ -1,5 +1,4 @@
 (function ($) {
-
     function Person(data) {
         _.extend(this, data);
     }
@@ -149,128 +148,124 @@
 
     function draw(councils) {
         var data = [],
-            baseOptions = {
-                axes: {
-                    x: {
-                        valueFormatter: millisToYmd
-                    }
-                },
-                fillGraph: true,
-                legend: 'always',
-                legendFormatter: function (data) {
-                    var html = defaultLegendFormatter(data),
-                        council;
-                    if (data.x != null) {
-                        council = councils[millisToYmd(data.x)];
-                        if (council) {
-                            html += '<p>' + council.changes().replace('\n', '<br>') + '</p>';
-                        }
-                    }
-                    return html;
-                },
-                labelsUTC: true
-            },
-            prevCouncil, date, now;
+            prevCouncil;
         _.each(councils, function (council, ymd) {
-            date = new Date(ymd + 'T12:00');
             if (prevCouncil) {
-                data.push(dataRow(prevCouncil, new Date(date.getTime() - 1)));
+                data.push(dataRow(prevCouncil, ymd));
             }
-            data.push(dataRow(council, date));
+            data.push(dataRow(council, ymd));
             prevCouncil = council;
         });
+        /*
         now = new Date();
         date = moment(prevCouncil.date).add(180, 'd').toDate();
         if (now.getTime() > date.getTime()) {
             date = now;
         }
-        else {
-            baseOptions.underlayCallback = function(canvas, area, g) {
-                var left = g.toDomCoords(now, 0)[0];
-                canvas.fillStyle = 'rgba(224, 224, 224, 1)';
-                canvas.fillRect(left, area.y, area.w, area.h);
+        */
+        data.push(dataRow(prevCouncil, moment().format('YYYY-MM-DD')));
+        var xConfig = {
+                type : 'timeseries',
+                tick: {
+                    format: '%Y',
+                    values: _.range(1975, 2021, 2).map(function (y) { return y + '-01-01'; })
+                },
+                padding: 0
+            },
+            tooltipConfig = {
+                format: {
+                    title: function (x) {
+                        return moment(x).format('D MMM YYYY');
+                    },
+                    value: function (value) {
+                        return Array.isArray(value) ? _.uniq(value).map(function (item) { return item % 1 ? item.toFixed(2) : item; }).join(' ⮕ ') : value;
+                    }
+                },
+                contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+                    var newD = [];
+                    d.forEach(function (item) {
+                        var last = newD.length && newD[newD.length - 1];
+                        if (last && last.id === item.id) {
+                            last.value.push(item.value);
+                        }
+                        else {
+                            newD.push(_.extend({}, item, {value: [item.value]}));
+                        }
+                    });
+                    return c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color);
+                }
             };
-        }
-        data.push(dataRow(prevCouncil, date));
-        new Dygraph(
-            'women-graph',
-            function () {
-                return data.map(function (row) {
-                    return [row.date, row.men, row.women];
-                });
+        c3.generate({
+            bindto: '#women-graph',
+            data: {
+                x: 'date',
+                type: 'area',
+                groups: [['women', 'men']],
+                columns: [
+                    ['date'].concat(_.pluck(data, 'date')),
+                    ['women'].concat(_.pluck(data, 'women')),
+                    ['men'].concat(_.pluck(data, 'men'))
+                ]
             },
-            _.extend({}, baseOptions, {
-                labels: ['Date', 'Men', 'Women'],
-                labelsDiv: 'women-legend',
-                stackedGraph: true,
-                title: 'Gender Representation on DC Council',
-                valueRange: [0, 13.2]
-            })
-        );
-        new Dygraph(
-            'experience-graph',
-            function () {
-                return data.map(function (row) {
-                    return [row.date, row.experience, row.experienceWithMayor];
-                });
+            axis: {
+                x: xConfig,
+                y: {
+                    max: 13,
+                    tick: {
+                        values: _.range(0, 14, 2)
+                    },
+                    padding: 0
+                }
             },
-            _.extend({}, baseOptions, {
-                labels: ['Date', 'Experience', 'Including Mayoral'],
-                labelsDiv: 'experience-legend',
-                title: 'Total Years of Experience of DC Council'
-            })
-        );
-        new Dygraph(
-            'age-graph',
-            function () {
-                return data.map(function (row) {
-                    return [row.date, row.averageAge, row.minAge, row.maxAge];
-                });
+            point: {
+                show: false
             },
-            _.extend({}, baseOptions, {
-                labels: ['Date', 'Average Age', 'Min', 'Max'],
-                labelsDiv: 'age-legend',
-                title: 'Average Age of DC Council'
-            })
-        );
-    }
-
-    // Copied from dygraphs source
-    function defaultLegendFormatter(data) {
-        var g = data.dygraph;
-
-        // TODO(danvk): deprecate this option in place of {legend: 'never'}
-        // XXX should this logic be in the formatter?
-        if (g.getOption('showLabelsOnHighlight') !== true) return '';
-
-        var sepLines = g.getOption('labelsSeparateLines');
-        var html;
-
-        if (typeof data.x === 'undefined') {
-            // TODO: this check is duplicated in generateLegendHTML. Put it in one place.
-            if (g.getOption('legend') != 'always') {
-                return '';
-            }
-
-            html = '';
-            for (var i = 0; i < data.series.length; i++) {
-                var series = data.series[i];
-                if (!series.isVisible) continue;
-
-                if (html !== '') html += sepLines ? '<br/>' : ' ';
-                html += "<span style='font-weight: bold; color: " + series.color + ";'>" + series.dashHTML + " " + series.labelHTML + "</span>";
-            }
-            return html;
-        }
-
-        html = data.xHTML + ':';
-        for (var i = 0; i < data.series.length; i++) {
-            var series = data.series[i];
-            if (!series.isVisible) continue;
-            if (sepLines) html += '<br>';
-            var cls = series.isHighlighted ? ' class="highlight"' : '';
-            html += "<span" + cls + "> <b><span style='color: " + series.color + ";'>" + series.labelHTML + "</span></b>:&#160;" + series.yHTML + "</span>";
-        }
-        return html;
+            tooltip: tooltipConfig
+        });
+        c3.generate({
+            bindto: '#experience-graph',
+            data: {
+                x: 'date',
+                type: 'area',
+                columns: [
+                    ['date'].concat(_.pluck(data, 'date')),
+                    ['experience'].concat(_.pluck(data, 'experience')),
+                    ['experienceWithMayor'].concat(_.pluck(data, 'experienceWithMayor'))
+                ]
+            },
+            axis: {
+                x: xConfig,
+                y: {
+                    padding: 0
+                }
+            },
+            point: {
+                show: false
+            },
+            tooltip: tooltipConfig
+        });
+        c3.generate({
+            bindto: '#age-graph',
+            data: {
+                x: 'date',
+                type: 'line',
+                columns: [
+                    ['date'].concat(_.pluck(data, 'date')),
+                    ['averageAge'].concat(_.pluck(data, 'averageAge')),
+                    ['minAge'].concat(_.pluck(data, 'minAge')),
+                    ['maxAge'].concat(_.pluck(data, 'maxAge'))
+                ]
+            },
+            axis: {
+                x: xConfig,
+                y: {
+                    padding: 0
+                }
+            },
+            point: {
+                show: false
+            },
+            tooltip: tooltipConfig
+        });
     }
 })(jQuery);
