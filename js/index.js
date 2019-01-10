@@ -229,6 +229,10 @@
                     women: '#018571',
                     men: '#80cdc1'
                 },
+                names: {
+                    women: 'Women',
+                    men: 'Men'
+                },
                 columns: [
                     ['date'].concat(_.pluck(data, 'date')),
                     ['women'].concat(_.pluck(data, 'women')),
@@ -263,6 +267,10 @@
                     councilExperience: '#a6611a',
                     mayoralExperience: '#dfc27d'
                 },
+                names: {
+                    councilExperience: 'Years on Council',
+                    mayoralExperience: 'Years as Mayor'
+                },
                 columns: [
                     ['date'].concat(_.pluck(data, 'date')),
                     ['councilExperience'].concat(_.pluck(data, 'councilExperience')),
@@ -287,6 +295,11 @@
             data: {
                 x: 'date',
                 type: 'line',
+                names: {
+                    averageAge: 'Average',
+                    minAge: 'Youngest',
+                    maxAge: 'Oldest'
+                },
                 columns: [
                     ['date'].concat(_.pluck(data, 'date')),
                     ['averageAge'].concat(_.pluck(data, 'averageAge')),
