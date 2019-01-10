@@ -73,6 +73,10 @@
                 }, 0) / this.members.length;
         },
 
+        medianAge: function (date) {
+            return math.median(this.ages(date));
+        },
+
         minAge: function (date) {
             return _.min(this.ages(date));
         },
@@ -151,6 +155,7 @@
             councilExperience: council.totalCouncilExperience(date),
             mayoralExperience: council.totalMayoralExperience(date),
             averageAge: council.averageAge(date),
+            medianAge: council.medianAge(date),
             minAge: council.minAge(date),
             maxAge: council.maxAge(date)
         };
@@ -279,6 +284,7 @@
                 columns: [
                     ['date'].concat(_.pluck(data, 'date')),
                     ['averageAge'].concat(_.pluck(data, 'averageAge')),
+                    ['medianAge'].concat(_.pluck(data, 'medianAge')),
                     ['minAge'].concat(_.pluck(data, 'minAge')),
                     ['maxAge'].concat(_.pluck(data, 'maxAge'))
                 ]
