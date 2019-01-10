@@ -13,9 +13,9 @@
             return moment(date).diff(moment(birth, 'YYYY-MM-DD'), 'd') / 365.2425;
         },
 
-        experience: function (date, includeMayor) {
+        experience: function (date, pattern) {
             var ymd = moment(date).format('YYYY-MM-DD'),
-                regexp = new RegExp('Council' + (includeMayor ? '|Mayor' : '')),
+                regexp = new RegExp(pattern),
                 days = 0;
             this.positions.forEach(function (p) {
                 if (p.start <= ymd && regexp.test(p.office)) {
@@ -24,6 +24,14 @@
                 }
             });
             return days / 365.2425;
+        },
+
+        councilExperience: function (date) {
+            return this.experience(date, 'Council');
+        },
+
+        mayoralExperience: function (date) {
+            return this.experience(date, 'Mayor');
         }
     });
 
@@ -73,9 +81,15 @@
             return _.max(this.ages(date));
         },
 
-        totalExperience: function (date, includeMayor) {
+        totalCouncilExperience: function (date) {
             return this.members.reduce(function (previousValue, currentPerson) {
-                return previousValue + currentPerson.experience(date, includeMayor);
+                return previousValue + currentPerson.councilExperience(date);
+            }, 0);
+        },
+
+        totalMayoralExperience: function (date) {
+            return this.members.reduce(function (previousValue, currentPerson) {
+                return previousValue + currentPerson.mayoralExperience(date);
             }, 0);
         },
 
@@ -134,8 +148,8 @@
             date: date,
             men: council.men(),
             women: council.women(),
-            experience: council.totalExperience(date),
-            experienceWithMayor: council.totalExperience(date, true),
+            councilExperience: council.totalCouncilExperience(date),
+            mayoralExperience: council.totalMayoralExperience(date),
             averageAge: council.averageAge(date),
             minAge: council.minAge(date),
             maxAge: council.maxAge(date)
@@ -195,12 +209,17 @@
                     return c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color);
                 }
             };
+        var charts = [
         c3.generate({
             bindto: '#women-graph',
             data: {
                 x: 'date',
                 type: 'area',
                 groups: [['women', 'men']],
+                colors: {
+                    women: '#018571',
+                    men: '#80cdc1'
+                },
                 columns: [
                     ['date'].concat(_.pluck(data, 'date')),
                     ['women'].concat(_.pluck(data, 'women')),
@@ -220,17 +239,24 @@
             point: {
                 show: false
             },
+            padding: {right: 10},
             tooltip: tooltipConfig
-        });
+        }),
         c3.generate({
             bindto: '#experience-graph',
             data: {
                 x: 'date',
                 type: 'area',
+                groups: [['councilExperience', 'mayoralExperience']],
+                order: null,
+                colors: {
+                    councilExperience: '#a6611a',
+                    mayoralExperience: '#dfc27d'
+                },
                 columns: [
                     ['date'].concat(_.pluck(data, 'date')),
-                    ['experience'].concat(_.pluck(data, 'experience')),
-                    ['experienceWithMayor'].concat(_.pluck(data, 'experienceWithMayor'))
+                    ['councilExperience'].concat(_.pluck(data, 'councilExperience')),
+                    ['mayoralExperience'].concat(_.pluck(data, 'mayoralExperience'))
                 ]
             },
             axis: {
@@ -242,8 +268,9 @@
             point: {
                 show: false
             },
+            padding: {right: 10},
             tooltip: tooltipConfig
-        });
+        }),
         c3.generate({
             bindto: '#age-graph',
             data: {
@@ -265,7 +292,11 @@
             point: {
                 show: false
             },
+            padding: {right: 10},
             tooltip: tooltipConfig
-        });
+        })
+        ];
+        // Flush (redraw) is needed for some reason to get widths right
+        charts.forEach(function (chart) { chart.flush(); });
     }
 })(jQuery);
