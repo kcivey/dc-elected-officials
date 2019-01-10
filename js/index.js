@@ -210,7 +210,9 @@
                         }
                     });
                     $div = $('<div/>').append(c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color));
-                    $div.find('table').append('<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr>');
+                    if (councils[ymd]) {
+                        $div.find('table').append('<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr>');
+                    }
                     return $div.html();
                 }
             };
@@ -242,7 +244,8 @@
                 }
             },
             point: {
-                show: false
+                show: false,
+                sensitivity: 100
             },
             padding: {right: 10},
             tooltip: tooltipConfig
@@ -271,7 +274,8 @@
                 }
             },
             point: {
-                show: false
+                show: false,
+                sensitivity: 100
             },
             padding: {right: 10},
             tooltip: tooltipConfig
@@ -295,7 +299,8 @@
                 }
             },
             point: {
-                show: false
+                show: false,
+                sensitivity: 100
             },
             padding: {right: 10},
             tooltip: tooltipConfig
