@@ -96,12 +96,12 @@
         changes: function () {
             var texts = [];
             if (this.remove.length) {
-                texts.push('− ' + _.pluck(this.remove, 'name').join(', '));
+                texts.push('Lost ' + _.pluck(this.remove, 'name').join(', ') + '.');
             }
             if (this.add.length) {
-                texts.push('+ ' + _.pluck(this.add, 'name').join(', '));
+                texts.push('Gained ' + _.pluck(this.add, 'name').join(', ') + '.');
             }
-            return texts.join('\n');
+            return texts.join('<br/>');
         }
     });
 
@@ -152,7 +152,8 @@
             mayoralExperience: council.totalMayoralExperience(date),
             averageAge: council.averageAge(date),
             minAge: council.minAge(date),
-            maxAge: council.maxAge(date)
+            maxAge: council.maxAge(date),
+            changes: council.changes()
         };
     }
 
@@ -196,7 +197,9 @@
                     }
                 },
                 contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
-                    var newD = [];
+                    var newD = [],
+                        ymd = moment(d[0].x).format('YYYY-MM-DD'),
+                        $div;
                     d.forEach(function (item) {
                         var last = newD.length && newD[newD.length - 1];
                         if (last && last.id === item.id) {
@@ -206,7 +209,9 @@
                             newD.push(_.extend({}, item, {value: [item.value]}));
                         }
                     });
-                    return c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color);
+                    $div = $('<div/>').append(c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color));
+                    $div.find('table').append('<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr>');
+                    return $div.html();
                 }
             };
         var charts = [
