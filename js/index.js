@@ -217,6 +217,10 @@
                     }
                     return $div.html();
                 }
+            },
+            zoomConfig = {
+                enabled: true,
+                type: 'scroll'
             };
         var charts = [
         c3.generate({
@@ -244,7 +248,8 @@
                 y: {
                     max: 13,
                     tick: {
-                        values: _.range(0, 14, 2)
+                        values: _.range(0, 14, 2),
+                        outer: false
                     },
                     padding: 0
                 }
@@ -254,7 +259,8 @@
                 sensitivity: 100
             },
             padding: {right: 10},
-            tooltip: tooltipConfig
+            tooltip: tooltipConfig,
+            zoom: zoomConfig
         }),
         c3.generate({
             bindto: '#experience-graph',
@@ -280,6 +286,11 @@
             axis: {
                 x: xConfig,
                 y: {
+                    max: 155,
+                    tick: {
+                        values: _.range(0, 160, 20),
+                        outer: false
+                    },
                     padding: 0
                 }
             },
@@ -288,7 +299,8 @@
                 sensitivity: 100
             },
             padding: {right: 10},
-            tooltip: tooltipConfig
+            tooltip: tooltipConfig,
+            zoom: zoomConfig
         }),
         c3.generate({
             bindto: '#age-graph',
@@ -310,7 +322,10 @@
             axis: {
                 x: xConfig,
                 y: {
-                    padding: 0
+                    min: 25,
+                    max: 85,
+                    padding: 0,
+                    outer: false
                 }
             },
             point: {
@@ -318,7 +333,8 @@
                 sensitivity: 100
             },
             padding: {right: 10},
-            tooltip: tooltipConfig
+            tooltip: tooltipConfig,
+            zoom: zoomConfig
         })
         ];
         // Flush (redraw) is needed for some reason to get widths right
