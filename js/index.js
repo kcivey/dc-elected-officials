@@ -1,4 +1,4 @@
-(function ($) {
+(function () {
     function Person(data) {
         _.extend(this, data);
     }
@@ -107,9 +107,12 @@
         }
     });
 
-    $.getJSON('data/person.json', process);
+    fetch('data/person.json')
+      .then(function (res) { return res.json(); } )
+      .then(process);
 
     function process(personData) {
+        console.log(personData);
         var councils = {},
             members = [];
         _.each(personData, function (data) {
@@ -201,7 +204,7 @@
                 contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
                     var newD = [],
                         ymd = moment(d[0].x).format('YYYY-MM-DD'),
-                        $div;
+                        html;
                     d.forEach(function (item) {
                         var last = newD.length && newD[newD.length - 1];
                         if (last && last.id === item.id) {
@@ -211,11 +214,11 @@
                             newD.push(_.extend({}, item, {value: [item.value]}));
                         }
                     });
-                    $div = $('<div/>').append(c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color));
+                    html = c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color);
                     if (councils[ymd]) {
-                        $div.find('table').append('<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr>');
+                        html = html.replace('</table>', '<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr></table>');
                     }
-                    return $div.html();
+                    return html;
                 }
             },
             zoomConfig = {
@@ -340,4 +343,4 @@
         // Flush (redraw) is needed for some reason to get widths right
         charts.forEach(function (chart) { chart.flush(); });
     }
-})(jQuery);
+})();
