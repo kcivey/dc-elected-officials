@@ -35,7 +35,8 @@
         }
     });
 
-    function Council() {
+    function Council(date) {
+        this.date = date;
         _.extend(this, {
             members: [],
             add: [],
@@ -46,7 +47,7 @@
 
         genderCount: function (gender) {
             return this.members.reduce(function (previousValue, currentPerson) {
-                if (currentPerson.gender == gender) {
+                if (currentPerson.gender === gender) {
                     previousValue++;
                 }
                 return previousValue;
@@ -122,8 +123,7 @@
                 }
                 if (p.start) {
                     if (!councils[p.start]) {
-                        councils[p.start] = new Council();
-                        councils[p.start].date = p.start;
+                        councils[p.start] = new Council(p.start);
                     }
                     councils[p.start].add.push(person);
                 }
@@ -132,8 +132,7 @@
                 }
                 if (p.end) {
                     if (!councils[p.end]) {
-                        councils[p.end] = new Council();
-                        councils[p.end].date = p.end;
+                        councils[p.end] = new Council(p.end);
                     }
                     councils[p.end].remove.push(person);
                 }
@@ -142,7 +141,7 @@
         councils = _.pick(councils, _.keys(councils).sort());
         _.each(councils, function (c, date) {
             members = _.union(_.difference(members, c.remove), c.add);
-            c.members = members.slice();
+            c.members = members.slice(); // make copy before further modification
         });
         draw(councils);
     }
@@ -187,41 +186,51 @@
                 },
                 padding: 0
             },
-            tooltipConfig = {
-                format: {
-                    title: function (x) {
-                        return moment(x).format('D MMM YYYY');
+            baseConfig = {
+                padding: {
+                    right: 10
+                },
+                point: {
+                    show: false,
+                    sensitivity: 100
+                },
+                tooltip: {
+                    format: {
+                        title: function (x) {
+                            return moment(x).format('D MMM YYYY');
+                        },
+                        value: function (value) {
+                            return Array.isArray(value) ? _.uniq(value).map(function (item) {
+                                return item % 1 ? item.toFixed(2) : item;
+                            }).join(' ⮕ ') : value;
+                        }
                     },
-                    value: function (value) {
-                        return Array.isArray(value) ? _.uniq(value).map(function (item) { return item % 1 ? item.toFixed(2) : item; }).join(' ⮕ ') : value;
+                    contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
+                        var newD = [],
+                          ymd = moment(d[0].x).format('YYYY-MM-DD'),
+                          html;
+                        d.forEach(function (item) {
+                            var last = newD.length && newD[newD.length - 1];
+                            if (last && last.id === item.id) {
+                                last.value.push(item.value);
+                            } else {
+                                newD.push(_.extend({}, item, {value: [item.value]}));
+                            }
+                        });
+                        html = c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color);
+                        if (councils[ymd]) {
+                            html = html.replace('</table>', '<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr></table>');
+                        }
+                        return html;
                     }
                 },
-                contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
-                    var newD = [],
-                        ymd = moment(d[0].x).format('YYYY-MM-DD'),
-                        html;
-                    d.forEach(function (item) {
-                        var last = newD.length && newD[newD.length - 1];
-                        if (last && last.id === item.id) {
-                            last.value.push(item.value);
-                        }
-                        else {
-                            newD.push(_.extend({}, item, {value: [item.value]}));
-                        }
-                    });
-                    html = c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color);
-                    if (councils[ymd]) {
-                        html = html.replace('</table>', '<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr></table>');
-                    }
-                    return html;
+                zoom: {
+                    enabled: true,
+                    type: 'scroll'
                 }
-            },
-            zoomConfig = {
-                enabled: true,
-                type: 'scroll'
             };
         var charts = [
-        c3.generate({
+        c3.generate(_.extend(baseConfig, {
             bindto: '#women-graph',
             data: {
                 x: 'date',
@@ -251,16 +260,9 @@
                     },
                     padding: 0
                 }
-            },
-            point: {
-                show: false,
-                sensitivity: 100
-            },
-            padding: {right: 10},
-            tooltip: tooltipConfig,
-            zoom: zoomConfig
-        }),
-        c3.generate({
+            }
+        })),
+        c3.generate(_.extend(baseConfig, {
             bindto: '#experience-graph',
             data: {
                 x: 'date',
@@ -291,16 +293,9 @@
                     },
                     padding: 0
                 }
-            },
-            point: {
-                show: false,
-                sensitivity: 100
-            },
-            padding: {right: 10},
-            tooltip: tooltipConfig,
-            zoom: zoomConfig
-        }),
-        c3.generate({
+            }
+        })),
+        c3.generate(_.extend(baseConfig, {
             bindto: '#age-graph',
             data: {
                 x: 'date',
@@ -325,15 +320,8 @@
                     padding: 0,
                     outer: false
                 }
-            },
-            point: {
-                show: false,
-                sensitivity: 100
-            },
-            padding: {right: 10},
-            tooltip: tooltipConfig,
-            zoom: zoomConfig
-        })
+            }
+        }))
         ];
         // Flush (redraw) is needed for some reason to get widths right
         charts.forEach(function (chart) { chart.flush(); });
