@@ -97,19 +97,23 @@
         changes: function () {
             var texts = [],
                 lost = _.difference(this.remove, this.add),
-                gained = _.difference(this.add, this.remove);
+                gained = _.difference(this.add, this.remove),
+                promoted = _.intersection(this.add, this.remove);
             if (lost.length) {
                 texts.push('Lost ' + _.pluck(lost, 'name').join(', ') + '.');
             }
             if (gained.length) {
                 texts.push('Gained ' + _.pluck(gained, 'name').join(', ') + '.');
             }
+            if (promoted.length) {
+                texts.push('Promoted ' + _.pluck(promoted, 'name').join(', ') + '.');
+            }
             return texts.join('<br/>');
         }
     });
 
     fetch('data/person.json')
-      .then(function (res) { return res.json(); } )
+      .then(function (res) { return res.json(); })
       .then(process);
 
     function process(personData) {
