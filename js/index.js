@@ -10,7 +10,7 @@
                 birth += '-07-01';
                 birth = birth.replace(/^c\s+/, '');
             }
-            return moment(date).diff(moment(birth, 'YYYY-MM-DD'), 'd') / 365.2425;
+            return moment(date).diff(moment(birth), 'd') / 365.2425;
         },
 
         experience: function (date, pattern) {
@@ -19,8 +19,8 @@
                 days = 0;
             this.positions.forEach(function (p) {
                 if (p.start <= ymd && regexp.test(p.office)) {
-                    var end = p.end <= ymd ? moment(p.end, 'YYYY-MM-DD') : moment(date);
-                    days += end.diff(moment(p.start, 'YYYY-MM-DD'), 'd');
+                    var end = p.end <= ymd ? moment(p.end) : moment(date);
+                    days += end.diff(moment(p.start), 'd');
                 }
             });
             return days / 365.2425;
@@ -112,7 +112,6 @@
       .then(process);
 
     function process(personData) {
-        console.log(personData);
         var councils = {},
             members = [];
         _.each(personData, function (data) {
@@ -160,10 +159,6 @@
             maxAge: council.maxAge(date),
             changes: council.changes()
         };
-    }
-
-    function millisToYmd(millis) {
-        return moment(millis).utc().format('YYYY-MM-DD');
     }
 
     function draw(councils) {
