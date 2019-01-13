@@ -94,6 +94,14 @@
             }, 0);
         },
 
+        youngestMember: function (date) {
+            return _.max(this.members, function (m) { return new Date(m.birth_date); }).name;
+        },
+
+        oldestMember: function (date) {
+            return _.min(this.members, function (m) { return new Date(m.birth_date); }).name;
+        },
+
         changes: function () {
             var texts = [],
                 lost = _.difference(this.remove, this.add),
@@ -159,8 +167,7 @@
             mayoralExperience: council.totalMayoralExperience(date),
             averageAge: council.averageAge(date),
             minAge: council.minAge(date),
-            maxAge: council.maxAge(date),
-            changes: council.changes()
+            maxAge: council.maxAge(date)
         };
     }
 
@@ -212,7 +219,7 @@
                     contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
                         var newD = [],
                           ymd = moment(d[0].x).format('YYYY-MM-DD'),
-                          html;
+                          html, text;
                         d.forEach(function (item) {
                             var last = newD.length && newD[newD.length - 1];
                             if (last && last.id === item.id) {
@@ -223,7 +230,14 @@
                         });
                         html = c3.chart.internal.fn.getTooltipContent.call(this, newD, defaultTitleFormat, defaultValueFormat, color);
                         if (councils[ymd]) {
-                            html = html.replace('</table>', '<tr><td colspan="2">' + councils[ymd].changes() + '</td></tr></table>');
+                            text = councils[ymd].changes();
+                            if (d[0].id === 'averageAge') {
+                                text += '<br/>Youngest: ' + councils[ymd].youngestMember(ymd) + '<br/>Oldest: ' +
+                                    councils[ymd].oldestMember(ymd);
+                            }
+                            if (text) {
+                                html = html.replace('</table>', '<tr><td colspan="2">' + text + '</td></tr></table>');
+                            }
                         }
                         return html;
                     }
