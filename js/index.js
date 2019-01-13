@@ -108,13 +108,13 @@
                 gained = _.difference(this.add, this.remove),
                 promoted = _.intersection(this.add, this.remove);
             if (lost.length) {
-                texts.push('Lost ' + _.pluck(lost, 'name').join(', ') + '.');
+                texts.push('Lost: ' + _.pluck(lost, 'name').join(', ') + '.');
             }
             if (gained.length) {
-                texts.push('Gained ' + _.pluck(gained, 'name').join(', ') + '.');
+                texts.push('Gained: ' + _.pluck(gained, 'name').join(', ') + '.');
             }
             if (promoted.length) {
-                texts.push('Promoted ' + _.pluck(promoted, 'name').join(', ') + '.');
+                texts.push('Promoted: ' + _.pluck(promoted, 'name').join(', ') + '.');
             }
             return texts.join('<br/>');
         }
@@ -232,8 +232,8 @@
                         if (councils[ymd]) {
                             text = councils[ymd].changes();
                             if (d[0].id === 'averageAge') {
-                                text += '<br/>Youngest: ' + councils[ymd].youngestMember(ymd) + '<br/>Oldest: ' +
-                                    councils[ymd].oldestMember(ymd);
+                                text += '<br/>Youngest: ' + councils[ymd].youngestMember(ymd) + '.<br/>Oldest: ' +
+                                    councils[ymd].oldestMember(ymd) + '.';
                             }
                             if (text) {
                                 html = html.replace('</table>', '<tr><td colspan="2">' + text + '</td></tr></table>');
