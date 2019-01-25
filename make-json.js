@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 
-var fs = require('fs'),
-    yaml = require('js-yaml'),
-    personDir = __dirname + '/data/person',
-    file = __dirname + '/data/person.json',
-    personData = {};
+const fs = require('fs');
+const yaml = require('js-yaml');
+const personDir = __dirname + '/data/person';
+const file = __dirname + '/data/person.json';
+const personData = {};
 
-fs.readdirSync(personDir).forEach(function (file) {
+fs.readdirSync(personDir).forEach(file => {
     if (!/\.yaml$/.test(file)) {
         return;
     }
-    var d = yaml.safeLoad(fs.readFileSync(personDir + '/' + file));
+    let d = yaml.safeLoad(fs.readFileSync(personDir + '/' + file));
     personData[d.code] = d;
 });
 
