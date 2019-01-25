@@ -98,11 +98,11 @@ class Council {
         }, 0);
     }
 
-    youngestMember(date) {
+    youngestMember() {
         return _.max(this.members, function (m) { return new Date(m.birth_date); }).name;
     }
 
-    oldestMember(date) {
+    oldestMember() {
         return _.min(this.members, function (m) { return new Date(m.birth_date); }).name;
     }
 
