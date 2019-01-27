@@ -1,6 +1,8 @@
 const _ = require('underscore');
 const moment = require('moment');
 const personData = require('./data/person.json');
+let councils = null;
+let persons = null;
 
 class Person {
 
@@ -125,36 +127,44 @@ class Council {
 }
 
 function getCouncils () {
-    let councils = {};
-    let members = [];
-    _.each(personData, function (data) {
-        var person = new Person(data);
-        person.positions.forEach(function (p) {
-            if (!/Council/.test(p.office)) {
-                return;
-            }
-            if (p.start) {
-                if (!councils[p.start]) {
-                    councils[p.start] = new Council(p.start);
+    if (!councils) {
+        councils = {};
+        let members = [];
+        getPersons().forEach(person => {
+            person.positions.forEach(p => {
+                if (!/Council/.test(p.office)) {
+                    return;
                 }
-                councils[p.start].add.push(person);
-            } else {
-                throw 'Missing start in ' + person.code;
-            }
-            if (p.end) {
-                if (!councils[p.end]) {
-                    councils[p.end] = new Council(p.end);
+                if (p.start) {
+                    if (!councils[p.start]) {
+                        councils[p.start] = new Council(p.start);
+                    }
+                    councils[p.start].add.push(person);
+                } else {
+                    throw 'Missing start in ' + person.code;
                 }
-                councils[p.end].remove.push(person);
-            }
+                if (p.end) {
+                    if (!councils[p.end]) {
+                        councils[p.end] = new Council(p.end);
+                    }
+                    councils[p.end].remove.push(person);
+                }
+            });
         });
-    });
-    councils = _.pick(councils, _.keys(councils).sort());
-    _.each(councils, function (c, date) {
-        members = _.union(_.difference(members, c.remove), c.add);
-        c.members = members.slice(); // make copy before further modification
-    });
+        councils = _.pick(councils, _.keys(councils).sort());
+        _.each(councils, function (c, date) {
+            members = _.union(_.difference(members, c.remove), c.add);
+            c.members = members.slice(); // make copy before further modification
+        });
+    }
     return councils;
 }
 
-module.exports = {Council, Person, getCouncils};
+function getPersons() {
+    if (!persons) {
+        persons = Object.values(personData).map(data => new Person(data));
+    }
+    return persons;
+}
+
+module.exports = {Council, Person, getCouncils, getPersons};
