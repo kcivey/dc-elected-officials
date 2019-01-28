@@ -4,6 +4,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/H.R._Crawford'
 birth_date: '1939-01-18'
 death_date: '2017-02-10'
 gender: M
+party: D
 positions:
   - office: 'Ward 7 Member, Council of the District of Columbia'
     start: '1981-01-02'

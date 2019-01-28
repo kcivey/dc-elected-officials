@@ -3,6 +3,7 @@ name: Marion Barry
 wikipedia: 'https://en.wikipedia.org/wiki/Marion_Barry'
 birth_date: '1936-03-06'
 gender: M
+party: D
 death_date: '2014-11-23'
 positions:
   - office: 'At-Large Member, Council of the District of Columbia'
