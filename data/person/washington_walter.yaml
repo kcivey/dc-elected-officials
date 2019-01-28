@@ -1,0 +1,10 @@
+code: washington_walter
+name: Walter Washington
+wikipedia: 'https://en.wikipedia.org/wiki/Walter_Washington'
+birth_date: '1915-04-15'
+death_date: '2003-10-27'
+gender: M
+positions:
+  - office: Mayor of the District of Columbia
+    start: '1975-01-02'
+    end: '1979-01-02'
