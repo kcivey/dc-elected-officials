@@ -14,6 +14,7 @@ positions:
   - office: Mayor of the District of Columbia
     start: '1979-01-02'
     end: '1991-01-02'
+    end_type: retired
   - office: 'Ward 8 Member, Council of the District of Columbia'
     start: '1993-01-02'
     end: '1995-01-02'
@@ -21,6 +22,7 @@ positions:
   - office: Mayor of the District of Columbia
     start: '1995-01-02'
     end: '1999-01-02'
+    end_type: retired
   - office: 'Ward 8 Member, Council of the District of Columbia'
     start: '2005-01-02'
     end: '2014-11-23'
