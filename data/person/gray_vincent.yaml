@@ -17,6 +17,7 @@ positions:
   - office: Mayor of the District of Columbia
     start: '2011-01-02'
     end: '2015-01-02'
+    end_type: defeat
   - office: 'Ward 7 Member, Council of the District of Columbia'
     start: '2017-01-02'
     end: null

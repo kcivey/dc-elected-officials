@@ -9,3 +9,4 @@ positions:
   - office: 'Ward 7 Member, Council of the District of Columbia'
     start: '1993-01-02'
     end: '2005-01-02'
+    end_type: defeat

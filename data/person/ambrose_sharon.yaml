@@ -11,3 +11,5 @@ positions:
     start: '1997-05-09'
     start_type: special
     end: '2007-01-02'
+    end_type: retirement
+

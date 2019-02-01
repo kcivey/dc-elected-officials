@@ -12,3 +12,4 @@ positions:
     start: '1977-04-06'
     start_type: appointment
     end: '1999-01-02'
+    end_type: defeat

@@ -11,3 +11,4 @@ positions:
     start: '1979-01-12'
     start_type: appointment
     end: '1997-01-02'
+    end_type: retirement
