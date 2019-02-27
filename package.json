@@ -16,7 +16,7 @@
     "url": "https://github.com/kcivey/dc-elected-officials/issues"
   },
   "dependencies": {
-    "js-yaml": "^3.12.1",
+    "js-yaml": "^3.12.2",
     "moment": "^2.24.0",
     "underscore": "^1.9.1"
   },
