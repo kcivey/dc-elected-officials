@@ -11,7 +11,7 @@ class Person {
     }
 
     age(date) {
-        var birth = this.birth_date;
+        let birth = this.birth_date;
         if (typeof birth == 'number' || /^c/.test(birth)) {
             birth += '-07-01';
             birth = birth.replace(/^c\s+/, '');
@@ -20,12 +20,12 @@ class Person {
     }
 
     experience(date, pattern) {
-        var ymd = moment(date).format('YYYY-MM-DD'),
-            regexp = new RegExp(pattern),
-            days = 0;
+        const ymd = moment(date).format('YYYY-MM-DD');
+        const regexp = new RegExp(pattern);
+        let days = 0;
         this.positions.forEach(function (p) {
             if (p.start <= ymd && regexp.test(p.office)) {
-                var end = p.end <= ymd ? moment(p.end) : moment(date);
+                const end = p.end <= ymd ? moment(p.end) : moment(date);
                 days += end.diff(moment(p.start), 'd');
             }
         });
@@ -39,15 +39,17 @@ class Person {
     mayoralExperience(date) {
         return this.experience(date, 'Mayor');
     }
+
 }
 
 class Council {
+
     constructor(date) {
         this.date = date;
         _.extend(this, {
             members: [],
             add: [],
-            remove: []
+            remove: [],
         });
     }
 
@@ -69,15 +71,11 @@ class Council {
     }
 
     ages(date) {
-        return this.members.map(function (person) {
-            return person.age(date);
-        });
+        return this.members.map(person => person.age(date));
     }
 
     averageAge(date) {
-        return this.ages(date).reduce(function (previous, current) {
-                return previous + current;
-            }, 0) / this.members.length;
+        return this.ages(date).reduce((previous, current) => previous + current, 0) / this.members.length;
     }
 
     minAge(date) {
@@ -89,30 +87,28 @@ class Council {
     }
 
     totalCouncilExperience(date) {
-        return this.members.reduce(function (previousValue, currentPerson) {
-            return previousValue + currentPerson.councilExperience(date);
-        }, 0);
+        return this.members
+            .reduce((previousValue, currentPerson) => previousValue + currentPerson.councilExperience(date), 0);
     }
 
     totalMayoralExperience(date) {
-        return this.members.reduce(function (previousValue, currentPerson) {
-            return previousValue + currentPerson.mayoralExperience(date);
-        }, 0);
+        return this.members
+            .reduce((previousValue, currentPerson) => previousValue + currentPerson.mayoralExperience(date), 0);
     }
 
     youngestMember() {
-        return _.max(this.members, function (m) { return new Date(m.birth_date); }).name;
+        return _.max(this.members, m => new Date(m.birth_date)).name;
     }
 
     oldestMember() {
-        return _.min(this.members, function (m) { return new Date(m.birth_date); }).name;
+        return _.min(this.members, m => new Date(m.birth_date)).name;
     }
 
     changes() {
-        var texts = [],
-            lost = _.difference(this.remove, this.add),
-            gained = _.difference(this.add, this.remove),
-            promoted = _.intersection(this.add, this.remove);
+        const texts = [];
+        const lost = _.difference(this.remove, this.add);
+        const gained = _.difference(this.add, this.remove);
+        const promoted = _.intersection(this.add, this.remove);
         if (lost.length) {
             texts.push('Lost: ' + _.pluck(lost, 'name').join(', ') + '.');
         }
@@ -124,9 +120,10 @@ class Council {
         }
         return texts.join('<br/>');
     }
+
 }
 
-function getCouncils () {
+function getCouncils() {
     if (!councils) {
         councils = {};
         let members = [];
@@ -140,8 +137,9 @@ function getCouncils () {
                         councils[p.start] = new Council(p.start);
                     }
                     councils[p.start].add.push(person);
-                } else {
-                    throw 'Missing start in ' + person.code;
+                }
+                else {
+                    throw new Error('Missing start in ' + person.code);
                 }
                 if (p.end) {
                     if (!councils[p.end]) {
