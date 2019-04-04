@@ -158,6 +158,10 @@ function getCouncils() {
     return councils;
 }
 
+function getCurrentCouncil() {
+    return _.last(getCouncils());
+}
+
 function getPersons() {
     if (!persons) {
         persons = Object.values(personData).map(data => new Person(data));
@@ -165,4 +169,4 @@ function getPersons() {
     return persons;
 }
 
-module.exports = {Council, Person, getCouncils, getPersons};
+module.exports = {Council, Person, getCouncils, getPersons, getCurrentCouncil};
