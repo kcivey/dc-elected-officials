@@ -10,7 +10,7 @@ fs.readdirSync(personDir).forEach(file => {
     if (!/\.yaml$/.test(file)) {
         return;
     }
-    let d = yaml.safeLoad(fs.readFileSync(personDir + '/' + file));
+    const d = yaml.safeLoad(fs.readFileSync(personDir + '/' + file));
     personData[d.code] = d;
 });
 
