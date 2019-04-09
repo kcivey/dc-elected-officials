@@ -15,13 +15,13 @@ request(ancHomeUrl).then(html => cheerio.load(html))
             {
                 header: true,
                 columns: [
-                    'SMD',
-                    'Name',
-                    'Chair',
-                    'Address',
-                    'Zip',
-                    'Phone',
-                    'Email',
+                    'smd',
+                    'name',
+                    'chair',
+                    'address',
+                    'zip',
+                    'phone',
+                    'email',
                 ],
             }
         ));
@@ -39,7 +39,7 @@ async function getAncData($) {
         const ancUrl = url.resolve(ancHomeUrl, $a.attr('href'));
         $ = await getCheerio(ancUrl);
         const headers = $('table > thead > tr > th')
-            .map((i, th) => $(th).text().trim())
+            .map((i, th) => $(th).text().trim().toLowerCase())
             .get();
         const rows = $('table > tbody > tr').get();
         for (const row of rows) {
@@ -47,24 +47,24 @@ async function getAncData($) {
                 .map((i, th) => $(th).text().trim())
                 .get();
             const record = _.zipObject(headers, values);
-            if (!record['Name']) {
+            if (!record.name) {
                 continue;
             }
-            m = record['Name'].match(/^(.+?)\s+Chairperson$/);
+            m = record.name.match(/^(.+?)\s+Chairperson$/);
             if (m) {
-                record['Name'] = m[1];
-                record['Chair'] = 'Y';
+                record.name = m[1];
+                record.chair = 'Y';
             }
             else {
-                record['Chair'] = '';
+                record.chair = '';
             }
-            m = record['Address'].match(/^(.*?)\s*Washington,?\s*(?:DC\s*)?(\d+)$/);
+            m = record.address.match(/^(.*?)\s*Washington,?\s*(?:DC\s*)?(\d+)$/);
             if (m) {
-                record['Address'] = m[1];
-                record['Zip'] = m[2];
+                record.address = m[1];
+                record.zip = m[2];
             }
             else {
-                record['Zip'] = '';
+                record.zip = '';
             }
             data.push(record);
         }
