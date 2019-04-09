@@ -11,7 +11,7 @@ request(ancHomeUrl).then(html => cheerio.load(html))
     .then(getAncData)
     .then(function (data) {
         console.log(csvStringify(
-            data,
+            Object.values(data),
             {
                 header: true,
                 columns: [
@@ -80,7 +80,7 @@ async function getAncData($) {
             else {
                 record.zip = '';
             }
-            data.push(record);
+            data[record.smd] = record;
         }
     }
     return data;
