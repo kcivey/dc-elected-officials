@@ -16,7 +16,9 @@ request(ancHomeUrl).then(html => cheerio.load(html))
                 header: true,
                 columns: [
                     'smd',
-                    'name',
+                    'last_name',
+                    'first_name',
+                    'suffix',
                     'chair',
                     'address',
                     'zip',
@@ -58,6 +60,18 @@ async function getAncData($) {
             else {
                 record.chair = '';
             }
+            m = record.name.match(/^\s*(\S.*?)\s+(\S+?)(?:,? (Jr|Sr|I+V?)\.?)?\s*$/);
+            if (m) {
+                record.first_name = m[1];
+                record.last_name = m[2];
+                record.suffix = m[3];
+            }
+            else {
+                record.last_name = record.name;
+                record.first_name = '';
+                record.suffix = '';
+            }
+            delete record.name;
             m = record.address.match(/^(.*?)\s*Washington,?\s*(?:DC\s*)?(\d+)$/);
             if (m) {
                 record.address = m[1];
