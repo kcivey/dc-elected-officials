@@ -80,11 +80,11 @@ class Council {
     }
 
     minAge(date) {
-        return _.min(this.ages(date));
+        return _.minBy(this.ages(date));
     }
 
     maxAge(date) {
-        return _.max(this.ages(date));
+        return _.maxBy(this.ages(date));
     }
 
     totalCouncilExperience(date) {
@@ -98,11 +98,11 @@ class Council {
     }
 
     youngestMember() {
-        return _.max(this.members, m => new Date(m.birthDate)).name;
+        return _.maxBy(this.members, m => new Date(m.birthDate));
     }
 
     oldestMember() {
-        return _.min(this.members, m => new Date(m.birthDate)).name;
+        return _.minBy(this.members, m => new Date(m.birthDate));
     }
 
     changes() {
