@@ -1,37 +1,22 @@
 #!/usr/bin/env node
 
 const url = require('url');
+const fs = require('fs');
 const cheerio = require('cheerio');
 const _ = require('lodash');
-const csvStringify = require('csv-stringify/lib/sync');
+const yaml = require('js-yaml');
+// const csvStringify = require('csv-stringify/lib/sync');
 const request = require('./request');
 const ancHomeUrl = 'https://anc.dc.gov/';
+const ancYamlFile = __dirname + '/data/anc.yaml';
 
 request(ancHomeUrl).then(html => cheerio.load(html))
     .then(getAncData)
-    .then(function (data) {
-        console.log(csvStringify(
-            Object.values(data),
-            {
-                header: true,
-                columns: [
-                    'smd',
-                    'last_name',
-                    'first_name',
-                    'suffix',
-                    'chair',
-                    'address',
-                    'zip',
-                    'phone',
-                    'email',
-                ],
-            }
-        ));
-    });
+    .then(writeYamlFile);
 
 async function getAncData($) {
     const links = $('ul.menu-sub > li.leaf > a').get();
-    const data = [];
+    const data = {};
     for (const a of links) {
         const $a = $(a);
         let m = $a.text().trim().match(/^ANC\s+[1-8][A-G]$/);
@@ -55,16 +40,16 @@ async function getAncData($) {
             m = record.name.match(/^(.+?)\s+Chairperson$/);
             if (m) {
                 record.name = m[1];
-                record.chair = 'Y';
+                record.chair = true;
             }
             else {
-                record.chair = '';
+                record.chair = false;
             }
-            m = record.name.match(/^\s*(\S.*?)\s+(\S+?)(?:,? (Jr|Sr|I+V?)\.?)?\s*$/);
+            m = record.name.match(/^(.+?)\s+(\S+?)(?:,?\+(Jr|Sr|I+V?)\.?)?$/);
             if (m) {
                 record.first_name = m[1];
                 record.last_name = m[2];
-                record.suffix = m[3];
+                record.suffix = m[3] || '';
             }
             else {
                 record.last_name = record.name;
@@ -90,3 +75,38 @@ function getCheerio(requestOptions) {
     return request(requestOptions)
         .then(html => cheerio.load(html));
 }
+
+function writeYamlFile(data) {
+    return new Promise(function (resolve, reject) {
+        fs.writeFile(ancYamlFile, yaml.safeDump(data), function (err) {
+            if (err) {
+                reject(err);
+            }
+            else {
+                resolve();
+            }
+        });
+    });
+}
+
+/*
+function writeCsv(data) {
+    process.stdout.write(csvStringify(
+        Object.values(data),
+        {
+            header: true,
+            columns: [
+                'smd',
+                'last_name',
+                'first_name',
+                'suffix',
+                'chair',
+                'address',
+                'zip',
+                'phone',
+                'email',
+            ],
+        }
+    ));
+}
+*/

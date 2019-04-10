@@ -1,18 +1,19 @@
-const _ = require('underscore');
+const _ = require('lodash');
 const moment = require('moment');
 const personData = require('./data/person.json');
+const anc = require('./anc');
 let councils = null;
 let persons = null;
 
 class Person {
 
     constructor(data) {
-        _.extend(this, data);
+        Object.assign(this, data);
     }
 
     age(date) {
-        let birth = this.birth_date;
-        if (typeof birth == 'number' || /^c/.test(birth)) {
+        let birth = this.birthDate;
+        if (typeof birth === 'number' || /^c/.test(birth)) {
             birth += '-07-01';
             birth = birth.replace(/^c\s+/, '');
         }
@@ -46,7 +47,7 @@ class Council {
 
     constructor(date) {
         this.date = date;
-        _.extend(this, {
+        Object.assign(this, {
             members: [],
             add: [],
             remove: [],
@@ -97,28 +98,29 @@ class Council {
     }
 
     youngestMember() {
-        return _.max(this.members, m => new Date(m.birth_date)).name;
+        return _.max(this.members, m => new Date(m.birthDate)).name;
     }
 
     oldestMember() {
-        return _.min(this.members, m => new Date(m.birth_date)).name;
+        return _.min(this.members, m => new Date(m.birthDate)).name;
     }
 
     changes() {
-        const texts = [];
+        const changes = [];
         const lost = _.difference(this.remove, this.add);
         const gained = _.difference(this.add, this.remove);
         const promoted = _.intersection(this.add, this.remove);
+        const makeNameList = persons => persons.map(p => p.name).join(', ') + '.';
         if (lost.length) {
-            texts.push('Lost: ' + _.pluck(lost, 'name').join(', ') + '.');
+            changes.push('Lost: ' + makeNameList(lost));
         }
         if (gained.length) {
-            texts.push('Gained: ' + _.pluck(gained, 'name').join(', ') + '.');
+            changes.push('Gained: ' + makeNameList(gained));
         }
         if (promoted.length) {
-            texts.push('Promoted: ' + _.pluck(promoted, 'name').join(', ') + '.');
+            changes.push('Promoted: ' + makeNameList(promoted));
         }
-        return texts.join('<br/>');
+        return changes;
     }
 
 }
@@ -149,7 +151,7 @@ function getCouncils() {
                 }
             });
         });
-        councils = _.pick(councils, _.keys(councils).sort());
+        councils = _.pick(councils, Object.keys(councils).sort());
         _.each(councils, function (c, date) {
             members = _.union(_.difference(members, c.remove), c.add);
             c.members = members.slice(); // make copy before further modification
@@ -169,4 +171,4 @@ function getPersons() {
     return persons;
 }
 
-module.exports = {Council, Person, getCouncils, getPersons, getCurrentCouncil};
+module.exports = {Council, Person, getCouncils, getPersons, getCurrentCouncil, anc};

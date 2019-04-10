@@ -18,7 +18,7 @@ const cacheReady = new Promise(
     cache: {cache},
     retry: {
         attempts: 3,
-        delay
+        delay,
     },
 }));
 
