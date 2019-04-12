@@ -23,7 +23,7 @@ class Commissioner {
     }
 
     anc() {
-        return this.smd.substr(0, 3);
+        return this.smd.substr(0, 2);
     }
 
 }
