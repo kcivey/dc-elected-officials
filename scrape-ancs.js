@@ -45,7 +45,7 @@ async function getAncData($) {
             else {
                 record.chair = false;
             }
-            m = record.name.match(/^(.+?)\s+(\S+?)(?:,?\+(Jr|Sr|I+V?)\.?)?$/);
+            m = record.name.match(/^(.+?)\s+(\S+?)(?:,?\s+(Jr|Sr|I+V?)\.?)?$/);
             if (m) {
                 record.first_name = m[1];
                 record.last_name = m[2];

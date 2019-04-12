@@ -1662,9 +1662,9 @@
   phone: ''
   email: 5C03@anc.dc.gov
   chair: false
-  first_name: 'Robert Looper,'
-  last_name: III
-  suffix: ''
+  first_name: Robert
+  last_name: Looper
+  suffix: III
   zip: '20018'
 5C04:
   smd: 5C04
@@ -1702,9 +1702,9 @@
   phone: (202) 670-8543
   email: 5C07@anc.dc.gov
   chair: false
-  first_name: Jeremiah Montague
-  last_name: Jr.
-  suffix: ''
+  first_name: Jeremiah
+  last_name: Montague
+  suffix: Jr
   zip: '20018'
 5D01:
   smd: 5D01
@@ -1732,9 +1732,9 @@
   phone: ''
   email: 5D03@anc.dc.gov
   chair: false
-  first_name: Steven C. Motley
-  last_name: Sr
-  suffix: ''
+  first_name: Steven C.
+  last_name: Motley
+  suffix: Sr
   zip: '20002'
 5D04:
   smd: 5D04
@@ -2242,9 +2242,9 @@
   phone: ''
   email: 6E06@anc.dc.gov
   chair: false
-  first_name: Alvin Judd
-  last_name: Sr.
-  suffix: ''
+  first_name: Alvin
+  last_name: Judd
+  suffix: Sr
   zip: '20001'
 '6E07':
   smd: '6E07'
@@ -2302,9 +2302,9 @@
   phone: ''
   email: 7B05@anc.dc.gov
   chair: false
-  first_name: Villareal "VJ" Johnson
-  last_name: II
-  suffix: ''
+  first_name: Villareal "VJ"
+  last_name: Johnson
+  suffix: II
   zip: '20020'
 7B06:
   smd: 7B06
@@ -2682,9 +2682,9 @@
   phone: ''
   email: 8B01@anc.dc.gov
   chair: false
-  first_name: Leonard Lee Watson
-  last_name: Jr.
-  suffix: ''
+  first_name: Leonard Lee
+  last_name: Watson
+  suffix: Jr
   zip: '20020'
 8B02:
   smd: 8B02
