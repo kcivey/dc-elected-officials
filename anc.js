@@ -33,7 +33,7 @@ function getCurrentCommissioners() {
         commissioners = Object.entries(ancData).reduce(function (acc, [key, data]) {
             acc[key] = new Commissioner(data);
             return acc;
-        });
+        }, {});
     }
     return commissioners;
 }
