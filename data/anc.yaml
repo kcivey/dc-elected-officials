@@ -11,7 +11,7 @@
 1A02:
   smd: 1A02
   address: 1477 Newton St NW
-  phone: (240) 813-0264
+  phone: 240-813-0264
   email: 1A02@anc.dc.gov
   chair: false
   first_name: Teresa A.
@@ -61,7 +61,7 @@
 1A07:
   smd: 1A07
   address: '3538 10th St NW #A'
-  phone: (401) 644-6271
+  phone: 401-644-6271
   email: 1A07@anc.dc.gov
   chair: false
   first_name: Jen
@@ -81,7 +81,7 @@
 1A09:
   smd: 1A09
   address: 743 Morton St NW
-  phone: (202) 805-7310
+  phone: 202-805-7310
   email: 1A09@anc.dc.gov
   chair: false
   first_name: Michael
@@ -131,7 +131,7 @@
 1B02:
   smd: 1B02
   address: '2021 11th St NW #A'
-  phone: (443) 235-5405
+  phone: 443-235-5405
   email: 1B02@anc.dc.gov
   chair: false
   first_name: Dan
@@ -231,7 +231,7 @@
 1B12:
   smd: 1B12
   address: "1801 13th St NW \_#3"
-  phone: (202) 681-8819
+  phone: 202-681-8819
   email: 1B12@anc.dc.gov
   chair: false
   first_name: Dan
@@ -251,7 +251,7 @@
 1C02:
   smd: 1C02
   address: '2410 20th St NW #201'
-  phone: (410) 705-4166
+  phone: 410-705-4166
   email: 1C02@anc.dc.gov
   chair: false
   first_name: Bridget
@@ -301,7 +301,7 @@
 1C07:
   smd: 1C07
   address: 1762 Lanier Place NW
-  phone: (410) 705-4085
+  phone: 410-705-4085
   email: 1C07@anc.dc.gov
   chair: false
   first_name: Japer
@@ -639,7 +639,7 @@
 '2E06':
   smd: '2E06'
   address: 3037 O St NW
-  phone: (202) 997-5324
+  phone: 202-997-5324
   email: 2E06@anc.dc.gov
   chair: false
   first_name: Gwendolyn
@@ -739,7 +739,7 @@
 2F08:
   smd: 2F08
   address: '1221 Massachusetts Ave NW #609'
-  phone: (202) 213-5646
+  phone: 202-213-5646
   email: 2F08@anc.dc.gov
   chair: false
   first_name: Janice
@@ -749,7 +749,7 @@
 3B01:
   smd: 3B01
   address: 2819 39th Street NW
-  phone: (202) 333-6260
+  phone: 202-333-6260
   email: 3B01@anc.dc.gov
   chair: false
   first_name: Ann Lane
@@ -779,7 +779,7 @@
 3B04:
   smd: 3B04
   address: '3040 Idaho Avenue, NW #722'
-  phone: (202) 895-0268
+  phone: 202-895-0268
   email: 3B04@anc.dc.gov
   chair: false
   first_name: Mary C.
@@ -789,7 +789,7 @@
 3B05:
   smd: 3B05
   address: '3818 Beecher Street, NW'
-  phone: (703) 459-0238
+  phone: 703-459-0238
   email: 3B05@anc.dc.gov
   chair: true
   first_name: Brian G.
@@ -909,7 +909,7 @@
 3D03:
   smd: 3D03
   address: '4050 52nd Terrace, NW'
-  phone: (240) 903-4004
+  phone: 240-903-4004
   email: 3D03@anc.dc.gov
   chair: false
   first_name: Paige
@@ -969,7 +969,7 @@
 3D09:
   smd: 3D09
   address: 1543 44th St NW
-  phone: (202) 607-5500
+  phone: 202-607-5500
   email: 3D09@anc.dc.gov
   chair: false
   first_name: J.P.
@@ -1009,7 +1009,7 @@
 '3E03':
   smd: '3E03'
   address: 4411 Fessenden Street NW
-  phone: (202) 552-1420
+  phone: 202-552-1420
   email: 3E03@anc.dc.gov
   chair: true
   first_name: Jonathan
@@ -1019,7 +1019,7 @@
 '3E04':
   smd: '3E04'
   address: 5322 41st Street NW
-  phone: (202) 497-5097
+  phone: 202-497-5097
   email: 3E04@anc.dc.gov
   chair: false
   first_name: Tom
@@ -1029,7 +1029,7 @@
 '3E05':
   smd: '3E05'
   address: 4524 Van Ness Street NW
-  phone: (202) 494-6232
+  phone: 202-494-6232
   email: 3E05@anc.dc.gov
   chair: false
   first_name: Jonathan
@@ -1259,7 +1259,7 @@
 4B01:
   smd: 4B01
   address: '343 Cedar St NW #101'
-  phone: (319) 310-5716
+  phone: 319-310-5716
   email: 4B01@anc.dc.gov
   chair: false
   first_name: Evan
@@ -1269,7 +1269,7 @@
 4B02:
   smd: 4B02
   address: 715 Van Buren St NW
-  phone: (202) 821-6333
+  phone: 202-821-6333
   email: 4B02@anc.dc.gov
   chair: false
   first_name: Erin
@@ -1309,7 +1309,7 @@
 4B06:
   smd: 4B06
   address: 5806 3rd Place NW
-  phone: (202) 271-3710
+  phone: 202-271-3710
   email: 4B06@anc.dc.gov
   chair: false
   first_name: Tiffani Nichole
@@ -1319,7 +1319,7 @@
 4B07:
   smd: 4B07
   address: 220 Aspen St NW
-  phone: (202) 643-8778
+  phone: 202-643-8778
   email: 4B07@anc.dc.gov
   chair: false
   first_name: Geoff
@@ -1329,7 +1329,7 @@
 4B08:
   smd: 4B08
   address: 5601 1st St NE
-  phone: (240) 423-0826
+  phone: 240-423-0826
   email: 4B08@anc.dc.gov
   chair: false
   first_name: Alison
@@ -1339,7 +1339,7 @@
 4B09:
   smd: 4B09
   address: 527 Oglethorpe St NE
-  phone: (202) 704-2427
+  phone: 202-704-2427
   email: 4B09@anc.dc.gov
   chair: false
   first_name: LaRoya A.
@@ -1419,7 +1419,7 @@
 4C08:
   smd: 4C08
   address: 614 Randolph Street NW
-  phone: (202) 491-7077
+  phone: 202-491-7077
   email: 4C08@anc.dc.gov
   chair: false
   first_name: Leah
@@ -1449,7 +1449,7 @@
 4D01:
   smd: 4D01
   address: 5419 8th St NW
-  phone: (202) 210-4055
+  phone: 202-210-4055
   email: 4D01@anc.dc.gov
   chair: false
   first_name: Peter
@@ -1499,7 +1499,7 @@
 4D06:
   smd: 4D06
   address: 4716 8th St NW
-  phone: (202) 656-8295
+  phone: 202-656-8295
   email: 4D06@anc.dc.gov
   chair: false
   first_name: Jonathan
@@ -1649,7 +1649,7 @@
 5C02:
   smd: 5C02
   address: 2647 Myrtle Ave NE
-  phone: (202) 860-2088
+  phone: 202-860-2088
   email: 5C02@anc.dc.gov
   chair: false
   first_name: Lauren
@@ -1679,7 +1679,7 @@
 5C05:
   smd: 5C05
   address: 1363 Downing St NE
-  phone: (202) 374-4264
+  phone: 202-374-4264
   email: 5C05@anc.dc.gov
   chair: false
   first_name: Darlene
@@ -1689,7 +1689,7 @@
 5C06:
   smd: 5C06
   address: 2531 14th St NE
-  phone: (202) 894-0847
+  phone: 202-894-0847
   email: 5C06@anc.dc.gov
   chair: false
   first_name: Kirsten
@@ -1699,7 +1699,7 @@
 5C07:
   smd: 5C07
   address: 2914 25th St NE
-  phone: (202) 670-8543
+  phone: 202-670-8543
   email: 5C07@anc.dc.gov
   chair: false
   first_name: Jeremiah
@@ -1779,7 +1779,7 @@
 '5E01':
   smd: '5E01'
   address: 608 Regent Place NE
-  phone: (202) 656-1324
+  phone: 202-656-1324
   email: 5E01@anc.dc.gov
   chair: false
   first_name: Nick
@@ -1829,7 +1829,7 @@
 '5E06':
   smd: '5E06'
   address: 86 R St NW Apt A
-  phone: (410) 705-4070
+  phone: 410-705-4070
   email: 5E06@anc.dc.gov
   chair: false
   first_name: Karla M.
@@ -1849,7 +1849,7 @@
 '5E08':
   smd: '5E08'
   address: 158 Adams St NW
-  phone: (202) 821-5346
+  phone: 202-821-5346
   email: 5E08@anc.dc.gov
   chair: false
   first_name: Robert Vinson
@@ -1869,7 +1869,7 @@
 '5E10':
   smd: '5E10'
   address: 200 Bryant Street NE
-  phone: (202) 594-7850
+  phone: 202-594-7850
   email: 5E10@anc.dc.gov
   chair: false
   first_name: Nancy Darlene
@@ -1919,7 +1919,7 @@
 6A05:
   smd: 6A05
   address: 1315 Corbin Place NE
-  phone: (202) 780-0745
+  phone: 202-780-0745
   email: 6A05@anc.dc.gov
   chair: false
   first_name: Ruth Ann
@@ -2079,7 +2079,7 @@
 6C03:
   smd: 6C03
   address: 315 7th St NE
-  phone: (202) 441-0778
+  phone: 202-441-0778
   email: 6C03@anc.dc.gov
   chair: false
   first_name: Jay
@@ -2109,7 +2109,7 @@
 6C06:
   smd: 6C06
   address: '1160 1st St NE #718'
-  phone: (585) 666-7364
+  phone: 585-666-7364
   email: 6C06@anc.dc.gov
   chair: false
   first_name: Robb
@@ -2159,7 +2159,7 @@
 6D05:
   smd: 6D05
   address: '301 M St SW #820'
-  phone: (718) 213-6770
+  phone: 718-213-6770
   email: 6D05@anc.dc.gov
   chair: false
   first_name: Anthony
@@ -2179,7 +2179,7 @@
 6D07:
   smd: 6D07
   address: "301 Tingey St SE\_ #433"
-  phone: (202) 930-3720
+  phone: 202-930-3720
   email: 6D07@anc.dc.gov
   chair: false
   first_name: Edward
@@ -2379,7 +2379,7 @@
 7C06:
   smd: 7C06
   address: '5318 Jay Street, NE'
-  phone: (202) 536-6283
+  phone: 202-536-6283
   email: 7C06@anc.dc.gov
   chair: false
   first_name: Arnold
@@ -2399,7 +2399,7 @@
 7D01:
   smd: 7D01
   address: 554 24th St NE
-  phone: (202) 399-1238
+  phone: 202-399-1238
   email: 7D01@anc.dc.gov
   chair: false
   first_name: Tamara
@@ -2519,7 +2519,7 @@
 '7E06':
   smd: '7E06'
   address: 5336 Call Place SE
-  phone: (202) 374-7424
+  phone: 202-374-7424
   email: 7E06@anc.dc.gov
   chair: true
   first_name: Delia
@@ -2609,7 +2609,7 @@
 8A01:
   smd: 8A01
   address: '1936 Naylor Road SE #102'
-  phone: (202) 422-4957
+  phone: 202-422-4957
   email: 8A01@anc.dc.gov
   chair: false
   first_name: Holly
@@ -2649,7 +2649,7 @@
 8A05:
   smd: 8A05
   address: '1926 15th Street, SE'
-  phone: (202) 957-7010
+  phone: 202-957-7010
   email: 8A05@anc.dc.gov
   chair: false
   first_name: Dorcas
@@ -2659,7 +2659,7 @@
 8A06:
   smd: 8A06
   address: '1262 Talbert St SE #7A'
-  phone: (202) 815-1616
+  phone: 202-815-1616
   email: 8A06@anc.dc.gov
   chair: false
   first_name: Tyón
@@ -2669,7 +2669,7 @@
 8A07:
   smd: 8A07
   address: 1491 Howard Road SE
-  phone: (202) 780-5504
+  phone: 202-780-5504
   email: 8A07@anc.dc.gov
   chair: false
   first_name: Hanna
@@ -2729,7 +2729,7 @@
 8B06:
   smd: 8B06
   address: '3416 25th St SE #13'
-  phone: (202) 718-8435
+  phone: 202-718-8435
   email: 8B06@anc.dc.gov
   chair: false
   first_name: Humam
@@ -2749,7 +2749,7 @@
 8C01:
   smd: 8C01
   address: 'c/o RISE, 2730 Martin Luther King, Jr. Ave SE'
-  phone: (202) 779-3904
+  phone: 202-779-3904
   email: 8C01@anc.dc.gov
   chair: true
   first_name: Mike
@@ -2769,7 +2769,7 @@
 8C03:
   smd: 8C03
   address: 'c/o RISE, 2730 Martin Luther King, Jr. Ave SE'
-  phone: (202) 854-9580
+  phone: 202-854-9580
   email: 8C03@anc.dc.gov
   chair: false
   first_name: Robinette
@@ -2789,7 +2789,7 @@
 8C05:
   smd: 8C05
   address: 3825 South Capitol St SW
-  phone: (240) 515-6447
+  phone: 240-515-6447
   email: 8C05@anc.dc.gov
   chair: false
   first_name: Mustafa
@@ -2889,7 +2889,7 @@
 '8E01':
   smd: '8E01'
   address: 1430 Tobias Drive SE
-  phone: (202) 860-0881
+  phone: 202-860-0881
   email: 8E01@anc.dc.gov
   chair: false
   first_name: Adeoye
@@ -2899,7 +2899,7 @@
 '8E02':
   smd: '8E02'
   address: 1882 Alabama Ave SE
-  phone: (202) 317-1490
+  phone: 202-317-1490
   email: 8E02@anc.dc.gov
   chair: false
   first_name: Cheryl

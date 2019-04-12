@@ -65,6 +65,13 @@ async function getAncData($) {
             else {
                 record.zip = '';
             }
+            if (record.phone) {
+                // Standardize phone number format
+                m = record.phone.match(/^\W*(\d{3})\W+(\d{3})\W+(\d{4})\W*$/);
+                if (m) {
+                    record.phone = m[1] + '-' + m[2] + '-' + m[3];
+                }
+            }
             data[record.smd] = record;
         }
     }
