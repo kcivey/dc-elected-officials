@@ -72,6 +72,9 @@ async function getAncData($) {
                     record.phone = m[1] + '-' + m[2] + '-' + m[3];
                 }
             }
+            else { // phone is missing on some ANC pages
+                record.phone = '';
+            }
             data[record.smd] = record;
         }
     }

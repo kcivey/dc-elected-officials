@@ -577,6 +577,7 @@
   last_name: Bender
   suffix: ''
   zip: '20008'
+  phone: ''
 2D02:
   smd: 2D02
   address: na
@@ -586,6 +587,7 @@
   last_name: Nestler
   suffix: ''
   zip: '20008'
+  phone: ''
 '2E01':
   smd: '2E01'
   address: 3831 T St NW
