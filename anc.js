@@ -30,10 +30,14 @@ class Commissioner {
 
 function getCurrentCommissioners() {
     if (!commissioners) {
-        commissioners = Object.entries(ancData).reduce(function (acc, [key, data]) {
-            acc[key] = new Commissioner(data);
-            return acc;
-        }, {});
+        // Convert plain objects to Commissioner objects
+        commissioners = Object.entries(ancData).reduce(
+            function (acc, [smd, data]) {
+                acc[smd] = new Commissioner(data);
+                return acc;
+            },
+            {}
+        );
     }
     return commissioners;
 }
