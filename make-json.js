@@ -21,11 +21,11 @@ fs.readdirSync(personDir).forEach(file => {
 fs.writeFileSync(personFile, JSON.stringify(camelizeObject(personData)));
 
 const ancData = yaml.safeLoad(fs.readFileSync(ancYamlFile));
-const camelizedAncData = Object.entries(ancData).reduce(
+ancData.commissioners = Object.entries(ancData.commissioners).reduce(
     function (acc, [key, value]) {
         acc[key] = camelizeObject(value);
         return acc;
     },
     {}
 );
-fs.writeFileSync(ancJsonFile, JSON.stringify(camelizedAncData));
+fs.writeFileSync(ancJsonFile, JSON.stringify(ancData));
