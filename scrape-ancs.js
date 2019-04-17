@@ -5,7 +5,6 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const _ = require('lodash');
 const yaml = require('js-yaml');
-// const csvStringify = require('csv-stringify/lib/sync');
 const request = require('./request');
 const ancHomeUrl = 'https://anc.dc.gov/';
 const ancYamlFile = __dirname + '/data/anc.yaml';
@@ -86,8 +85,12 @@ function getCheerio(requestOptions) {
         .then(html => cheerio.load(html));
 }
 
-function writeYamlFile(data) {
+function writeYamlFile(commissioners) {
     return new Promise(function (resolve, reject) {
+        const data = {
+            updated: (new Date).toISOString().substr(0, 10),
+            commissioners,
+        };
         fs.writeFile(ancYamlFile, yaml.safeDump(data), function (err) {
             if (err) {
                 reject(err);
@@ -98,25 +101,3 @@ function writeYamlFile(data) {
         });
     });
 }
-
-/*
-function writeCsv(data) {
-    process.stdout.write(csvStringify(
-        Object.values(data),
-        {
-            header: true,
-            columns: [
-                'smd',
-                'last_name',
-                'first_name',
-                'suffix',
-                'chair',
-                'address',
-                'zip',
-                'phone',
-                'email',
-            ],
-        }
-    ));
-}
-*/

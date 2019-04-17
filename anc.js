@@ -31,7 +31,7 @@ class Commissioner {
 function getCurrentCommissioners() {
     if (!commissioners) {
         // Convert plain objects to Commissioner objects
-        commissioners = Object.entries(ancData).reduce(
+        commissioners = Object.entries(ancData.commissioners).reduce(
             function (acc, [smd, data]) {
                 acc[smd] = new Commissioner(data);
                 return acc;
@@ -46,4 +46,8 @@ function getCurrentCommissioner(smd) {
     return getCurrentCommissioners()[smd];
 }
 
-module.exports = {Commissioner, getCurrentCommissioners, getCurrentCommissioner};
+function updated() {
+    return ancData.updated;
+}
+
+module.exports = {Commissioner, getCurrentCommissioners, getCurrentCommissioner, updated};

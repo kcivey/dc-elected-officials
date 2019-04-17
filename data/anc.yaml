@@ -1,2960 +1,2962 @@
-1A01:
-  smd: 1A01
-  address: 1434 Parkwood Place NW
-  phone: ''
-  email: 1A01@anc.dc.gov
-  chair: false
-  first_name: Layla
-  last_name: Bonnot
-  suffix: ''
-  zip: '20010'
-1A02:
-  smd: 1A02
-  address: 1477 Newton St NW
-  phone: 240-813-0264
-  email: 1A02@anc.dc.gov
-  chair: false
-  first_name: Teresa A.
-  last_name: Edmondson
-  suffix: ''
-  zip: '20010'
-1A03:
-  smd: 1A03
-  address: 1400 Irving Street NW
-  phone: ''
-  email: 1A03@anc.dc.gov
-  chair: false
-  first_name: Zach
-  last_name: Rybarczyk
-  suffix: ''
-  zip: '20010'
-1A04:
-  smd: 1A04
-  address: 1349 Parkwood Place NW
-  phone: ''
-  email: 1A04@anc.dc.gov
-  chair: false
-  first_name: Matthew
-  last_name: Goldschimdt
-  suffix: ''
-  zip: '20010'
-1A05:
-  smd: 1A05
-  address: 1530 Monroe St NW
-  phone: ''
-  email: 1A05@anc.dc.gov
-  chair: false
-  first_name: Christine
-  last_name: Miller
-  suffix: ''
-  zip: '20010'
-1A06:
-  smd: 1A06
-  address: 1105 Park Road NW
-  phone: ''
-  email: 1A06@anc.dc.gov
-  chair: false
-  first_name: Angelica
-  last_name: Castañon
-  suffix: ''
-  zip: '20010'
-1A07:
-  smd: 1A07
-  address: '3538 10th St NW #A'
-  phone: 401-644-6271
-  email: 1A07@anc.dc.gov
-  chair: false
-  first_name: Jen
-  last_name: Bundy
-  suffix: ''
-  zip: '20010'
-1A08:
-  smd: 1A08
-  address: '608 Rock Creek Church Road, NW'
-  phone: ''
-  email: 1A08@anc.dc.gov
-  chair: true
-  first_name: Kent C.
-  last_name: Boese
-  suffix: ''
-  zip: '20010'
-1A09:
-  smd: 1A09
-  address: 743 Morton St NW
-  phone: 202-805-7310
-  email: 1A09@anc.dc.gov
-  chair: false
-  first_name: Michael
-  last_name: Wray
-  suffix: ''
-  zip: '20010'
-1A10:
-  smd: 1A10
-  address: '430 Irving Street NW #106'
-  phone: ''
-  email: 1A10@anc.dc.gov
-  chair: false
-  first_name: Rashida
-  last_name: Brown
-  suffix: ''
-  zip: '20010'
-1A11:
-  smd: 1A11
-  address: '1116 Columbia Road, NW'
-  phone: ''
-  email: 1A11@anc.dc.gov
-  chair: false
-  first_name: Dotti Love
-  last_name: Wade
-  suffix: ''
-  zip: '20009'
-1A12:
-  smd: 1A12
-  address: '1415 Girard Street NW #206'
-  phone: ''
-  email: 1A12@anc.dc.gov
-  chair: false
-  first_name: Jason
-  last_name: Clock
-  suffix: ''
-  zip: '20009'
-1B01:
-  smd: 1B01
-  address: 1853 3rd Street NW
-  phone: ''
-  email: 1B01@anc.dc.gov
-  chair: false
-  first_name: Anita
-  last_name: Norman
-  suffix: ''
-  zip: '20001'
-1B02:
-  smd: 1B02
-  address: '2021 11th St NW #A'
-  phone: 443-235-5405
-  email: 1B02@anc.dc.gov
-  chair: false
-  first_name: Dan
-  last_name: Orlaskey
-  suffix: ''
-  zip: '20001'
-1B03:
-  smd: 1B03
-  address: '2515 13th Street, NW'
-  phone: ''
-  email: 1B03@anc.dc.gov
-  chair: false
-  first_name: Sedrick
-  last_name: Muhammad
-  suffix: ''
-  zip: '20009'
-1B04:
-  smd: 1B04
-  address: ''
-  phone: ''
-  email: 1B04@anc.dc.gov
-  chair: false
-  last_name: Vacant
-  first_name: ''
-  suffix: ''
-  zip: '20009'
-1B05:
-  smd: 1B05
-  address: '2101 New Hampshire Ave NW #312'
-  phone: ''
-  email: 1B05@anc.dc.gov
-  chair: false
-  first_name: James
-  last_name: Cordes
-  suffix: ''
-  zip: '20009'
-1B06:
-  smd: 1B06
-  address: 1308 Clifton Street NW
-  phone: ''
-  email: 1B06@anc.dc.gov
-  chair: false
-  first_name: Jennifer
-  last_name: Bristol
-  suffix: ''
-  zip: '20009'
-1B07:
-  smd: 1B07
-  address: 2639 15th Street NW
-  phone: ''
-  email: 1B07@anc.dc.gov
-  chair: false
-  first_name: Jessica Laura
-  last_name: Smith
-  suffix: ''
-  zip: '20009'
-1B08:
-  smd: 1B08
-  address: '1333 Euclid Street NW #302'
-  phone: ''
-  email: 1B08@anc.dc.gov
-  chair: false
-  first_name: Joshua R.
-  last_name: Mater
-  suffix: ''
-  zip: '20009'
-1B09:
-  smd: 1B09
-  address: '1236 Girard Street, NW'
-  phone: ''
-  email: 1B09@anc.dc.gov
-  chair: true
-  first_name: James A.
-  last_name: Turner
-  suffix: ''
-  zip: '20009'
-1B10:
-  smd: 1B10
-  address: 629 Harvard St NW
-  phone: ''
-  email: 1B10@anc.dc.gov
-  chair: false
-  first_name: Danny
-  last_name: Delaney
-  suffix: ''
-  zip: '20001'
-1B11:
-  smd: 1B11
-  address: '919 Florida Avenue, NW #204'
-  phone: ''
-  email: 1B11@anc.dc.gov
-  chair: false
-  first_name: Robb
-  last_name: Hudson
-  suffix: ''
-  zip: '20001'
-1B12:
-  smd: 1B12
-  address: "1801 13th St NW \_#3"
-  phone: 202-681-8819
-  email: 1B12@anc.dc.gov
-  chair: false
-  first_name: Dan
-  last_name: Winston
-  suffix: ''
-  zip: '20009'
-1C01:
-  smd: 1C01
-  address: 1841 California Street NW
-  phone: ''
-  email: 1C01@anc.dc.gov
-  chair: false
-  first_name: Amir
-  last_name: Irani
-  suffix: ''
-  zip: '20009'
-1C02:
-  smd: 1C02
-  address: '2410 20th St NW #201'
-  phone: 410-705-4166
-  email: 1C02@anc.dc.gov
-  chair: false
-  first_name: Bridget
-  last_name: Pooley
-  suffix: ''
-  zip: '20009'
-1C03:
-  smd: 1C03
-  address: '1849 Kalorama Road, NW Apt. 2'
-  phone: ''
-  email: 1C03@anc.dc.gov
-  chair: true
-  first_name: Ted
-  last_name: Guthrie
-  suffix: ''
-  zip: '20009'
-1C04:
-  smd: 1C04
-  address: 1953 Calvert St NW
-  phone: ''
-  email: 1C04@anc.dc.gov
-  chair: false
-  first_name: Douglas
-  last_name: Ely
-  suffix: ''
-  zip: '20009'
-1C05:
-  smd: 1C05
-  address: "1601 \_Argonne Place NW"
-  phone: ''
-  email: 1C05@anc.dc.gov
-  chair: false
-  first_name: Damiana
-  last_name: Dendy
-  suffix: ''
-  zip: '20009'
-1C06:
-  smd: 1C06
-  address: '1620 Fuller St NW #411'
-  phone: ''
-  email: 1C06@anc.dc.gov
-  chair: false
-  first_name: Michaela
-  last_name: Wright
-  suffix: ''
-  zip: '20009'
-1C07:
-  smd: 1C07
-  address: 1762 Lanier Place NW
-  phone: 410-705-4085
-  email: 1C07@anc.dc.gov
-  chair: false
-  first_name: Japer
-  last_name: Bowles
-  suffix: ''
-  zip: '20009'
-1C08:
-  smd: 1C08
-  address: 1664-D Beekman Place NW
-  phone: ''
-  email: 1C08@anc.dc.gov
-  chair: false
-  first_name: Amanda Fox
-  last_name: Perry
-  suffix: ''
-  zip: '20009'
-1D01:
-  smd: 1D01
-  address: 1641 Monroe Street NW
-  phone: ''
-  email: 1D01@anc.dc.gov
-  chair: true
-  first_name: Jon
-  last_name: Stewart
-  suffix: ''
-  zip: '20010'
-1D02:
-  smd: 1D02
-  address: 1651 Newton Street NW
-  phone: ''
-  email: 1D02@anc.dc.gov
-  chair: false
-  first_name: Robin
-  last_name: Sandenburgh
-  suffix: ''
-  zip: '20010'
-1D03:
-  smd: 1D03
-  address: 3200 19th Street NW
-  phone: ''
-  email: 1D03@anc.dc.gov
-  chair: false
-  first_name: Jack
-  last_name: McKay
-  suffix: ''
-  zip: '20010'
-1D04:
-  smd: 1D04
-  address: 3145 Mount Pleasant Street NW
-  phone: ''
-  email: 1D04@anc.dc.gov
-  chair: false
-  first_name: Yasmin
-  last_name: Romero-Latin
-  suffix: ''
-  zip: '20010'
-1D05:
-  smd: 1D05
-  address: 1900 Lamont St NW
-  phone: ''
-  email: 1D05@anc.dc.gov
-  chair: false
-  first_name: Chelsea A.
-  last_name: Allinger
-  suffix: ''
-  zip: '20010'
-2A01:
-  smd: 2A01
-  address: '532 20th Street NW #312'
-  phone: ''
-  email: 2A01@anc.dc.gov
-  chair: false
-  first_name: Patrick
-  last_name: Kennedy
-  suffix: ''
-  zip: '20006'
-2A02:
-  smd: 2A02
-  address: 1221 24th St NW
-  phone: ''
-  email: 2A02@anc.dc.gov
-  chair: false
-  first_name: Nicole
-  last_name: Goldin
-  suffix: ''
-  zip: '20037'
-2A03:
-  smd: 2A03
-  address: '940 25th Street NW #425N'
-  phone: ''
-  email: 2A03@anc.dc.gov
-  chair: false
-  first_name: Trupti J.
-  last_name: Patel
-  suffix: ''
-  zip: '20037'
-2A04:
-  smd: 2A04
-  address: '600 New Hampshire Avenue NW #610'
-  phone: ''
-  email: 2A04@anc.dc.gov
-  chair: true
-  first_name: William Kennedy
-  last_name: Smith
-  suffix: ''
-  zip: '20037'
-2A05:
-  smd: 2A05
-  address: '725 24th Street NW #709'
-  phone: ''
-  email: 2A05@anc.dc.gov
-  chair: false
-  first_name: Philip J.
-  last_name: Schrefer
-  suffix: ''
-  zip: '20037'
-2A06:
-  smd: 2A06
-  address: 1111 23rd St NW
-  phone: ''
-  email: 2A06@anc.dc.gov
-  chair: false
-  first_name: Jeri
-  last_name: Epstein
-  suffix: ''
-  zip: '20037'
-2A07:
-  smd: 2A07
-  address: 2141 I St NW
-  phone: ''
-  email: 2A07@anc.dc.gov
-  chair: false
-  first_name: Detrick
-  last_name: Campbell
-  suffix: ''
-  zip: '20037'
-2A08:
-  smd: 2A08
-  address: 2121 H Street NW
-  phone: ''
-  email: 2A08@anc.dc.gov
-  chair: false
-  first_name: James
-  last_name: Harnett
-  suffix: ''
-  zip: '20052'
-2B01:
-  smd: 2B01
-  address: 1740 18th St NW
-  phone: ''
-  email: 2B01@anc.dc.gov
-  chair: false
-  first_name: Matthew H
-  last_name: Sampson
-  suffix: ''
-  zip: '20009'
-2B02:
-  smd: 2B02
-  address: 2146 Florida Ave NW
-  phone: ''
-  email: 2B02@anc.dc.gov
-  chair: true
-  first_name: Daniel
-  last_name: Warwick
-  suffix: ''
-  zip: '20008'
-2B03:
-  smd: 2B03
-  address: 1712 R St NW
-  phone: ''
-  email: 2B03@anc.dc.gov
-  chair: false
-  first_name: Lucky
-  last_name: Barbieri
-  suffix: ''
-  zip: '20009'
-2B04:
-  smd: 2B04
-  address: "1615 Q St NW \_#1203"
-  phone: 612-747-2217
-  email: 2B04@anc.dc.gov
-  chair: false
-  first_name: Aaron
-  last_name: Landry
-  suffix: ''
-  zip: '20009'
-2B05:
-  smd: 2B05
-  address: 1425 17th Street NW
-  phone: ''
-  email: 2B05@anc.dc.gov
-  chair: false
-  first_name: Randy D.
-  last_name: Downs
-  suffix: ''
-  zip: '20036'
-2B06:
-  smd: 2B06
-  address: '1301 20th Street, NW #705'
-  phone: ''
-  email: 2B06@anc.dc.gov
-  chair: false
-  first_name: Mike
-  last_name: Silverstein
-  suffix: ''
-  zip: '20036'
-2B07:
-  smd: 2B07
-  address: 1704 P Street NW
-  phone: ''
-  email: 2B07@anc.dc.gov
-  chair: false
-  first_name: Kari
-  last_name: Cunningham
-  suffix: ''
-  zip: '20036'
-2B08:
-  smd: 2B08
-  address: 1819 T Street NW
-  phone: ''
-  email: 2B08@anc.dc.gov
-  chair: false
-  first_name: Beverly
-  last_name: Schwartz
-  suffix: ''
-  zip: '20009'
-2B09:
-  smd: 2B09
-  address: 1523 Swann St NW
-  phone: ''
-  email: 2B09@anc.dc.gov
-  chair: false
-  first_name: Ed
-  last_name: Hanlon
-  suffix: ''
-  zip: '20009'
-2C01:
-  smd: 2C01
-  address: "916 G St NW \_#203"
-  phone: 617-304-4372
-  email: 2C01@anc.dc.gov
-  chair: false
-  first_name: Michael D.
-  last_name: Shankle
-  suffix: ''
-  zip: '20001'
-2C02:
-  smd: 2C02
-  address: 400 Massachusetts Avenue NW
-  phone: ''
-  email: 2C02@anc.dc.gov
-  chair: false
-  first_name: Jamaal T.
-  last_name: Burton
-  suffix: ''
-  zip: '20001'
-2C03:
-  smd: 2C03
-  address: 425 8th Street NW
-  phone: ''
-  email: 2C03@anc.dc.gov
-  chair: true
-  first_name: Kevin
-  last_name: Wilsey
-  suffix: ''
-  zip: '20004'
-2D01:
-  smd: 2D01
-  address: '2126 Connecticut Avenue, NW #34'
-  email: 2D01@anc.dc.gov
-  chair: true
-  first_name: David R.
-  last_name: Bender
-  suffix: ''
-  zip: '20008'
-  phone: ''
-2D02:
-  smd: 2D02
-  address: na
-  email: 2D02@anc.dc.gov
-  chair: false
-  first_name: Jeff
-  last_name: Nestler
-  suffix: ''
-  zip: '20008'
-  phone: ''
-'2E01':
-  smd: '2E01'
-  address: 3831 T St NW
-  phone: ''
-  email: 2E01@anc.dc.gov
-  chair: false
-  first_name: Kishan
-  last_name: Putta
-  suffix: ''
-  zip: '20007'
-'2E02':
-  smd: '2E02'
-  address: 3223 Volta Place NW
-  phone: ''
-  email: 2E02@anc.dc.gov
-  chair: false
-  first_name: Joe
-  last_name: Gibbons
-  suffix: ''
-  zip: '20007'
-'2E03':
-  smd: '2E03'
-  address: 3136 P Street NW
-  phone: ''
-  email: 2E03@anc.dc.gov
-  chair: true
-  first_name: Rick
-  last_name: Murphy
-  suffix: ''
-  zip: '20007'
-'2E04':
-  smd: '2E04'
-  address: 3700 O St NW
-  phone: ''
-  email: 2E04@anc.dc.gov
-  chair: false
-  first_name: Anna
-  last_name: Landre
-  suffix: ''
-  zip: '20057'
-'2E05':
-  smd: '2E05'
-  address: 3150 South Street NW
-  phone: ''
-  email: 2E05@anc.dc.gov
-  chair: false
-  first_name: Lisa
-  last_name: Palmer
-  suffix: ''
-  zip: '20007'
-'2E06':
-  smd: '2E06'
-  address: 3037 O St NW
-  phone: 202-997-5324
-  email: 2E06@anc.dc.gov
-  chair: false
-  first_name: Gwendolyn
-  last_name: Lohse
-  suffix: ''
-  zip: '20007'
-'2E07':
-  smd: '2E07'
-  address: 3021 Q St NW
-  phone: ''
-  email: 2E07@anc.dc.gov
-  chair: false
-  first_name: Elizabeth H.
-  last_name: Miller
-  suffix: ''
-  zip: '20007'
-'2E08':
-  smd: '2E08'
-  address: 3700 O Street NW
-  phone: ''
-  email: 2E08@anc.dc.gov
-  chair: false
-  first_name: Matias
-  last_name: Burdman
-  suffix: ''
-  zip: '20057'
-2F01:
-  smd: 2F01
-  address: 1447 Q Street NW
-  phone: ''
-  email: 2F01@anc.dc.gov
-  chair: false
-  first_name: Jason
-  last_name: Forman
-  suffix: ''
-  zip: '20009'
-2F02:
-  smd: 2F02
-  address: 1301 Rhode Island Avenue NW
-  phone: ''
-  email: 2F02@anc.dc.gov
-  chair: false
-  first_name: John
-  last_name: Guggenmos
-  suffix: ''
-  zip: '20005'
-2F03:
-  smd: 2F03
-  address: 1227 15th St NW
-  phone: ''
-  email: 2F03@anc.dc.gov
-  chair: false
-  first_name: Tom
-  last_name: Alexander
-  suffix: ''
-  zip: '20005'
-2F04:
-  smd: 2F04
-  address: '1307 12th Street, NW #505'
-  phone: ''
-  email: 2F04@anc.dc.gov
-  chair: true
-  first_name: John
-  last_name: Fanning
-  suffix: ''
-  zip: '20005'
-2F05:
-  smd: 2F05
-  address: 1133 14th Street NW
-  phone: ''
-  email: 2F05@anc.dc.gov
-  chair: false
-  first_name: Ron
-  last_name: Rubin
-  suffix: ''
-  zip: '20005'
-2F06:
-  smd: 2F06
-  address: '910 M Street NW #230'
-  phone: ''
-  email: 2F06@anc.dc.gov
-  chair: false
-  first_name: Ian D.
-  last_name: Simon
-  suffix: ''
-  zip: '20001'
-2F07:
-  smd: 2F07
-  address: 1242 10th Street NW
-  phone: ''
-  email: 2F07@anc.dc.gov
-  chair: false
-  first_name: Kevin J.
-  last_name: Sylvester
-  suffix: ''
-  zip: '20001'
-2F08:
-  smd: 2F08
-  address: '1221 Massachusetts Ave NW #609'
-  phone: 202-213-5646
-  email: 2F08@anc.dc.gov
-  chair: false
-  first_name: Janice
-  last_name: Ferebee
-  suffix: ''
-  zip: '20005'
-3B01:
-  smd: 3B01
-  address: 2819 39th Street NW
-  phone: 202-333-6260
-  email: 3B01@anc.dc.gov
-  chair: false
-  first_name: Ann Lane
-  last_name: Mladinov
-  suffix: ''
-  zip: '20007'
-3B02:
-  smd: 3B02
-  address: '3515 W Place, NW'
-  phone: ''
-  email: 3B02@anc.dc.gov
-  chair: false
-  first_name: Jackie
-  last_name: Blumenthal
-  suffix: ''
-  zip: '20007'
-3B03:
-  smd: 3B03
-  address: '4114 Davis Place, NW,'
-  phone: ''
-  email: 3B03@anc.dc.gov
-  chair: false
-  first_name: Melissa
-  last_name: Lane
-  suffix: ''
-  zip: '20007'
-3B04:
-  smd: 3B04
-  address: '3040 Idaho Avenue, NW #722'
-  phone: 202-895-0268
-  email: 3B04@anc.dc.gov
-  chair: false
-  first_name: Mary C.
-  last_name: Young
-  suffix: ''
-  zip: '20016'
-3B05:
-  smd: 3B05
-  address: '3818 Beecher Street, NW'
-  phone: 703-459-0238
-  email: 3B05@anc.dc.gov
-  chair: true
-  first_name: Brian G.
-  last_name: Turmail
-  suffix: ''
-  zip: '20007'
-3C01:
-  smd: 3C01
-  address: '2829 Connecticut Avenue, NW'
-  phone: ''
-  email: 3C01@anc.dc.gov
-  chair: false
-  first_name: Lee Brian
-  last_name: Reba
-  suffix: ''
-  zip: '20008'
-3C02:
-  smd: 3C02
-  address: 2701 Calvert St NW
-  phone: ''
-  email: 3C02@anc.dc.gov
-  chair: false
-  first_name: Jason
-  last_name: Fink
-  suffix: ''
-  zip: '20008'
-3C03:
-  smd: 3C03
-  address: 3000 Connecticut Ave NW Apt 407
-  phone: ''
-  email: 3C03@anc.dc.gov
-  chair: false
-  first_name: Jimmy
-  last_name: Dubois
-  suffix: ''
-  zip: '20008'
-3C04:
-  smd: 3C04
-  address: '2801 Quebec Street NW #632'
-  phone: ''
-  email: 3C04@anc.dc.gov
-  chair: false
-  first_name: Robert"Beau"
-  last_name: Finley
-  suffix: ''
-  zip: '20036'
-3C05:
-  smd: 3C05
-  address: 3601 Conneticut Avenue NW
-  phone: ''
-  email: 3C05@anc.dc.gov
-  chair: false
-  first_name: Emma
-  last_name: Hersh
-  suffix: ''
-  zip: '20008'
-3C06:
-  smd: 3C06
-  address: 3700 39th Street NW
-  phone: ''
-  email: 3C06@anc.dc.gov
-  chair: false
-  first_name: Angela
-  last_name: Bradbery
-  suffix: ''
-  zip: '20016'
-3C07:
-  smd: 3C07
-  address: "3839 \_Massachusetts Ave NW"
-  phone: ''
-  email: 3C07@anc.dc.gov
-  chair: false
-  first_name: Maureen Kinlan
-  last_name: Boucher
-  suffix: ''
-  zip: '20016'
-3C08:
-  smd: 3C08
-  address: 3526 Edmunds St NW
-  phone: ''
-  email: 3C08@anc.dc.gov
-  chair: false
-  first_name: Victoria
-  last_name: Gersten
-  suffix: ''
-  zip: '20007'
-3C09:
-  smd: 3C09
-  address: '3417 Woodley Road, NW'
-  phone: ''
-  email: 3C09@anc.dc.gov
-  chair: true
-  first_name: Nancy J.
-  last_name: MacWood
-  suffix: ''
-  zip: '20016'
-3D01:
-  smd: 3D01
-  address: 4505 Lowell Street NW
-  phone: ''
-  email: 3D01@anc.dc.gov
-  chair: true
-  first_name: Chuck
-  last_name: Elkins
-  suffix: ''
-  zip: '20016'
-3D02:
-  smd: 3D02
-  address: 4817 Rodman Street NW
-  phone: ''
-  email: 3D02@anc.dc.gov
-  chair: false
-  first_name: Troy
-  last_name: Kravitz
-  suffix: ''
-  zip: '20016'
-3D03:
-  smd: 3D03
-  address: '4050 52nd Terrace, NW'
-  phone: 240-903-4004
-  email: 3D03@anc.dc.gov
-  chair: false
-  first_name: Paige
-  last_name: Ela
-  suffix: ''
-  zip: '20016'
-3D04:
-  smd: 3D04
-  address: 5332 Sherier Place NW
-  phone: ''
-  email: 3D04@anc.dc.gov
-  chair: false
-  first_name: Michael
-  last_name: Sriqui
-  suffix: ''
-  zip: '20016'
-3D05:
-  smd: 3D05
-  address: 5206 Sherier Place NW
-  phone: ''
-  email: 3D05@anc.dc.gov
-  chair: false
-  first_name: Alan
-  last_name: Karnofsky
-  suffix: ''
-  zip: '20016'
-3D06:
-  smd: 3D06
-  address: '2230 47th Street, NW'
-  phone: ''
-  email: 3D06@anc.dc.gov
-  chair: false
-  first_name: Virginia
-  last_name: Gorsevski
-  suffix: ''
-  zip: '20007'
-3D07:
-  smd: 3D07
-  address: 4400 Massachusetts Ave. NW
-  phone: ''
-  email: 3D07@anc.dc.gov
-  chair: false
-  first_name: Taylor
-  last_name: Berlin
-  suffix: ''
-  zip: '20016'
-3D08:
-  smd: 3D08
-  address: '3101 New Mexico Avenue NW #243'
-  phone: ''
-  email: 3D08@anc.dc.gov
-  chair: false
-  first_name: Christine
-  last_name: Warnke
-  suffix: ''
-  zip: '20016'
-3D09:
-  smd: 3D09
-  address: 1543 44th St NW
-  phone: 202-607-5500
-  email: 3D09@anc.dc.gov
-  chair: false
-  first_name: J.P.
-  last_name: Szymkowicz
-  suffix: ''
-  zip: '20007'
-3D10:
-  smd: 3D10
-  address: ''
-  phone: ''
-  email: 3D10@anc.dc.gov
-  chair: false
-  last_name: Vacant
-  first_name: ''
-  suffix: ''
-  zip: '20016'
-'3E01':
-  smd: '3E01'
-  address: 4515 Yuma Street NW
-  phone: ''
-  email: 3E01@anc.dc.gov
-  chair: false
-  first_name: Greg
-  last_name: Ehrhardt
-  suffix: ''
-  zip: '20016'
-'3E02':
-  smd: '3E02'
-  address: 4606 Fessenden Street NW
-  phone: ''
-  email: 3E02@anc.dc.gov
-  chair: false
-  first_name: Amy B.
-  last_name: Hall
-  suffix: ''
-  zip: '20016'
-'3E03':
-  smd: '3E03'
-  address: 4411 Fessenden Street NW
-  phone: 202-552-1420
-  email: 3E03@anc.dc.gov
-  chair: true
-  first_name: Jonathan
-  last_name: Bender
-  suffix: ''
-  zip: '20016'
-'3E04':
-  smd: '3E04'
-  address: 5322 41st Street NW
-  phone: 202-497-5097
-  email: 3E04@anc.dc.gov
-  chair: false
-  first_name: Tom
-  last_name: Quinn
-  suffix: ''
-  zip: '20015'
-'3E05':
-  smd: '3E05'
-  address: 4524 Van Ness Street NW
-  phone: 202-494-6232
-  email: 3E05@anc.dc.gov
-  chair: false
-  first_name: Jonathan
-  last_name: McHugh
-  suffix: ''
-  zip: '20016'
-3F01:
-  smd: 3F01
-  address: 3728 Veazey Street NW
-  phone: ''
-  email: 3F01@anc.dc.gov
-  chair: true
-  first_name: David
-  last_name: Dickinson
-  suffix: ''
-  zip: '20008'
-3F02:
-  smd: 3F02
-  address: "3001 Veazey Terrace, NW Unit\_125-126"
-  phone: ''
-  email: 3F02@anc.dc.gov
-  chair: false
-  first_name: Carolinn A
-  last_name: Kuebler
-  suffix: ''
-  zip: '20008'
-3F03:
-  smd: 3F03
-  address: 2820 Ellicott Street NW
-  phone: ''
-  email: 3F03@anc.dc.gov
-  chair: false
-  first_name: Naomi
-  last_name: Rutenberg
-  suffix: ''
-  zip: '20008'
-3F04:
-  smd: 3F04
-  address: '3115 Appleton Street, NW'
-  phone: ''
-  email: 3F04@anc.dc.gov
-  chair: false
-  first_name: Leah
-  last_name: Frelinghuysen
-  suffix: ''
-  zip: '20008'
-3F05:
-  smd: 3F05
-  address: 5131 Nebraska Avenue NW
-  phone: ''
-  email: 3F05@anc.dc.gov
-  chair: false
-  first_name: Andrea
-  last_name: Molod
-  suffix: ''
-  zip: '20015'
-3F06:
-  smd: 3F06
-  address: 3652 Alton Place NW
-  phone: ''
-  email: 3F06@anc.dc.gov
-  chair: false
-  first_name: Monika
-  last_name: Nemeth
-  suffix: ''
-  zip: '20008'
-3F07:
-  smd: 3F07
-  address: ''
-  phone: ''
-  email: 3F07@anc.dc.gov
-  chair: false
-  last_name: Vacant
-  first_name: ''
-  suffix: ''
-  zip: '20008'
-3G01:
-  smd: 3G01
-  address: 3101 Beech Street NW
-  phone: ''
-  email: 3G01@anc.dc.gov
-  chair: false
-  first_name: Abraham
-  last_name: Clayman
-  suffix: ''
-  zip: '20015'
-3G02:
-  smd: 3G02
-  address: 5649 Moreland Street NW
-  phone: ''
-  email: 3G02@anc.dc.gov
-  chair: false
-  first_name: Chanda Tuck
-  last_name: Garfield
-  suffix: ''
-  zip: '20015'
-3G03:
-  smd: 3G03
-  address: '2940 Northampton Street, NW'
-  phone: ''
-  email: 3G03@anc.dc.gov
-  chair: true
-  first_name: Randy
-  last_name: Speck
-  suffix: ''
-  zip: '20015'
-3G04:
-  smd: 3G04
-  address: PO Box 6252
-  phone: ''
-  email: 3G04@anc.dc.gov
-  chair: false
-  first_name: Rebecca
-  last_name: Maydak
-  suffix: ''
-  zip: '20015'
-3G05:
-  smd: 3G05
-  address: 5441 Chevy Chase Pwy NW
-  phone: ''
-  email: 3G05@anc.dc.gov
-  chair: false
-  first_name: Jerry
-  last_name: Malitz
-  suffix: ''
-  zip: '20015'
-3G06:
-  smd: 3G06
-  address: 5509 39th Street NW
-  phone: ''
-  email: 3G06@anc.dc.gov
-  chair: false
-  first_name: Dan
-  last_name: Bradfield
-  suffix: ''
-  zip: '20015'
-3G07:
-  smd: 3G07
-  address: 5312 38th Street NW
-  phone: ''
-  email: 3G07@anc.dc.gov
-  chair: false
-  first_name: Chris
-  last_name: Fromboluti
-  suffix: ''
-  zip: '20015'
-4A01:
-  smd: 4A01
-  address: 7131 16th Street NW
-  phone: ''
-  email: 4A01@anc.dc.gov
-  chair: false
-  first_name: Phyllis Caudle
-  last_name: Green
-  suffix: ''
-  zip: '20012'
-4A02:
-  smd: 4A02
-  address: 7436 Georgia Avenue NW
-  phone: ''
-  email: 4A02@anc.dc.gov
-  chair: false
-  first_name: Stacey
-  last_name: Lincoln
-  suffix: ''
-  zip: '20012'
-4A03:
-  smd: 4A03
-  address: 1315 Fern Street NW
-  phone: ''
-  email: 4A03@anc.dc.gov
-  chair: false
-  first_name: Stephen A.
-  last_name: Whatley
-  suffix: ''
-  zip: '20012'
-4A04:
-  smd: 4A04
-  address: 1316 Tuckerman Street NW
-  phone: ''
-  email: 4A04@anc.dc.gov
-  chair: false
-  first_name: Patience
-  last_name: Singleton
-  suffix: ''
-  zip: '20011'
-4A05:
-  smd: 4A05
-  address: ''
-  phone: ''
-  email: 4A05@anc.dc.gov
-  chair: false
-  last_name: Vacant
-  first_name: ''
-  suffix: ''
-  zip: '20011'
-4A06:
-  smd: 4A06
-  address: '1000 Rittenhouse St NW #G'
-  phone: ''
-  email: 4A06@anc.dc.gov
-  chair: false
-  first_name: Candace Tiana
-  last_name: Nelson
-  suffix: ''
-  zip: '20011'
-4A07:
-  smd: 4A07
-  address: '1637 Montague Street, NW'
-  phone: ''
-  email: 4A07@anc.dc.gov
-  chair: false
-  first_name: Marlene
-  last_name: Moss
-  suffix: ''
-  zip: '20011'
-4A08:
-  smd: 4A08
-  address: '1761 Crestwood Drive, NW'
-  phone: ''
-  email: 4A08@anc.dc.gov
-  chair: true
-  first_name: Gale B.
-  last_name: Black
-  suffix: ''
-  zip: '20011'
-4B01:
-  smd: 4B01
-  address: '343 Cedar St NW #101'
-  phone: 319-310-5716
-  email: 4B01@anc.dc.gov
-  chair: false
-  first_name: Evan
-  last_name: Yeats
-  suffix: ''
-  zip: '20012'
-4B02:
-  smd: 4B02
-  address: 715 Van Buren St NW
-  phone: 202-821-6333
-  email: 4B02@anc.dc.gov
-  chair: false
-  first_name: Erin
-  last_name: Palmer
-  suffix: ''
-  zip: '20012'
-4B03:
-  smd: 4B03
-  address: 814 Underwood Street NW
-  phone: ''
-  email: 4B03@anc.dc.gov
-  chair: false
-  first_name: Scot
-  last_name: Knickerbocker
-  suffix: ''
-  zip: '20012'
-4B04:
-  smd: 4B04
-  address: '6001 8th Street, NW'
-  phone: ''
-  email: 4B04@anc.dc.gov
-  chair: true
-  first_name: Brenda
-  last_name: Parks
-  suffix: ''
-  zip: '20011'
-4B05:
-  smd: 4B05
-  address: 422 Marietta Place NW
-  phone: ''
-  email: 4B05@anc.dc.gov
-  chair: false
-  first_name: Perry
-  last_name: Redd
-  suffix: ''
-  zip: '20011'
-4B06:
-  smd: 4B06
-  address: 5806 3rd Place NW
-  phone: 202-271-3710
-  email: 4B06@anc.dc.gov
-  chair: false
-  first_name: Tiffani Nichole
-  last_name: Johnson
-  suffix: ''
-  zip: '20011'
-4B07:
-  smd: 4B07
-  address: 220 Aspen St NW
-  phone: 202-643-8778
-  email: 4B07@anc.dc.gov
-  chair: false
-  first_name: Geoff
-  last_name: Bromaghim
-  suffix: ''
-  zip: '20011'
-4B08:
-  smd: 4B08
-  address: 5601 1st St NE
-  phone: 240-423-0826
-  email: 4B08@anc.dc.gov
-  chair: false
-  first_name: Alison
-  last_name: Brooks
-  suffix: ''
-  zip: '20011'
-4B09:
-  smd: 4B09
-  address: 527 Oglethorpe St NE
-  phone: 202-704-2427
-  email: 4B09@anc.dc.gov
-  chair: false
-  first_name: LaRoya A.
-  last_name: Huff
-  suffix: ''
-  zip: '20011'
-4C01:
-  smd: 4C01
-  address: 1216 Madison Street NW
-  phone: ''
-  email: 4C01@anc.dc.gov
-  chair: false
-  first_name: Charlotte
-  last_name: Nugent
-  suffix: ''
-  zip: '20011'
-4C02:
-  smd: 4C02
-  address: 1409 Ingraham Street NW
-  phone: ''
-  email: 4C02@anc.dc.gov
-  chair: false
-  first_name: Maria
-  last_name: Barry
-  suffix: ''
-  zip: '20011'
-4C03:
-  smd: 4C03
-  address: 1427 Upshur Street NW
-  phone: ''
-  email: 4C03@anc.dc.gov
-  chair: false
-  first_name: Ulysses E.
-  last_name: Campbell
-  suffix: ''
-  zip: '20011'
-4C04:
-  smd: 4C04
-  address: '3900 14th Street, NW'
-  phone: ''
-  email: 4C04@anc.dc.gov
-  chair: false
-  first_name: Nora
-  last_name: Simon
-  suffix: ''
-  zip: '20011'
-4C05:
-  smd: 4C05
-  address: 1350 Quincy St NW
-  phone: ''
-  email: 4C05@anc.dc.gov
-  chair: false
-  first_name: Debbie
-  last_name: Matties
-  suffix: ''
-  zip: '20011'
-4C06:
-  smd: 4C06
-  address: 3803 13th St NW
-  phone: ''
-  email: 4C06@anc.dc.gov
-  chair: true
-  first_name: Bennett
-  last_name: Hilley
-  suffix: ''
-  zip: '20011'
-4C07:
-  smd: 4C07
-  address: 822 Allison St NW
-  phone: ''
-  email: 4C07@anc.dc.gov
-  chair: false
-  first_name: Kim
-  last_name: Varzi
-  suffix: ''
-  zip: '20011'
-4C08:
-  smd: 4C08
-  address: 614 Randolph Street NW
-  phone: 202-491-7077
-  email: 4C08@anc.dc.gov
-  chair: false
-  first_name: Leah
-  last_name: Anderson
-  suffix: ''
-  zip: '20010'
-4C09:
-  smd: 4C09
-  address: ''
-  phone: ''
-  email: 4C09@anc.dc.gov
-  chair: false
-  first_name: Tearsa
-  last_name: Coates
-  suffix: ''
-  zip: '20011'
-4C10:
-  smd: 4C10
-  address: 4217 4th Street NW
-  phone: ''
-  email: 4C10@anc.dc.gov
-  chair: false
-  first_name: Jonah
-  last_name: Goodman
-  suffix: ''
-  zip: '20011'
-4D01:
-  smd: 4D01
-  address: 5419 8th St NW
-  phone: 202-210-4055
-  email: 4D01@anc.dc.gov
-  chair: false
-  first_name: Peter
-  last_name: Tabor
-  suffix: ''
-  zip: '20011'
-4D02:
-  smd: 4D02
-  address: '5322 2nd Street, NW'
-  phone: ''
-  email: 4D02@anc.dc.gov
-  chair: true
-  first_name: Renée L.
-  last_name: Bowser
-  suffix: ''
-  zip: '20011'
-4D03:
-  smd: 4D03
-  address: 4929 Kansas Ave NW
-  phone: ''
-  email: 4D03@anc.dc.gov
-  chair: false
-  first_name: Aaron
-  last_name: Polkey
-  suffix: ''
-  zip: '20001'
-4D04:
-  smd: 4D04
-  address: 729 Gallatin Street NW
-  phone: ''
-  email: 4D04@anc.dc.gov
-  chair: false
-  first_name: Jamie
-  last_name: Barden
-  suffix: ''
-  zip: '20011'
-4D05:
-  smd: 4D05
-  address: 250 Farragut St NW
-  phone: ''
-  email: 4D05@anc.dc.gov
-  chair: false
-  first_name: Krystal
-  last_name: Branton
-  suffix: ''
-  zip: '20039'
-4D06:
-  smd: 4D06
-  address: 4716 8th St NW
-  phone: 202-656-8295
-  email: 4D06@anc.dc.gov
-  chair: false
-  first_name: Jonathan
-  last_name: Nobil
-  suffix: ''
-  zip: '20011'
-5A01:
-  smd: 5A01
-  address: '5016 Eastern Avenue, NE'
-  phone: ''
-  email: 5A01@anc.dc.gov
-  chair: false
-  first_name: Frank
-  last_name: Wilds
-  suffix: ''
-  zip: '20017'
-5A02:
-  smd: 5A02
-  address: '4945 Sargent Road, NE'
-  phone: ''
-  email: 5A02@anc.dc.gov
-  chair: false
-  first_name: Grace J.
-  last_name: Lewis
-  suffix: ''
-  zip: '20017'
-5A03:
-  smd: 5A03
-  address: 845 Crittenden St NE
-  phone: ''
-  email: 5A03@anc.dc.gov
-  chair: false
-  first_name: Emily Singer
-  last_name: Lucio
-  suffix: ''
-  zip: '20017'
-5A04:
-  smd: 5A04
-  address: '620 Michigan Ave., NE'
-  phone: ''
-  email: 5A04@anc.dc.gov
-  chair: false
-  first_name: Isaiah
-  last_name: Burroughs
-  suffix: ''
-  zip: '20064'
-5A05:
-  smd: 5A05
-  address: '122 Michigan Avenue, NE # L24'
-  phone: ''
-  email: 5A05@anc.dc.gov
-  chair: true
-  first_name: Ronnie
-  last_name: Edwards
-  suffix: ''
-  zip: '20017'
-5A06:
-  smd: 5A06
-  address: 90 Webster Street NE
-  phone: ''
-  email: 5A06@anc.dc.gov
-  chair: false
-  first_name: A. Jamaal
-  last_name: Lampkin
-  suffix: ''
-  zip: '20011'
-5A07:
-  smd: 5A07
-  address: '32 Buchanan Street, NE'
-  phone: ''
-  email: 5A07@anc.dc.gov
-  chair: false
-  first_name: Sandi
-  last_name: Washington
-  suffix: ''
-  zip: '20011'
-5A08:
-  smd: 5A08
-  address: 350 Galloway Street NE Apt 301
-  phone: ''
-  email: 5A08@anc.dc.gov
-  chair: false
-  first_name: Gordon-Andrew
-  last_name: Fletcher
-  suffix: ''
-  zip: '20011'
-5B01:
-  smd: 5B01
-  address: '4031 South Dakota Avenue, NE'
-  phone: ''
-  email: 5B01@anc.dc.gov
-  chair: false
-  first_name: Gayle
-  last_name: Hall-Carley
-  suffix: ''
-  zip: '20018'
-5B02:
-  smd: 5B02
-  address: '1902 Newton Street, NE'
-  phone: ''
-  email: 5B02@anc.dc.gov
-  chair: true
-  first_name: Ursula
-  last_name: Higgins
-  suffix: ''
-  zip: '20018'
-5B03:
-  smd: 5B03
-  address: 1330 Hamlin Street NE
-  phone: ''
-  email: 5B03@anc.dc.gov
-  chair: false
-  first_name: Henri
-  last_name: Makembe
-  suffix: ''
-  zip: '20017'
-5B04:
-  smd: 5B04
-  address: 1007 Hamlin St NE
-  phone: ''
-  email: 5B04@anc.dc.gov
-  chair: false
-  first_name: Ra
-  last_name: Amin
-  suffix: ''
-  zip: '20017'
-5B05:
-  smd: 5B05
-  address: '3742 12th St NE #2'
-  phone: ''
-  email: 5B05@anc.dc.gov
-  chair: false
-  first_name: Landon
-  last_name: Jones
-  suffix: ''
-  zip: '20017'
-5C01:
-  smd: 5C01
-  address: '2848 Myrtle Avenue, NE'
-  phone: ''
-  email: 5C01@anc.dc.gov
-  chair: false
-  first_name: Gail
-  last_name: Brevard
-  suffix: ''
-  zip: '20018'
-5C02:
-  smd: 5C02
-  address: 2647 Myrtle Ave NE
-  phone: 202-860-2088
-  email: 5C02@anc.dc.gov
-  chair: false
-  first_name: Lauren
-  last_name: Rogers
-  suffix: ''
-  zip: '20018'
-5C03:
-  smd: 5C03
-  address: '3823 Comm J. Barney Dr., NE'
-  phone: ''
-  email: 5C03@anc.dc.gov
-  chair: false
-  first_name: Robert
-  last_name: Looper
-  suffix: III
-  zip: '20018'
-5C04:
-  smd: 5C04
-  address: 2116 R St NE
-  phone: ''
-  email: 5C04@anc.dc.gov
-  chair: true
-  first_name: Jacqueline
-  last_name: Manning
-  suffix: ''
-  zip: '20002'
-5C05:
-  smd: 5C05
-  address: 1363 Downing St NE
-  phone: 202-374-4264
-  email: 5C05@anc.dc.gov
-  chair: false
-  first_name: Darlene
-  last_name: Oliver
-  suffix: ''
-  zip: '20018'
-5C06:
-  smd: 5C06
-  address: 2531 14th St NE
-  phone: 202-894-0847
-  email: 5C06@anc.dc.gov
-  chair: false
-  first_name: Kirsten
-  last_name: Williams
-  suffix: ''
-  zip: '20018'
-5C07:
-  smd: 5C07
-  address: 2914 25th St NE
-  phone: 202-670-8543
-  email: 5C07@anc.dc.gov
-  chair: false
-  first_name: Jeremiah
-  last_name: Montague
-  suffix: Jr
-  zip: '20018'
-5D01:
-  smd: 5D01
-  address: '1868 Corcoran Street, NE'
-  phone: ''
-  email: 5D01@anc.dc.gov
-  chair: false
-  first_name: Ryan
-  last_name: Linehan
-  suffix: ''
-  zip: '20002'
-5D02:
-  smd: 5D02
-  address: '1239 16th Street, NE'
-  phone: ''
-  email: 5D02@anc.dc.gov
-  chair: false
-  first_name: Keisha L.
-  last_name: Shropshire
-  suffix: ''
-  zip: '20002'
-5D03:
-  smd: 5D03
-  address: '1100 21st St NE #104'
-  phone: ''
-  email: 5D03@anc.dc.gov
-  chair: false
-  first_name: Steven C.
-  last_name: Motley
-  suffix: Sr
-  zip: '20002'
-5D04:
-  smd: 5D04
-  address: "2114 I Street, NE \_#3"
-  phone: ''
-  email: 5D04@anc.dc.gov
-  chair: false
-  first_name: Bernice S
-  last_name: Blacknell
-  suffix: ''
-  zip: '20002'
-5D05:
-  smd: 5D05
-  address: 813 20th St NE
-  phone: ''
-  email: 5D05@anc.dc.gov
-  chair: false
-  first_name: Sydelle
-  last_name: Moore
-  suffix: ''
-  zip: '20002'
-5D06:
-  smd: 5D06
-  address: 1147 Oates St NE
-  phone: ''
-  email: 5D06@anc.dc.gov
-  chair: false
-  first_name: Jason E.
-  last_name: Burkett
-  suffix: ''
-  zip: '20002'
-5D07:
-  smd: 5D07
-  address: '1519 Trinidad Avenue, NE'
-  phone: ''
-  email: 5D07@anc.dc.gov
-  chair: true
-  first_name: Clarence
-  last_name: Lee
-  suffix: ''
-  zip: '20002'
-'5E01':
-  smd: '5E01'
-  address: 608 Regent Place NE
-  phone: 202-656-1324
-  email: 5E01@anc.dc.gov
-  chair: false
-  first_name: Nick
-  last_name: Cheolas
-  suffix: ''
-  zip: '20017'
-'5E02':
-  smd: '5E02'
-  address: 401 Edgewood Street NE
-  phone: ''
-  email: 5E02@anc.dc.gov
-  chair: false
-  first_name: Patricia
-  last_name: Williams
-  suffix: ''
-  zip: '20017'
-'5E03':
-  smd: '5E03'
-  address: 2027 3rd St NE
-  phone: ''
-  email: 5E03@anc.dc.gov
-  chair: false
-  first_name: Cortney
-  last_name: Segmen
-  suffix: ''
-  zip: '20002'
-'5E04':
-  smd: '5E04'
-  address: "34 R Street \_NE"
-  phone: ''
-  email: 5E04@anc.dc.gov
-  chair: false
-  first_name: Sylvia M.
-  last_name: Pinkney
-  suffix: ''
-  zip: '20002'
-'5E05':
-  smd: '5E05'
-  address: 107 P Street NW
-  phone: ''
-  email: 5E05@anc.dc.gov
-  chair: true
-  first_name: Bradley Ashton
-  last_name: Thomas
-  suffix: ''
-  zip: '20001'
-'5E06':
-  smd: '5E06'
-  address: 86 R St NW Apt A
-  phone: 410-705-4070
-  email: 5E06@anc.dc.gov
-  chair: false
-  first_name: Karla M.
-  last_name: Lewis
-  suffix: ''
-  zip: '20001'
-'5E07':
-  smd: '5E07'
-  address: 49 T Street NW
-  phone: ''
-  email: 5E07@anc.dc.gov
-  chair: false
-  first_name: Bertha G.
-  last_name: Holliday
-  suffix: ''
-  zip: '20001'
-'5E08':
-  smd: '5E08'
-  address: 158 Adams St NW
-  phone: 202-821-5346
-  email: 5E08@anc.dc.gov
-  chair: false
-  first_name: Robert Vinson
-  last_name: Brannum
-  suffix: ''
-  zip: '20001'
-'5E09':
-  smd: '5E09'
-  address: 41 Adams Street NW
-  phone: ''
-  email: 5E09@anc.dc.gov
-  chair: false
-  first_name: Dianne
-  last_name: Barnes
-  suffix: ''
-  zip: '20001'
-'5E10':
-  smd: '5E10'
-  address: 200 Bryant Street NE
-  phone: 202-594-7850
-  email: 5E10@anc.dc.gov
-  chair: false
-  first_name: Nancy Darlene
-  last_name: Jones
-  suffix: ''
-  zip: '20002'
-6A01:
-  smd: 6A01
-  address: 704 10th Street NE
-  phone: ''
-  email: 6A01@anc.dc.gov
-  chair: false
-  first_name: Marie-Claire
-  last_name: Brown
-  suffix: ''
-  zip: '20002'
-6A02:
-  smd: 6A02
-  address: '631 10th Street, NE'
-  phone: ''
-  email: 6A02@anc.dc.gov
-  chair: false
-  first_name: Phil
-  last_name: Toomajian
-  suffix: ''
-  zip: '20002'
-6A03:
-  smd: 6A03
-  address: '217 10th Street, NE'
-  phone: ''
-  email: 6A03@anc.dc.gov
-  chair: false
-  first_name: Mike
-  last_name: Soderman
-  suffix: ''
-  zip: '20002'
-6A04:
-  smd: 6A04
-  address: 1216 Constitution Ave. NE
-  phone: ''
-  email: 6A04@anc.dc.gov
-  chair: true
-  first_name: Amber
-  last_name: Gove
-  suffix: ''
-  zip: '20002'
-6A05:
-  smd: 6A05
-  address: 1315 Corbin Place NE
-  phone: 202-780-0745
-  email: 6A05@anc.dc.gov
-  chair: false
-  first_name: Ruth Ann
-  last_name: Hudson
-  suffix: ''
-  zip: '20002'
-6A06:
-  smd: 6A06
-  address: '1368 Emerald Street, NE'
-  phone: ''
-  email: 6A06@anc.dc.gov
-  chair: false
-  first_name: Stephanie
-  last_name: Zimny
-  suffix: ''
-  zip: '20002'
-6A07:
-  smd: 6A07
-  address: '1744 E Street, NE'
-  phone: ''
-  email: 6A07@anc.dc.gov
-  chair: false
-  first_name: Sondra
-  last_name: Phillips-Gilbert
-  suffix: ''
-  zip: '20002'
-6A08:
-  smd: 6A08
-  address: 31 15th St NE
-  phone: ''
-  email: 6A08@anc.dc.gov
-  chair: false
-  first_name: Brian
-  last_name: Alcorn
-  suffix: ''
-  zip: '20002'
-6B01:
-  smd: 6B01
-  address: 407 2nd Street SE
-  phone: ''
-  email: 6B01@anc.dc.gov
-  chair: false
-  first_name: Jennifer E.
-  last_name: Samolyk
-  suffix: ''
-  zip: '20003'
-6B02:
-  smd: 6B02
-  address: 129 6th Street SE
-  phone: ''
-  email: 6B02@anc.dc.gov
-  chair: false
-  first_name: Gerald
-  last_name: Sroufe
-  suffix: ''
-  zip: '20003'
-6B03:
-  smd: 6B03
-  address: 622 1/2 I St SE
-  phone: ''
-  email: 6B03@anc.dc.gov
-  chair: false
-  first_name: Brian
-  last_name: Ready
-  suffix: ''
-  zip: '20003'
-6B04:
-  smd: 6B04
-  address: '423 12th Street, SE'
-  phone: ''
-  email: 6B04@anc.dc.gov
-  chair: false
-  first_name: Kirsten
-  last_name: Oldenburg
-  suffix: ''
-  zip: '20003'
-6B05:
-  smd: 6B05
-  address: 824 D St SE
-  phone: ''
-  email: 6B05@anc.dc.gov
-  chair: false
-  first_name: Steve
-  last_name: Holtzman
-  suffix: ''
-  zip: '20003'
-6B06:
-  smd: 6B06
-  address: 926 14th St SE
-  phone: ''
-  email: 6B06@anc.dc.gov
-  chair: false
-  first_name: Corey
-  last_name: Holman
-  suffix: ''
-  zip: '20003'
-6B07:
-  smd: 6B07
-  address: 1330 L St SE
-  phone: ''
-  email: 6B07@anc.dc.gov
-  chair: false
-  first_name: Kelly
-  last_name: Waud
-  suffix: ''
-  zip: '20003'
-6B08:
-  smd: 6B08
-  address: '1436 Independence Avenue, SE'
-  phone: ''
-  email: 6B08@anc.dc.gov
-  chair: true
-  first_name: Chander
-  last_name: Jayaraman
-  suffix: ''
-  zip: '20003'
-6B09:
-  smd: 6B09
-  address: 320 17th St SE
-  phone: ''
-  email: 6B09@anc.dc.gov
-  chair: false
-  first_name: Kasie
-  last_name: Clark
-  suffix: ''
-  zip: '20003'
-6B10:
-  smd: 6B10
-  address: '1837 A Street, SE'
-  phone: ''
-  email: 6B10@anc.dc.gov
-  chair: false
-  first_name: Kathryn Denise Rucker
-  last_name: Krepp
-  suffix: ''
-  zip: '20003'
-6C01:
-  smd: 6C01
-  address: 10 4th Street NE
-  phone: ''
-  email: 6C01@anc.dc.gov
-  chair: false
-  first_name: Christine
-  last_name: Healey
-  suffix: ''
-  zip: '20002'
-6C02:
-  smd: 6C02
-  address: '234 E Street, NE'
-  phone: ''
-  email: 6C02@anc.dc.gov
-  chair: true
-  first_name: Karen
-  last_name: Wirt
-  suffix: ''
-  zip: '20002'
-6C03:
-  smd: 6C03
-  address: 315 7th St NE
-  phone: 202-441-0778
-  email: 6C03@anc.dc.gov
-  chair: false
-  first_name: Jay
-  last_name: Adelstein
-  suffix: ''
-  zip: '20002'
-6C04:
-  smd: 6C04
-  address: '312 E Street, NE'
-  phone: ''
-  email: 6C04@anc.dc.gov
-  chair: false
-  first_name: Mark
-  last_name: Eckenwiler
-  suffix: ''
-  zip: '20002'
-6C05:
-  smd: 6C05
-  address: 608 6th St NE
-  phone: ''
-  email: 6C05@anc.dc.gov
-  chair: false
-  first_name: Joel
-  last_name: Kelty
-  suffix: ''
-  zip: '20002'
-6C06:
-  smd: 6C06
-  address: '1160 1st St NE #718'
-  phone: 585-666-7364
-  email: 6C06@anc.dc.gov
-  chair: false
-  first_name: Robb
-  last_name: Dooling
-  suffix: ''
-  zip: '20002'
-6D01:
-  smd: 6D01
-  address: "700 7th Street SW\_Apt. 725"
-  phone: ''
-  email: 6D01@anc.dc.gov
-  chair: true
-  first_name: Gail
-  last_name: Fast
-  suffix: ''
-  zip: '20024'
-6D02:
-  smd: 6D02
-  address: 28 K Street SE
-  phone: ''
-  email: 6D02@anc.dc.gov
-  chair: false
-  first_name: Anna
-  last_name: Forgie
-  suffix: ''
-  zip: '20003'
-6D03:
-  smd: 6D03
-  address: '301 G Street SW #609'
-  phone: ''
-  email: 6D03@anc.dc.gov
-  chair: false
-  first_name: Ronald R.
-  last_name: Collins
-  suffix: ''
-  zip: '20024'
-6D04:
-  smd: 6D04
-  address: '423 N Street, SW'
-  phone: ''
-  email: 6D04@anc.dc.gov
-  chair: false
-  first_name: Andy
-  last_name: Litsky
-  suffix: ''
-  zip: '20024'
-6D05:
-  smd: 6D05
-  address: '301 M St SW #820'
-  phone: 718-213-6770
-  email: 6D05@anc.dc.gov
-  chair: false
-  first_name: Anthony
-  last_name: Dale
-  suffix: ''
-  zip: '20024'
-6D06:
-  smd: 6D06
-  address: '44 O Street, SW'
-  phone: ''
-  email: 6D06@anc.dc.gov
-  chair: false
-  first_name: Rhonda N.
-  last_name: Hamilton
-  suffix: ''
-  zip: '20024'
-6D07:
-  smd: 6D07
-  address: "301 Tingey St SE\_ #433"
-  phone: 202-930-3720
-  email: 6D07@anc.dc.gov
-  chair: false
-  first_name: Edward
-  last_name: Daniels
-  suffix: ''
-  zip: '20003'
-'6E01':
-  smd: '6E01'
-  address: '1519 8th Street, NW'
-  phone: ''
-  email: 6E01@anc.dc.gov
-  chair: false
-  first_name: Alexander M. "Alex"
-  last_name: Padro
-  suffix: ''
-  zip: '20001'
-'6E02':
-  smd: '6E02'
-  address: '1702 5th Street., NW'
-  phone: ''
-  email: 6E02@anc.dc.gov
-  chair: false
-  first_name: Michael J.
-  last_name: Brown
-  suffix: ''
-  zip: '20001'
-'6E03':
-  smd: '6E03'
-  address: '1340 5th Street, NW'
-  phone: ''
-  email: 6E03@anc.dc.gov
-  chair: false
-  first_name: Frank S.
-  last_name: Wiggins
-  suffix: ''
-  zip: '20001'
-'6E04':
-  smd: '6E04'
-  address: ''
-  phone: ''
-  email: 6E04@anc.dc.gov
-  chair: false
-  last_name: Vacant
-  first_name: ''
-  suffix: ''
-  zip: '20001'
-'6E05':
-  smd: '6E05'
-  address: 460 L Street NW
-  phone: ''
-  email: 6E05@anc.dc.gov
-  chair: true
-  first_name: Alex
-  last_name: Marriott
-  suffix: ''
-  zip: '20001'
-'6E06':
-  smd: '6E06'
-  address: 40 New York Avenue NW
-  phone: ''
-  email: 6E06@anc.dc.gov
-  chair: false
-  first_name: Alvin
-  last_name: Judd
-  suffix: Sr
-  zip: '20001'
-'6E07':
-  smd: '6E07'
-  address: 43 K Street NW
-  phone: ''
-  email: 6E07@anc.dc.gov
-  chair: false
-  first_name: Kevin M.
-  last_name: Rogers
-  suffix: ''
-  zip: '20001'
-7B01:
-  smd: 7B01
-  address: 3200 S Street SE
-  phone: ''
-  email: 7B01@anc.dc.gov
-  chair: false
-  first_name: Patricia
-  last_name: Howard-Chittams
-  suffix: ''
-  zip: '20019'
-7B02:
-  smd: 7B02
-  address: '2918 Akron Place, SE'
-  phone: ''
-  email: 7B02@anc.dc.gov
-  chair: false
-  first_name: Tiffany L.
-  last_name: Brown
-  suffix: ''
-  zip: '20020'
-7B03:
-  smd: 7B03
-  address: 2402 L'Enfant Square SE
-  phone: ''
-  email: 7B03@anc.dc.gov
-  chair: false
-  first_name: Benjamin
-  last_name: Crane
-  suffix: ''
-  zip: '20020'
-7B04:
-  smd: 7B04
-  address: 3525 Highwood Drive SE
-  phone: ''
-  email: 7B04@anc.dc.gov
-  chair: false
-  first_name: Nicole
-  last_name: Smith-McDermott
-  suffix: ''
-  zip: '20020'
-7B05:
-  smd: 7B05
-  address: '3200 S Street, SE'
-  phone: ''
-  email: 7B05@anc.dc.gov
-  chair: false
-  first_name: Villareal "VJ"
-  last_name: Johnson
-  suffix: II
-  zip: '20020'
-7B06:
-  smd: 7B06
-  address: 3636 Bangor St SE
-  phone: ''
-  email: 7B06@anc.dc.gov
-  chair: false
-  first_name: April
-  last_name: Pradier
-  suffix: ''
-  zip: '20020'
-7B07:
-  smd: 7B07
-  address: '3452 N Street, SE'
-  phone: ''
-  email: 7B07@anc.dc.gov
-  chair: true
-  first_name: D. L.
-  last_name: Humphrey
-  suffix: ''
-  zip: '20019'
-7C01:
-  smd: 7C01
-  address: '501 50th Place, NE'
-  phone: ''
-  email: 7C01@anc.dc.gov
-  chair: false
-  first_name: Patricia A.
-  last_name: Malloy
-  suffix: ''
-  zip: '20019'
-7C02:
-  smd: 7C02
-  address: 5314 East Capitol St NE
-  phone: 301-520-7717
-  email: 7C02@anc.dc.gov
-  chair: false
-  first_name: Lawrence
-  last_name: Davin
-  suffix: ''
-  zip: '20019'
-7C03:
-  smd: 7C03
-  address: '4904 Fitch Place, NE'
-  phone: ''
-  email: 7C03@anc.dc.gov
-  chair: false
-  first_name: Catherine A.
-  last_name: Woods
-  suffix: ''
-  zip: '20019'
-7C04:
-  smd: 7C04
-  address: 920 49th Street NE
-  phone: ''
-  email: 7C04@anc.dc.gov
-  chair: false
-  first_name: Anthony Lorenzo
-  last_name: Green
-  suffix: ''
-  zip: '20019'
-7C05:
-  smd: 7C05
-  address: '328 62nd Street, NE'
-  phone: ''
-  email: 7C05@anc.dc.gov
-  chair: false
-  first_name: Mary L.
-  last_name: Gaffney
-  suffix: ''
-  zip: '20019'
-7C06:
-  smd: 7C06
-  address: '5318 Jay Street, NE'
-  phone: 202-536-6283
-  email: 7C06@anc.dc.gov
-  chair: false
-  first_name: Arnold
-  last_name: Smith
-  suffix: ''
-  zip: '20019'
-7C07:
-  smd: 7C07
-  address: '4805 Meade Street, NE'
-  phone: ''
-  email: 7C07@anc.dc.gov
-  chair: true
-  first_name: Antawan
-  last_name: Holmes
-  suffix: ''
-  zip: '20019'
-7D01:
-  smd: 7D01
-  address: 554 24th St NE
-  phone: 202-399-1238
-  email: 7D01@anc.dc.gov
-  chair: false
-  first_name: Tamara
-  last_name: Blair
-  suffix: ''
-  zip: '20019'
-7D02:
-  smd: 7D02
-  address: '1104 42nd Street, NE'
-  phone: ''
-  email: 7D02@anc.dc.gov
-  chair: false
-  first_name: Siraaj M.
-  last_name: Hasan
-  suffix: ''
-  zip: '2001'
-7D03:
-  smd: 7D03
-  address: '4401 Minnesota Avenue, NE'
-  phone: ''
-  email: 7D03@anc.dc.gov
-  chair: false
-  first_name: Dorothy
-  last_name: Douglas
-  suffix: ''
-  zip: '20019'
-7D04:
-  smd: 7D04
-  address: 318 34th Place NE
-  phone: ''
-  email: 7D04@anc.dc.gov
-  chair: false
-  first_name: Cinque E.
-  last_name: Culver
-  suffix: ''
-  zip: '20019'
-7D05:
-  smd: 7D05
-  address: ''
-  phone: ''
-  email: 7D05@anc.dc.gov
-  chair: false
-  first_name: Aretha
-  last_name: Jackson
-  suffix: ''
-  zip: '20019'
-7D06:
-  smd: 7D06
-  address: '4409 Jay Street, NE'
-  phone: ''
-  email: 7D06@anc.dc.gov
-  chair: true
-  first_name: Sherice A.
-  last_name: Muhammad
-  suffix: ''
-  zip: '20019'
-7D07:
-  smd: 7D07
-  address: 604 Parkside Place NE
-  phone: ''
-  email: 7D07@anc.dc.gov
-  chair: false
-  first_name: Artilie
-  last_name: Wright
-  suffix: ''
-  zip: '20019'
-'7E01':
-  smd: '7E01'
-  address: 703 Chaplin St SE
-  phone: ''
-  email: 7E01@anc.dc.gov
-  chair: false
-  first_name: Veda
-  last_name: Rasheed
-  suffix: ''
-  zip: '20019'
-'7E02':
-  smd: '7E02'
-  address: '4239 Massachusetts Avenue, SE'
-  phone: ''
-  email: 7E02@anc.dc.gov
-  chair: false
-  first_name: Linda S.
-  last_name: Green
-  suffix: ''
-  zip: '20019'
-'7E03':
-  smd: '7E03'
-  address: P.O. Box 10307
-  phone: ''
-  email: 7E03@anc.dc.gov
-  chair: false
-  first_name: Ebbon A.
-  last_name: Allen
-  suffix: ''
-  zip: '20020'
-'7E04':
-  smd: '7E04'
-  address: 4839 Bass Place SE
-  phone: ''
-  email: 7E04@anc.dc.gov
-  chair: false
-  first_name: Takiyah
-  last_name: Tate
-  suffix: ''
-  zip: '20019'
-'7E05':
-  smd: '7E05'
-  address: 4932 A St SE
-  phone: ''
-  email: 7E05@anc.dc.gov
-  chair: false
-  first_name: Victor L.
-  last_name: Horton
-  suffix: ''
-  zip: '20019'
-'7E06':
-  smd: '7E06'
-  address: 5336 Call Place SE
-  phone: 202-374-7424
-  email: 7E06@anc.dc.gov
-  chair: true
-  first_name: Delia
-  last_name: Houseal
-  suffix: ''
-  zip: '20019'
-'7E07':
-  smd: '7E07'
-  address: 11 58th St SE
-  phone: ''
-  email: 7E07@anc.dc.gov
-  chair: false
-  first_name: Yolanda
-  last_name: Fields
-  suffix: ''
-  zip: '20019'
-7F01:
-  smd: 7F01
-  address: 4020 Minnesota Avenue NE
-  phone: ''
-  email: 7F01@anc.dc.gov
-  chair: true
-  first_name: Tyrell M.
-  last_name: Holcomb
-  suffix: ''
-  zip: '20019'
-7F02:
-  smd: 7F02
-  address: 4433 C Street SE
-  phone: ''
-  email: 7F02@anc.dc.gov
-  chair: false
-  first_name: Terrance
-  last_name: Hunter
-  suffix: ''
-  zip: '20019'
-7F03:
-  smd: 7F03
-  address: '515 46th Street, SE'
-  phone: ''
-  email: 7F03@anc.dc.gov
-  chair: false
-  first_name: Sheila Carson
-  last_name: Carr
-  suffix: ''
-  zip: '20019'
-7F04:
-  smd: 7F04
-  address: 3423 Minnesota Avenue SE
-  phone: ''
-  email: 7F04@anc.dc.gov
-  chair: false
-  first_name: Charlene
-  last_name: Exum
-  suffix: ''
-  zip: '20019'
-7F05:
-  smd: 7F05
-  address: 3735 D St SE
-  phone: ''
-  email: 7F05@anc.dc.gov
-  chair: false
-  first_name: Brittany N.
-  last_name: Hughes
-  suffix: ''
-  zip: '20019'
-7F06:
-  smd: 7F06
-  address: 3444 Croffut Place SE
-  phone: ''
-  email: 7F06@anc.dc.gov
-  chair: false
-  first_name: Carol E.
-  last_name: Fletcher
-  suffix: ''
-  zip: '20019'
-7F07:
-  smd: 7F07
-  address: ''
-  phone: ''
-  email: 7F07@anc.dc.gov
-  chair: false
-  last_name: Vacant
-  first_name: ''
-  suffix: ''
-  zip: '20019'
-8A01:
-  smd: 8A01
-  address: '1936 Naylor Road SE #102'
-  phone: 202-422-4957
-  email: 8A01@anc.dc.gov
-  chair: false
-  first_name: Holly
-  last_name: Muhammad
-  suffix: ''
-  zip: '20020'
-8A02:
-  smd: 8A02
-  address: 1620 Ridge Place SE
-  phone: ''
-  email: 8A02@anc.dc.gov
-  chair: false
-  first_name: Barbara J.
-  last_name: Clark
-  suffix: ''
-  zip: '20020'
-8A03:
-  smd: 8A03
-  address: 2409 S St SE
-  phone: ''
-  email: 8A03@anc.dc.gov
-  chair: false
-  first_name: Brian K
-  last_name: Thompson
-  suffix: ''
-  zip: '20020'
-8A04:
-  smd: 8A04
-  address: 2317 16th Street SE Unit 101
-  phone: ''
-  email: 8A04@anc.dc.gov
-  chair: true
-  first_name: Troy Donte
-  last_name: Prestwood
-  suffix: ''
-  zip: '20020'
-8A05:
-  smd: 8A05
-  address: '1926 15th Street, SE'
-  phone: 202-957-7010
-  email: 8A05@anc.dc.gov
-  chair: false
-  first_name: Dorcas
-  last_name: Agyei
-  suffix: ''
-  zip: '20020'
-8A06:
-  smd: 8A06
-  address: '1262 Talbert St SE #7A'
-  phone: 202-815-1616
-  email: 8A06@anc.dc.gov
-  chair: false
-  first_name: Tyón
-  last_name: Jones
-  suffix: ''
-  zip: '20020'
-8A07:
-  smd: 8A07
-  address: 1491 Howard Road SE
-  phone: 202-780-5504
-  email: 8A07@anc.dc.gov
-  chair: false
-  first_name: Hanna
-  last_name: Baker
-  suffix: ''
-  zip: '20020'
-8B01:
-  smd: 8B01
-  address: 2437 Wagner Street SE
-  phone: ''
-  email: 8B01@anc.dc.gov
-  chair: false
-  first_name: Leonard Lee
-  last_name: Watson
-  suffix: Jr
-  zip: '20020'
-8B02:
-  smd: 8B02
-  address: '2345 Skyland Place SE #826'
-  phone: ''
-  email: 8B02@anc.dc.gov
-  chair: false
-  first_name: Paul
-  last_name: Trantham
-  suffix: ''
-  zip: '20030'
-8B03:
-  smd: 8B03
-  address: 1808 Morris Road SE
-  phone: ''
-  email: 8B03@anc.dc.gov
-  chair: false
-  first_name: Charles H.
-  last_name: Wilson
-  suffix: ''
-  zip: '20020'
-8B04:
-  smd: 8B04
-  address: 1618 Gainesville St SE
-  phone: ''
-  email: 8B04@anc.dc.gov
-  chair: false
-  first_name: Darrell Danny
-  last_name: Gaston
-  suffix: ''
-  zip: '20020'
-8B05:
-  smd: 8B05
-  address: 2740 Knox Terrace SE
-  phone: ''
-  email: 8B05@anc.dc.gov
-  chair: false
-  first_name: Betty
-  last_name: Scippio
-  suffix: ''
-  zip: '20020'
-8B06:
-  smd: 8B06
-  address: '3416 25th St SE #13'
-  phone: 202-718-8435
-  email: 8B06@anc.dc.gov
-  chair: false
-  first_name: Humam
-  last_name: Abdulmalik
-  suffix: ''
-  zip: '20020'
-8B07:
-  smd: 8B07
-  address: 3574 Stanton Road SE
-  phone: ''
-  email: 8B07@anc.dc.gov
-  chair: true
-  first_name: Keeon
-  last_name: Bassett
-  suffix: ''
-  zip: '20020'
-8C01:
-  smd: 8C01
-  address: 'c/o RISE, 2730 Martin Luther King, Jr. Ave SE'
-  phone: 202-779-3904
-  email: 8C01@anc.dc.gov
-  chair: true
-  first_name: Mike
-  last_name: Austin
-  suffix: ''
-  zip: '20032'
-8C02:
-  smd: 8C02
-  address: ''
-  phone: ''
-  email: 8C02@anc.dc.gov
-  chair: false
-  first_name: Chyla D.
-  last_name: Evans
-  suffix: ''
-  zip: '20020'
-8C03:
-  smd: 8C03
-  address: 'c/o RISE, 2730 Martin Luther King, Jr. Ave SE'
-  phone: 202-854-9580
-  email: 8C03@anc.dc.gov
-  chair: false
-  first_name: Robinette
-  last_name: Woodland
-  suffix: ''
-  zip: '20032'
-8C04:
-  smd: 8C04
-  address: 211 Savannah St SE Apt A
-  phone: ''
-  email: 8C04@anc.dc.gov
-  chair: false
-  first_name: Regina Sharlita
-  last_name: Pixley
-  suffix: ''
-  zip: '20032'
-8C05:
-  smd: 8C05
-  address: 3825 South Capitol St SW
-  phone: 240-515-6447
-  email: 8C05@anc.dc.gov
-  chair: false
-  first_name: Mustafa
-  last_name: Abdul-Salaam
-  suffix: ''
-  zip: '20032'
-8C06:
-  smd: 8C06
-  address: 1142 Sumner Road SE
-  phone: ''
-  email: 8C06@anc.dc.gov
-  chair: false
-  first_name: Rhonda L.
-  last_name: Edwards-Hines
-  suffix: ''
-  zip: '20020'
-8C07:
-  smd: 8C07
-  address: PO Box 30564
-  phone: ''
-  email: 8C07@anc.dc.gov
-  chair: false
-  first_name: Salim
-  last_name: Adofo
-  suffix: ''
-  zip: '20032'
-8D01:
-  smd: 8D01
-  address: '816 Southern Avenue SE #204'
-  phone: ''
-  email: 8D01@anc.dc.gov
-  chair: false
-  first_name: Patricia
-  last_name: Carmon
-  suffix: ''
-  zip: '20032'
-8D02:
-  smd: 8D02
-  address: 4612 6th Street SE
-  phone: ''
-  email: 8D02@anc.dc.gov
-  chair: true
-  first_name: Olivia L.
-  last_name: Henderson
-  suffix: ''
-  zip: '20032'
-8D03:
-  smd: 8D03
-  address: 4335 4th Street SE
-  phone: ''
-  email: 8D03@anc.dc.gov
-  chair: false
-  first_name: Absalom
-  last_name: Jordan
-  suffix: ''
-  zip: '20032'
-8D04:
-  smd: 8D04
-  address: 4660 MLK Avenue SW
-  phone: ''
-  email: 8D04@anc.dc.gov
-  chair: false
-  first_name: Monique T.
-  last_name: Diop
-  suffix: ''
-  zip: '20032'
-8D05:
-  smd: 8D05
-  address: '34 Galveston Place SW #1'
-  phone: ''
-  email: 8D05@anc.dc.gov
-  chair: false
-  first_name: Ellen
-  last_name: Armstead
-  suffix: ''
-  zip: '20032'
-8D06:
-  smd: 8D06
-  address: 4346 MLK Avenue SW
-  phone: ''
-  email: 8D06@anc.dc.gov
-  chair: false
-  first_name: LaVerne R.
-  last_name: Glenn
-  suffix: ''
-  zip: '20032'
-8D07:
-  smd: 8D07
-  address: 19 Atlantic St SE
-  phone: ''
-  email: 8D07@anc.dc.gov
-  chair: false
-  first_name: Constance
-  last_name: Mobley
-  suffix: ''
-  zip: '20032'
-'8E01':
-  smd: '8E01'
-  address: 1430 Tobias Drive SE
-  phone: 202-860-0881
-  email: 8E01@anc.dc.gov
-  chair: false
-  first_name: Adeoye
-  last_name: Owolewa
-  suffix: ''
-  zip: '20020'
-'8E02':
-  smd: '8E02'
-  address: 1882 Alabama Ave SE
-  phone: 202-317-1490
-  email: 8E02@anc.dc.gov
-  chair: false
-  first_name: Cheryl
-  last_name: Moore
-  suffix: ''
-  zip: '20020'
-'8E03':
-  smd: '8E03'
-  address: 3225 23rd Street SE
-  phone: ''
-  email: 8E03@anc.dc.gov
-  chair: false
-  first_name: Monica
-  last_name: Watts
-  suffix: ''
-  zip: '20020'
-'8E04':
-  smd: '8E04'
-  address: 1313 Congress Street SE
-  phone: ''
-  email: 8E04@anc.dc.gov
-  chair: true
-  first_name: Kendall
-  last_name: Simmons
-  suffix: ''
-  zip: '20032'
-'8E05':
-  smd: '8E05'
-  address: 1922 Valley Ave SE
-  phone: ''
-  email: 8E05@anc.dc.gov
-  chair: false
-  first_name: Christopher L.
-  last_name: Hawthorne
-  suffix: ''
-  zip: '20032'
-'8E06':
-  smd: '8E06'
-  address: 559 Foxhall Place SE
-  phone: ''
-  email: 8E06@anc.dc.gov
-  chair: false
-  first_name: Karlene
-  last_name: Armstead
-  suffix: ''
-  zip: '20032'
-'8E07':
-  smd: '8E07'
-  address: 855 Barnaby Street SE
-  phone: ''
-  email: 8E07@anc.dc.gov
-  chair: false
-  first_name: Stephen A.
-  last_name: Slaughter
-  suffix: ''
-  zip: '20032'
+updated: '2019-04-17'
+commissioners:
+  1A01:
+    smd: 1A01
+    address: 1434 Parkwood Place NW
+    phone: ''
+    email: 1A01@anc.dc.gov
+    chair: false
+    first_name: Layla
+    last_name: Bonnot
+    suffix: ''
+    zip: '20010'
+  1A02:
+    smd: 1A02
+    address: 1477 Newton St NW
+    phone: 240-813-0264
+    email: 1A02@anc.dc.gov
+    chair: false
+    first_name: Teresa A.
+    last_name: Edmondson
+    suffix: ''
+    zip: '20010'
+  1A03:
+    smd: 1A03
+    address: 1400 Irving Street NW
+    phone: ''
+    email: 1A03@anc.dc.gov
+    chair: false
+    first_name: Zach
+    last_name: Rybarczyk
+    suffix: ''
+    zip: '20010'
+  1A04:
+    smd: 1A04
+    address: 1349 Parkwood Place NW
+    phone: ''
+    email: 1A04@anc.dc.gov
+    chair: false
+    first_name: Matthew
+    last_name: Goldschimdt
+    suffix: ''
+    zip: '20010'
+  1A05:
+    smd: 1A05
+    address: 1530 Monroe St NW
+    phone: ''
+    email: 1A05@anc.dc.gov
+    chair: false
+    first_name: Christine
+    last_name: Miller
+    suffix: ''
+    zip: '20010'
+  1A06:
+    smd: 1A06
+    address: 1105 Park Road NW
+    phone: ''
+    email: 1A06@anc.dc.gov
+    chair: false
+    first_name: Angelica
+    last_name: Castañon
+    suffix: ''
+    zip: '20010'
+  1A07:
+    smd: 1A07
+    address: '3538 10th St NW #A'
+    phone: 401-644-6271
+    email: 1A07@anc.dc.gov
+    chair: false
+    first_name: Jen
+    last_name: Bundy
+    suffix: ''
+    zip: '20010'
+  1A08:
+    smd: 1A08
+    address: '608 Rock Creek Church Road, NW'
+    phone: ''
+    email: 1A08@anc.dc.gov
+    chair: true
+    first_name: Kent C.
+    last_name: Boese
+    suffix: ''
+    zip: '20010'
+  1A09:
+    smd: 1A09
+    address: 743 Morton St NW
+    phone: 202-805-7310
+    email: 1A09@anc.dc.gov
+    chair: false
+    first_name: Michael
+    last_name: Wray
+    suffix: ''
+    zip: '20010'
+  1A10:
+    smd: 1A10
+    address: '430 Irving Street NW #106'
+    phone: ''
+    email: 1A10@anc.dc.gov
+    chair: false
+    first_name: Rashida
+    last_name: Brown
+    suffix: ''
+    zip: '20010'
+  1A11:
+    smd: 1A11
+    address: '1116 Columbia Road, NW'
+    phone: ''
+    email: 1A11@anc.dc.gov
+    chair: false
+    first_name: Dotti Love
+    last_name: Wade
+    suffix: ''
+    zip: '20009'
+  1A12:
+    smd: 1A12
+    address: '1415 Girard Street NW #206'
+    phone: ''
+    email: 1A12@anc.dc.gov
+    chair: false
+    first_name: Jason
+    last_name: Clock
+    suffix: ''
+    zip: '20009'
+  1B01:
+    smd: 1B01
+    address: 1853 3rd Street NW
+    phone: ''
+    email: 1B01@anc.dc.gov
+    chair: false
+    first_name: Anita
+    last_name: Norman
+    suffix: ''
+    zip: '20001'
+  1B02:
+    smd: 1B02
+    address: '2021 11th St NW #A'
+    phone: 443-235-5405
+    email: 1B02@anc.dc.gov
+    chair: false
+    first_name: Dan
+    last_name: Orlaskey
+    suffix: ''
+    zip: '20001'
+  1B03:
+    smd: 1B03
+    address: '2515 13th Street, NW'
+    phone: ''
+    email: 1B03@anc.dc.gov
+    chair: false
+    first_name: Sedrick
+    last_name: Muhammad
+    suffix: ''
+    zip: '20009'
+  1B04:
+    smd: 1B04
+    address: ''
+    phone: ''
+    email: 1B04@anc.dc.gov
+    chair: false
+    last_name: Vacant
+    first_name: ''
+    suffix: ''
+    zip: '20009'
+  1B05:
+    smd: 1B05
+    address: '2101 New Hampshire Ave NW #312'
+    phone: ''
+    email: 1B05@anc.dc.gov
+    chair: false
+    first_name: James
+    last_name: Cordes
+    suffix: ''
+    zip: '20009'
+  1B06:
+    smd: 1B06
+    address: 1308 Clifton Street NW
+    phone: ''
+    email: 1B06@anc.dc.gov
+    chair: false
+    first_name: Jennifer
+    last_name: Bristol
+    suffix: ''
+    zip: '20009'
+  1B07:
+    smd: 1B07
+    address: 2639 15th Street NW
+    phone: ''
+    email: 1B07@anc.dc.gov
+    chair: false
+    first_name: Jessica Laura
+    last_name: Smith
+    suffix: ''
+    zip: '20009'
+  1B08:
+    smd: 1B08
+    address: '1333 Euclid Street NW #302'
+    phone: ''
+    email: 1B08@anc.dc.gov
+    chair: false
+    first_name: Joshua R.
+    last_name: Mater
+    suffix: ''
+    zip: '20009'
+  1B09:
+    smd: 1B09
+    address: '1236 Girard Street, NW'
+    phone: ''
+    email: 1B09@anc.dc.gov
+    chair: true
+    first_name: James A.
+    last_name: Turner
+    suffix: ''
+    zip: '20009'
+  1B10:
+    smd: 1B10
+    address: 629 Harvard St NW
+    phone: ''
+    email: 1B10@anc.dc.gov
+    chair: false
+    first_name: Danny
+    last_name: Delaney
+    suffix: ''
+    zip: '20001'
+  1B11:
+    smd: 1B11
+    address: '919 Florida Avenue, NW #204'
+    phone: ''
+    email: 1B11@anc.dc.gov
+    chair: false
+    first_name: Robb
+    last_name: Hudson
+    suffix: ''
+    zip: '20001'
+  1B12:
+    smd: 1B12
+    address: "1801 13th St NW \_#3"
+    phone: 202-681-8819
+    email: 1B12@anc.dc.gov
+    chair: false
+    first_name: Dan
+    last_name: Winston
+    suffix: ''
+    zip: '20009'
+  1C01:
+    smd: 1C01
+    address: 1841 California Street NW
+    phone: ''
+    email: 1C01@anc.dc.gov
+    chair: false
+    first_name: Amir
+    last_name: Irani
+    suffix: ''
+    zip: '20009'
+  1C02:
+    smd: 1C02
+    address: '2410 20th St NW #201'
+    phone: 410-705-4166
+    email: 1C02@anc.dc.gov
+    chair: false
+    first_name: Bridget
+    last_name: Pooley
+    suffix: ''
+    zip: '20009'
+  1C03:
+    smd: 1C03
+    address: '1849 Kalorama Road, NW Apt. 2'
+    phone: ''
+    email: 1C03@anc.dc.gov
+    chair: true
+    first_name: Ted
+    last_name: Guthrie
+    suffix: ''
+    zip: '20009'
+  1C04:
+    smd: 1C04
+    address: 1953 Calvert St NW
+    phone: ''
+    email: 1C04@anc.dc.gov
+    chair: false
+    first_name: Douglas
+    last_name: Ely
+    suffix: ''
+    zip: '20009'
+  1C05:
+    smd: 1C05
+    address: "1601 \_Argonne Place NW"
+    phone: ''
+    email: 1C05@anc.dc.gov
+    chair: false
+    first_name: Damiana
+    last_name: Dendy
+    suffix: ''
+    zip: '20009'
+  1C06:
+    smd: 1C06
+    address: '1620 Fuller St NW #411'
+    phone: ''
+    email: 1C06@anc.dc.gov
+    chair: false
+    first_name: Michaela
+    last_name: Wright
+    suffix: ''
+    zip: '20009'
+  1C07:
+    smd: 1C07
+    address: 1762 Lanier Place NW
+    phone: 410-705-4085
+    email: 1C07@anc.dc.gov
+    chair: false
+    first_name: Japer
+    last_name: Bowles
+    suffix: ''
+    zip: '20009'
+  1C08:
+    smd: 1C08
+    address: 1664-D Beekman Place NW
+    phone: ''
+    email: 1C08@anc.dc.gov
+    chair: false
+    first_name: Amanda Fox
+    last_name: Perry
+    suffix: ''
+    zip: '20009'
+  1D01:
+    smd: 1D01
+    address: 1641 Monroe Street NW
+    phone: ''
+    email: 1D01@anc.dc.gov
+    chair: true
+    first_name: Jon
+    last_name: Stewart
+    suffix: ''
+    zip: '20010'
+  1D02:
+    smd: 1D02
+    address: 1651 Newton Street NW
+    phone: ''
+    email: 1D02@anc.dc.gov
+    chair: false
+    first_name: Robin
+    last_name: Sandenburgh
+    suffix: ''
+    zip: '20010'
+  1D03:
+    smd: 1D03
+    address: 3200 19th Street NW
+    phone: ''
+    email: 1D03@anc.dc.gov
+    chair: false
+    first_name: Jack
+    last_name: McKay
+    suffix: ''
+    zip: '20010'
+  1D04:
+    smd: 1D04
+    address: 3145 Mount Pleasant Street NW
+    phone: ''
+    email: 1D04@anc.dc.gov
+    chair: false
+    first_name: Yasmin
+    last_name: Romero-Latin
+    suffix: ''
+    zip: '20010'
+  1D05:
+    smd: 1D05
+    address: 1900 Lamont St NW
+    phone: ''
+    email: 1D05@anc.dc.gov
+    chair: false
+    first_name: Chelsea A.
+    last_name: Allinger
+    suffix: ''
+    zip: '20010'
+  2A01:
+    smd: 2A01
+    address: '532 20th Street NW #312'
+    phone: ''
+    email: 2A01@anc.dc.gov
+    chair: false
+    first_name: Patrick
+    last_name: Kennedy
+    suffix: ''
+    zip: '20006'
+  2A02:
+    smd: 2A02
+    address: 1221 24th St NW
+    phone: ''
+    email: 2A02@anc.dc.gov
+    chair: false
+    first_name: Nicole
+    last_name: Goldin
+    suffix: ''
+    zip: '20037'
+  2A03:
+    smd: 2A03
+    address: '940 25th Street NW #425N'
+    phone: ''
+    email: 2A03@anc.dc.gov
+    chair: false
+    first_name: Trupti J.
+    last_name: Patel
+    suffix: ''
+    zip: '20037'
+  2A04:
+    smd: 2A04
+    address: '600 New Hampshire Avenue NW #610'
+    phone: ''
+    email: 2A04@anc.dc.gov
+    chair: true
+    first_name: William Kennedy
+    last_name: Smith
+    suffix: ''
+    zip: '20037'
+  2A05:
+    smd: 2A05
+    address: '725 24th Street NW #709'
+    phone: ''
+    email: 2A05@anc.dc.gov
+    chair: false
+    first_name: Philip J.
+    last_name: Schrefer
+    suffix: ''
+    zip: '20037'
+  2A06:
+    smd: 2A06
+    address: 1111 23rd St NW
+    phone: ''
+    email: 2A06@anc.dc.gov
+    chair: false
+    first_name: Jeri
+    last_name: Epstein
+    suffix: ''
+    zip: '20037'
+  2A07:
+    smd: 2A07
+    address: 2141 I St NW
+    phone: ''
+    email: 2A07@anc.dc.gov
+    chair: false
+    first_name: Detrick
+    last_name: Campbell
+    suffix: ''
+    zip: '20037'
+  2A08:
+    smd: 2A08
+    address: 2121 H Street NW
+    phone: ''
+    email: 2A08@anc.dc.gov
+    chair: false
+    first_name: James
+    last_name: Harnett
+    suffix: ''
+    zip: '20052'
+  2B01:
+    smd: 2B01
+    address: 1740 18th St NW
+    phone: ''
+    email: 2B01@anc.dc.gov
+    chair: false
+    first_name: Matthew H
+    last_name: Sampson
+    suffix: ''
+    zip: '20009'
+  2B02:
+    smd: 2B02
+    address: 2146 Florida Ave NW
+    phone: ''
+    email: 2B02@anc.dc.gov
+    chair: true
+    first_name: Daniel
+    last_name: Warwick
+    suffix: ''
+    zip: '20008'
+  2B03:
+    smd: 2B03
+    address: 1712 R St NW
+    phone: ''
+    email: 2B03@anc.dc.gov
+    chair: false
+    first_name: Lucky
+    last_name: Barbieri
+    suffix: ''
+    zip: '20009'
+  2B04:
+    smd: 2B04
+    address: "1615 Q St NW \_#1203"
+    phone: 612-747-2217
+    email: 2B04@anc.dc.gov
+    chair: false
+    first_name: Aaron
+    last_name: Landry
+    suffix: ''
+    zip: '20009'
+  2B05:
+    smd: 2B05
+    address: 1425 17th Street NW
+    phone: ''
+    email: 2B05@anc.dc.gov
+    chair: false
+    first_name: Randy D.
+    last_name: Downs
+    suffix: ''
+    zip: '20036'
+  2B06:
+    smd: 2B06
+    address: '1301 20th Street, NW #705'
+    phone: ''
+    email: 2B06@anc.dc.gov
+    chair: false
+    first_name: Mike
+    last_name: Silverstein
+    suffix: ''
+    zip: '20036'
+  2B07:
+    smd: 2B07
+    address: 1704 P Street NW
+    phone: ''
+    email: 2B07@anc.dc.gov
+    chair: false
+    first_name: Kari
+    last_name: Cunningham
+    suffix: ''
+    zip: '20036'
+  2B08:
+    smd: 2B08
+    address: 1819 T Street NW
+    phone: ''
+    email: 2B08@anc.dc.gov
+    chair: false
+    first_name: Beverly
+    last_name: Schwartz
+    suffix: ''
+    zip: '20009'
+  2B09:
+    smd: 2B09
+    address: 1523 Swann St NW
+    phone: ''
+    email: 2B09@anc.dc.gov
+    chair: false
+    first_name: Ed
+    last_name: Hanlon
+    suffix: ''
+    zip: '20009'
+  2C01:
+    smd: 2C01
+    address: "916 G St NW \_#203"
+    phone: 617-304-4372
+    email: 2C01@anc.dc.gov
+    chair: false
+    first_name: Michael D.
+    last_name: Shankle
+    suffix: ''
+    zip: '20001'
+  2C02:
+    smd: 2C02
+    address: 400 Massachusetts Avenue NW
+    phone: ''
+    email: 2C02@anc.dc.gov
+    chair: false
+    first_name: Jamaal T.
+    last_name: Burton
+    suffix: ''
+    zip: '20001'
+  2C03:
+    smd: 2C03
+    address: 425 8th Street NW
+    phone: ''
+    email: 2C03@anc.dc.gov
+    chair: true
+    first_name: Kevin
+    last_name: Wilsey
+    suffix: ''
+    zip: '20004'
+  2D01:
+    smd: 2D01
+    address: '2126 Connecticut Avenue, NW #34'
+    email: 2D01@anc.dc.gov
+    chair: true
+    first_name: David R.
+    last_name: Bender
+    suffix: ''
+    zip: '20008'
+    phone: ''
+  2D02:
+    smd: 2D02
+    address: na
+    email: 2D02@anc.dc.gov
+    chair: false
+    first_name: Jeff
+    last_name: Nestler
+    suffix: ''
+    zip: '20008'
+    phone: ''
+  '2E01':
+    smd: '2E01'
+    address: 3831 T St NW
+    phone: ''
+    email: 2E01@anc.dc.gov
+    chair: false
+    first_name: Kishan
+    last_name: Putta
+    suffix: ''
+    zip: '20007'
+  '2E02':
+    smd: '2E02'
+    address: 3223 Volta Place NW
+    phone: ''
+    email: 2E02@anc.dc.gov
+    chair: false
+    first_name: Joe
+    last_name: Gibbons
+    suffix: ''
+    zip: '20007'
+  '2E03':
+    smd: '2E03'
+    address: 3136 P Street NW
+    phone: ''
+    email: 2E03@anc.dc.gov
+    chair: true
+    first_name: Rick
+    last_name: Murphy
+    suffix: ''
+    zip: '20007'
+  '2E04':
+    smd: '2E04'
+    address: 3700 O St NW
+    phone: ''
+    email: 2E04@anc.dc.gov
+    chair: false
+    first_name: Anna
+    last_name: Landre
+    suffix: ''
+    zip: '20057'
+  '2E05':
+    smd: '2E05'
+    address: 3150 South Street NW
+    phone: ''
+    email: 2E05@anc.dc.gov
+    chair: false
+    first_name: Lisa
+    last_name: Palmer
+    suffix: ''
+    zip: '20007'
+  '2E06':
+    smd: '2E06'
+    address: 3037 O St NW
+    phone: 202-997-5324
+    email: 2E06@anc.dc.gov
+    chair: false
+    first_name: Gwendolyn
+    last_name: Lohse
+    suffix: ''
+    zip: '20007'
+  '2E07':
+    smd: '2E07'
+    address: 3021 Q St NW
+    phone: ''
+    email: 2E07@anc.dc.gov
+    chair: false
+    first_name: Elizabeth H.
+    last_name: Miller
+    suffix: ''
+    zip: '20007'
+  '2E08':
+    smd: '2E08'
+    address: 3700 O Street NW
+    phone: ''
+    email: 2E08@anc.dc.gov
+    chair: false
+    first_name: Matias
+    last_name: Burdman
+    suffix: ''
+    zip: '20057'
+  2F01:
+    smd: 2F01
+    address: 1447 Q Street NW
+    phone: ''
+    email: 2F01@anc.dc.gov
+    chair: false
+    first_name: Jason
+    last_name: Forman
+    suffix: ''
+    zip: '20009'
+  2F02:
+    smd: 2F02
+    address: 1301 Rhode Island Avenue NW
+    phone: ''
+    email: 2F02@anc.dc.gov
+    chair: false
+    first_name: John
+    last_name: Guggenmos
+    suffix: ''
+    zip: '20005'
+  2F03:
+    smd: 2F03
+    address: 1227 15th St NW
+    phone: ''
+    email: 2F03@anc.dc.gov
+    chair: false
+    first_name: Tom
+    last_name: Alexander
+    suffix: ''
+    zip: '20005'
+  2F04:
+    smd: 2F04
+    address: '1307 12th Street, NW #505'
+    phone: ''
+    email: 2F04@anc.dc.gov
+    chair: true
+    first_name: John
+    last_name: Fanning
+    suffix: ''
+    zip: '20005'
+  2F05:
+    smd: 2F05
+    address: 1133 14th Street NW
+    phone: ''
+    email: 2F05@anc.dc.gov
+    chair: false
+    first_name: Ron
+    last_name: Rubin
+    suffix: ''
+    zip: '20005'
+  2F06:
+    smd: 2F06
+    address: '910 M Street NW #230'
+    phone: ''
+    email: 2F06@anc.dc.gov
+    chair: false
+    first_name: Ian D.
+    last_name: Simon
+    suffix: ''
+    zip: '20001'
+  2F07:
+    smd: 2F07
+    address: 1242 10th Street NW
+    phone: ''
+    email: 2F07@anc.dc.gov
+    chair: false
+    first_name: Kevin J.
+    last_name: Sylvester
+    suffix: ''
+    zip: '20001'
+  2F08:
+    smd: 2F08
+    address: '1221 Massachusetts Ave NW #609'
+    phone: 202-213-5646
+    email: 2F08@anc.dc.gov
+    chair: false
+    first_name: Janice
+    last_name: Ferebee
+    suffix: ''
+    zip: '20005'
+  3B01:
+    smd: 3B01
+    address: 2819 39th Street NW
+    phone: 202-333-6260
+    email: 3B01@anc.dc.gov
+    chair: false
+    first_name: Ann Lane
+    last_name: Mladinov
+    suffix: ''
+    zip: '20007'
+  3B02:
+    smd: 3B02
+    address: '3515 W Place, NW'
+    phone: ''
+    email: 3B02@anc.dc.gov
+    chair: false
+    first_name: Jackie
+    last_name: Blumenthal
+    suffix: ''
+    zip: '20007'
+  3B03:
+    smd: 3B03
+    address: '4114 Davis Place, NW,'
+    phone: ''
+    email: 3B03@anc.dc.gov
+    chair: false
+    first_name: Melissa
+    last_name: Lane
+    suffix: ''
+    zip: '20007'
+  3B04:
+    smd: 3B04
+    address: '3040 Idaho Avenue, NW #722'
+    phone: 202-895-0268
+    email: 3B04@anc.dc.gov
+    chair: false
+    first_name: Mary C.
+    last_name: Young
+    suffix: ''
+    zip: '20016'
+  3B05:
+    smd: 3B05
+    address: '3818 Beecher Street, NW'
+    phone: 703-459-0238
+    email: 3B05@anc.dc.gov
+    chair: true
+    first_name: Brian G.
+    last_name: Turmail
+    suffix: ''
+    zip: '20007'
+  3C01:
+    smd: 3C01
+    address: '2829 Connecticut Avenue, NW'
+    phone: ''
+    email: 3C01@anc.dc.gov
+    chair: false
+    first_name: Lee Brian
+    last_name: Reba
+    suffix: ''
+    zip: '20008'
+  3C02:
+    smd: 3C02
+    address: 2701 Calvert St NW
+    phone: ''
+    email: 3C02@anc.dc.gov
+    chair: false
+    first_name: Jason
+    last_name: Fink
+    suffix: ''
+    zip: '20008'
+  3C03:
+    smd: 3C03
+    address: 3000 Connecticut Ave NW Apt 407
+    phone: ''
+    email: 3C03@anc.dc.gov
+    chair: false
+    first_name: Jimmy
+    last_name: Dubois
+    suffix: ''
+    zip: '20008'
+  3C04:
+    smd: 3C04
+    address: '2801 Quebec Street NW #632'
+    phone: ''
+    email: 3C04@anc.dc.gov
+    chair: false
+    first_name: Robert"Beau"
+    last_name: Finley
+    suffix: ''
+    zip: '20036'
+  3C05:
+    smd: 3C05
+    address: 3601 Conneticut Avenue NW
+    phone: ''
+    email: 3C05@anc.dc.gov
+    chair: false
+    first_name: Emma
+    last_name: Hersh
+    suffix: ''
+    zip: '20008'
+  3C06:
+    smd: 3C06
+    address: 3700 39th Street NW
+    phone: ''
+    email: 3C06@anc.dc.gov
+    chair: false
+    first_name: Angela
+    last_name: Bradbery
+    suffix: ''
+    zip: '20016'
+  3C07:
+    smd: 3C07
+    address: "3839 \_Massachusetts Ave NW"
+    phone: ''
+    email: 3C07@anc.dc.gov
+    chair: false
+    first_name: Maureen Kinlan
+    last_name: Boucher
+    suffix: ''
+    zip: '20016'
+  3C08:
+    smd: 3C08
+    address: 3526 Edmunds St NW
+    phone: ''
+    email: 3C08@anc.dc.gov
+    chair: false
+    first_name: Victoria
+    last_name: Gersten
+    suffix: ''
+    zip: '20007'
+  3C09:
+    smd: 3C09
+    address: '3417 Woodley Road, NW'
+    phone: ''
+    email: 3C09@anc.dc.gov
+    chair: true
+    first_name: Nancy J.
+    last_name: MacWood
+    suffix: ''
+    zip: '20016'
+  3D01:
+    smd: 3D01
+    address: 4505 Lowell Street NW
+    phone: ''
+    email: 3D01@anc.dc.gov
+    chair: true
+    first_name: Chuck
+    last_name: Elkins
+    suffix: ''
+    zip: '20016'
+  3D02:
+    smd: 3D02
+    address: 4817 Rodman Street NW
+    phone: ''
+    email: 3D02@anc.dc.gov
+    chair: false
+    first_name: Troy
+    last_name: Kravitz
+    suffix: ''
+    zip: '20016'
+  3D03:
+    smd: 3D03
+    address: '4050 52nd Terrace, NW'
+    phone: 240-903-4004
+    email: 3D03@anc.dc.gov
+    chair: false
+    first_name: Paige
+    last_name: Ela
+    suffix: ''
+    zip: '20016'
+  3D04:
+    smd: 3D04
+    address: 5332 Sherier Place NW
+    phone: ''
+    email: 3D04@anc.dc.gov
+    chair: false
+    first_name: Michael
+    last_name: Sriqui
+    suffix: ''
+    zip: '20016'
+  3D05:
+    smd: 3D05
+    address: 5206 Sherier Place NW
+    phone: ''
+    email: 3D05@anc.dc.gov
+    chair: false
+    first_name: Alan
+    last_name: Karnofsky
+    suffix: ''
+    zip: '20016'
+  3D06:
+    smd: 3D06
+    address: '2230 47th Street, NW'
+    phone: ''
+    email: 3D06@anc.dc.gov
+    chair: false
+    first_name: Virginia
+    last_name: Gorsevski
+    suffix: ''
+    zip: '20007'
+  3D07:
+    smd: 3D07
+    address: 4400 Massachusetts Ave. NW
+    phone: ''
+    email: 3D07@anc.dc.gov
+    chair: false
+    first_name: Taylor
+    last_name: Berlin
+    suffix: ''
+    zip: '20016'
+  3D08:
+    smd: 3D08
+    address: '3101 New Mexico Avenue NW #243'
+    phone: ''
+    email: 3D08@anc.dc.gov
+    chair: false
+    first_name: Christine
+    last_name: Warnke
+    suffix: ''
+    zip: '20016'
+  3D09:
+    smd: 3D09
+    address: 1543 44th St NW
+    phone: 202-607-5500
+    email: 3D09@anc.dc.gov
+    chair: false
+    first_name: J.P.
+    last_name: Szymkowicz
+    suffix: ''
+    zip: '20007'
+  3D10:
+    smd: 3D10
+    address: ''
+    phone: ''
+    email: 3D10@anc.dc.gov
+    chair: false
+    last_name: Vacant
+    first_name: ''
+    suffix: ''
+    zip: '20016'
+  '3E01':
+    smd: '3E01'
+    address: 4515 Yuma Street NW
+    phone: ''
+    email: 3E01@anc.dc.gov
+    chair: false
+    first_name: Greg
+    last_name: Ehrhardt
+    suffix: ''
+    zip: '20016'
+  '3E02':
+    smd: '3E02'
+    address: 4606 Fessenden Street NW
+    phone: ''
+    email: 3E02@anc.dc.gov
+    chair: false
+    first_name: Amy B.
+    last_name: Hall
+    suffix: ''
+    zip: '20016'
+  '3E03':
+    smd: '3E03'
+    address: 4411 Fessenden Street NW
+    phone: 202-552-1420
+    email: 3E03@anc.dc.gov
+    chair: true
+    first_name: Jonathan
+    last_name: Bender
+    suffix: ''
+    zip: '20016'
+  '3E04':
+    smd: '3E04'
+    address: 5322 41st Street NW
+    phone: 202-497-5097
+    email: 3E04@anc.dc.gov
+    chair: false
+    first_name: Tom
+    last_name: Quinn
+    suffix: ''
+    zip: '20015'
+  '3E05':
+    smd: '3E05'
+    address: 4524 Van Ness Street NW
+    phone: 202-494-6232
+    email: 3E05@anc.dc.gov
+    chair: false
+    first_name: Jonathan
+    last_name: McHugh
+    suffix: ''
+    zip: '20016'
+  3F01:
+    smd: 3F01
+    address: 3728 Veazey Street NW
+    phone: ''
+    email: 3F01@anc.dc.gov
+    chair: true
+    first_name: David
+    last_name: Dickinson
+    suffix: ''
+    zip: '20008'
+  3F02:
+    smd: 3F02
+    address: "3001 Veazey Terrace, NW Unit\_125-126"
+    phone: ''
+    email: 3F02@anc.dc.gov
+    chair: false
+    first_name: Carolinn A
+    last_name: Kuebler
+    suffix: ''
+    zip: '20008'
+  3F03:
+    smd: 3F03
+    address: 2820 Ellicott Street NW
+    phone: ''
+    email: 3F03@anc.dc.gov
+    chair: false
+    first_name: Naomi
+    last_name: Rutenberg
+    suffix: ''
+    zip: '20008'
+  3F04:
+    smd: 3F04
+    address: '3115 Appleton Street, NW'
+    phone: ''
+    email: 3F04@anc.dc.gov
+    chair: false
+    first_name: Leah
+    last_name: Frelinghuysen
+    suffix: ''
+    zip: '20008'
+  3F05:
+    smd: 3F05
+    address: 5131 Nebraska Avenue NW
+    phone: ''
+    email: 3F05@anc.dc.gov
+    chair: false
+    first_name: Andrea
+    last_name: Molod
+    suffix: ''
+    zip: '20015'
+  3F06:
+    smd: 3F06
+    address: 3652 Alton Place NW
+    phone: ''
+    email: 3F06@anc.dc.gov
+    chair: false
+    first_name: Monika
+    last_name: Nemeth
+    suffix: ''
+    zip: '20008'
+  3F07:
+    smd: 3F07
+    address: ''
+    phone: ''
+    email: 3F07@anc.dc.gov
+    chair: false
+    last_name: Vacant
+    first_name: ''
+    suffix: ''
+    zip: '20008'
+  3G01:
+    smd: 3G01
+    address: 3101 Beech Street NW
+    phone: ''
+    email: 3G01@anc.dc.gov
+    chair: false
+    first_name: Abraham
+    last_name: Clayman
+    suffix: ''
+    zip: '20015'
+  3G02:
+    smd: 3G02
+    address: 5649 Moreland Street NW
+    phone: ''
+    email: 3G02@anc.dc.gov
+    chair: false
+    first_name: Chanda Tuck
+    last_name: Garfield
+    suffix: ''
+    zip: '20015'
+  3G03:
+    smd: 3G03
+    address: '2940 Northampton Street, NW'
+    phone: ''
+    email: 3G03@anc.dc.gov
+    chair: true
+    first_name: Randy
+    last_name: Speck
+    suffix: ''
+    zip: '20015'
+  3G04:
+    smd: 3G04
+    address: PO Box 6252
+    phone: ''
+    email: 3G04@anc.dc.gov
+    chair: false
+    first_name: Rebecca
+    last_name: Maydak
+    suffix: ''
+    zip: '20015'
+  3G05:
+    smd: 3G05
+    address: 5441 Chevy Chase Pwy NW
+    phone: ''
+    email: 3G05@anc.dc.gov
+    chair: false
+    first_name: Jerry
+    last_name: Malitz
+    suffix: ''
+    zip: '20015'
+  3G06:
+    smd: 3G06
+    address: 5509 39th Street NW
+    phone: ''
+    email: 3G06@anc.dc.gov
+    chair: false
+    first_name: Dan
+    last_name: Bradfield
+    suffix: ''
+    zip: '20015'
+  3G07:
+    smd: 3G07
+    address: 5312 38th Street NW
+    phone: ''
+    email: 3G07@anc.dc.gov
+    chair: false
+    first_name: Chris
+    last_name: Fromboluti
+    suffix: ''
+    zip: '20015'
+  4A01:
+    smd: 4A01
+    address: 7131 16th Street NW
+    phone: ''
+    email: 4A01@anc.dc.gov
+    chair: false
+    first_name: Phyllis Caudle
+    last_name: Green
+    suffix: ''
+    zip: '20012'
+  4A02:
+    smd: 4A02
+    address: 7436 Georgia Avenue NW
+    phone: ''
+    email: 4A02@anc.dc.gov
+    chair: false
+    first_name: Stacey
+    last_name: Lincoln
+    suffix: ''
+    zip: '20012'
+  4A03:
+    smd: 4A03
+    address: 1315 Fern Street NW
+    phone: ''
+    email: 4A03@anc.dc.gov
+    chair: false
+    first_name: Stephen A.
+    last_name: Whatley
+    suffix: ''
+    zip: '20012'
+  4A04:
+    smd: 4A04
+    address: 1316 Tuckerman Street NW
+    phone: ''
+    email: 4A04@anc.dc.gov
+    chair: false
+    first_name: Patience
+    last_name: Singleton
+    suffix: ''
+    zip: '20011'
+  4A05:
+    smd: 4A05
+    address: ''
+    phone: ''
+    email: 4A05@anc.dc.gov
+    chair: false
+    last_name: Vacant
+    first_name: ''
+    suffix: ''
+    zip: '20011'
+  4A06:
+    smd: 4A06
+    address: '1000 Rittenhouse St NW #G'
+    phone: ''
+    email: 4A06@anc.dc.gov
+    chair: false
+    first_name: Candace Tiana
+    last_name: Nelson
+    suffix: ''
+    zip: '20011'
+  4A07:
+    smd: 4A07
+    address: '1637 Montague Street, NW'
+    phone: ''
+    email: 4A07@anc.dc.gov
+    chair: false
+    first_name: Marlene
+    last_name: Moss
+    suffix: ''
+    zip: '20011'
+  4A08:
+    smd: 4A08
+    address: '1761 Crestwood Drive, NW'
+    phone: ''
+    email: 4A08@anc.dc.gov
+    chair: true
+    first_name: Gale B.
+    last_name: Black
+    suffix: ''
+    zip: '20011'
+  4B01:
+    smd: 4B01
+    address: '343 Cedar St NW #101'
+    phone: 319-310-5716
+    email: 4B01@anc.dc.gov
+    chair: false
+    first_name: Evan
+    last_name: Yeats
+    suffix: ''
+    zip: '20012'
+  4B02:
+    smd: 4B02
+    address: 715 Van Buren St NW
+    phone: 202-821-6333
+    email: 4B02@anc.dc.gov
+    chair: false
+    first_name: Erin
+    last_name: Palmer
+    suffix: ''
+    zip: '20012'
+  4B03:
+    smd: 4B03
+    address: 814 Underwood Street NW
+    phone: ''
+    email: 4B03@anc.dc.gov
+    chair: false
+    first_name: Scot
+    last_name: Knickerbocker
+    suffix: ''
+    zip: '20012'
+  4B04:
+    smd: 4B04
+    address: '6001 8th Street, NW'
+    phone: ''
+    email: 4B04@anc.dc.gov
+    chair: true
+    first_name: Brenda
+    last_name: Parks
+    suffix: ''
+    zip: '20011'
+  4B05:
+    smd: 4B05
+    address: 422 Marietta Place NW
+    phone: ''
+    email: 4B05@anc.dc.gov
+    chair: false
+    first_name: Perry
+    last_name: Redd
+    suffix: ''
+    zip: '20011'
+  4B06:
+    smd: 4B06
+    address: 5806 3rd Place NW
+    phone: 202-271-3710
+    email: 4B06@anc.dc.gov
+    chair: false
+    first_name: Tiffani Nichole
+    last_name: Johnson
+    suffix: ''
+    zip: '20011'
+  4B07:
+    smd: 4B07
+    address: 220 Aspen St NW
+    phone: 202-643-8778
+    email: 4B07@anc.dc.gov
+    chair: false
+    first_name: Geoff
+    last_name: Bromaghim
+    suffix: ''
+    zip: '20011'
+  4B08:
+    smd: 4B08
+    address: 5601 1st St NE
+    phone: 240-423-0826
+    email: 4B08@anc.dc.gov
+    chair: false
+    first_name: Alison
+    last_name: Brooks
+    suffix: ''
+    zip: '20011'
+  4B09:
+    smd: 4B09
+    address: 527 Oglethorpe St NE
+    phone: 202-704-2427
+    email: 4B09@anc.dc.gov
+    chair: false
+    first_name: LaRoya A.
+    last_name: Huff
+    suffix: ''
+    zip: '20011'
+  4C01:
+    smd: 4C01
+    address: 1216 Madison Street NW
+    phone: ''
+    email: 4C01@anc.dc.gov
+    chair: false
+    first_name: Charlotte
+    last_name: Nugent
+    suffix: ''
+    zip: '20011'
+  4C02:
+    smd: 4C02
+    address: 1409 Ingraham Street NW
+    phone: ''
+    email: 4C02@anc.dc.gov
+    chair: false
+    first_name: Maria
+    last_name: Barry
+    suffix: ''
+    zip: '20011'
+  4C03:
+    smd: 4C03
+    address: 1427 Upshur Street NW
+    phone: ''
+    email: 4C03@anc.dc.gov
+    chair: false
+    first_name: Ulysses E.
+    last_name: Campbell
+    suffix: ''
+    zip: '20011'
+  4C04:
+    smd: 4C04
+    address: '3900 14th Street, NW'
+    phone: ''
+    email: 4C04@anc.dc.gov
+    chair: false
+    first_name: Nora
+    last_name: Simon
+    suffix: ''
+    zip: '20011'
+  4C05:
+    smd: 4C05
+    address: 1350 Quincy St NW
+    phone: ''
+    email: 4C05@anc.dc.gov
+    chair: false
+    first_name: Debbie
+    last_name: Matties
+    suffix: ''
+    zip: '20011'
+  4C06:
+    smd: 4C06
+    address: 3803 13th St NW
+    phone: ''
+    email: 4C06@anc.dc.gov
+    chair: true
+    first_name: Bennett
+    last_name: Hilley
+    suffix: ''
+    zip: '20011'
+  4C07:
+    smd: 4C07
+    address: 822 Allison St NW
+    phone: ''
+    email: 4C07@anc.dc.gov
+    chair: false
+    first_name: Kim
+    last_name: Varzi
+    suffix: ''
+    zip: '20011'
+  4C08:
+    smd: 4C08
+    address: 614 Randolph Street NW
+    phone: 202-491-7077
+    email: 4C08@anc.dc.gov
+    chair: false
+    first_name: Leah
+    last_name: Anderson
+    suffix: ''
+    zip: '20010'
+  4C09:
+    smd: 4C09
+    address: ''
+    phone: ''
+    email: 4C09@anc.dc.gov
+    chair: false
+    first_name: Tearsa
+    last_name: Coates
+    suffix: ''
+    zip: '20011'
+  4C10:
+    smd: 4C10
+    address: 4217 4th Street NW
+    phone: ''
+    email: 4C10@anc.dc.gov
+    chair: false
+    first_name: Jonah
+    last_name: Goodman
+    suffix: ''
+    zip: '20011'
+  4D01:
+    smd: 4D01
+    address: 5419 8th St NW
+    phone: 202-210-4055
+    email: 4D01@anc.dc.gov
+    chair: false
+    first_name: Peter
+    last_name: Tabor
+    suffix: ''
+    zip: '20011'
+  4D02:
+    smd: 4D02
+    address: '5322 2nd Street, NW'
+    phone: ''
+    email: 4D02@anc.dc.gov
+    chair: true
+    first_name: Renée L.
+    last_name: Bowser
+    suffix: ''
+    zip: '20011'
+  4D03:
+    smd: 4D03
+    address: 4929 Kansas Ave NW
+    phone: ''
+    email: 4D03@anc.dc.gov
+    chair: false
+    first_name: Aaron
+    last_name: Polkey
+    suffix: ''
+    zip: '20001'
+  4D04:
+    smd: 4D04
+    address: 729 Gallatin Street NW
+    phone: ''
+    email: 4D04@anc.dc.gov
+    chair: false
+    first_name: Jamie
+    last_name: Barden
+    suffix: ''
+    zip: '20011'
+  4D05:
+    smd: 4D05
+    address: 250 Farragut St NW
+    phone: ''
+    email: 4D05@anc.dc.gov
+    chair: false
+    first_name: Krystal
+    last_name: Branton
+    suffix: ''
+    zip: '20039'
+  4D06:
+    smd: 4D06
+    address: 4716 8th St NW
+    phone: 202-656-8295
+    email: 4D06@anc.dc.gov
+    chair: false
+    first_name: Jonathan
+    last_name: Nobil
+    suffix: ''
+    zip: '20011'
+  5A01:
+    smd: 5A01
+    address: '5016 Eastern Avenue, NE'
+    phone: ''
+    email: 5A01@anc.dc.gov
+    chair: false
+    first_name: Frank
+    last_name: Wilds
+    suffix: ''
+    zip: '20017'
+  5A02:
+    smd: 5A02
+    address: '4945 Sargent Road, NE'
+    phone: ''
+    email: 5A02@anc.dc.gov
+    chair: false
+    first_name: Grace J.
+    last_name: Lewis
+    suffix: ''
+    zip: '20017'
+  5A03:
+    smd: 5A03
+    address: 845 Crittenden St NE
+    phone: ''
+    email: 5A03@anc.dc.gov
+    chair: false
+    first_name: Emily Singer
+    last_name: Lucio
+    suffix: ''
+    zip: '20017'
+  5A04:
+    smd: 5A04
+    address: '620 Michigan Ave., NE'
+    phone: ''
+    email: 5A04@anc.dc.gov
+    chair: false
+    first_name: Isaiah
+    last_name: Burroughs
+    suffix: ''
+    zip: '20064'
+  5A05:
+    smd: 5A05
+    address: '122 Michigan Avenue, NE # L24'
+    phone: ''
+    email: 5A05@anc.dc.gov
+    chair: true
+    first_name: Ronnie
+    last_name: Edwards
+    suffix: ''
+    zip: '20017'
+  5A06:
+    smd: 5A06
+    address: 90 Webster Street NE
+    phone: ''
+    email: 5A06@anc.dc.gov
+    chair: false
+    first_name: A. Jamaal
+    last_name: Lampkin
+    suffix: ''
+    zip: '20011'
+  5A07:
+    smd: 5A07
+    address: '32 Buchanan Street, NE'
+    phone: ''
+    email: 5A07@anc.dc.gov
+    chair: false
+    first_name: Sandi
+    last_name: Washington
+    suffix: ''
+    zip: '20011'
+  5A08:
+    smd: 5A08
+    address: 350 Galloway Street NE Apt 301
+    phone: ''
+    email: 5A08@anc.dc.gov
+    chair: false
+    first_name: Gordon-Andrew
+    last_name: Fletcher
+    suffix: ''
+    zip: '20011'
+  5B01:
+    smd: 5B01
+    address: '4031 South Dakota Avenue, NE'
+    phone: ''
+    email: 5B01@anc.dc.gov
+    chair: false
+    first_name: Gayle
+    last_name: Hall-Carley
+    suffix: ''
+    zip: '20018'
+  5B02:
+    smd: 5B02
+    address: '1902 Newton Street, NE'
+    phone: ''
+    email: 5B02@anc.dc.gov
+    chair: true
+    first_name: Ursula
+    last_name: Higgins
+    suffix: ''
+    zip: '20018'
+  5B03:
+    smd: 5B03
+    address: 1330 Hamlin Street NE
+    phone: ''
+    email: 5B03@anc.dc.gov
+    chair: false
+    first_name: Henri
+    last_name: Makembe
+    suffix: ''
+    zip: '20017'
+  5B04:
+    smd: 5B04
+    address: 1007 Hamlin St NE
+    phone: ''
+    email: 5B04@anc.dc.gov
+    chair: false
+    first_name: Ra
+    last_name: Amin
+    suffix: ''
+    zip: '20017'
+  5B05:
+    smd: 5B05
+    address: '3742 12th St NE #2'
+    phone: ''
+    email: 5B05@anc.dc.gov
+    chair: false
+    first_name: Landon
+    last_name: Jones
+    suffix: ''
+    zip: '20017'
+  5C01:
+    smd: 5C01
+    address: '2848 Myrtle Avenue, NE'
+    phone: ''
+    email: 5C01@anc.dc.gov
+    chair: false
+    first_name: Gail
+    last_name: Brevard
+    suffix: ''
+    zip: '20018'
+  5C02:
+    smd: 5C02
+    address: 2647 Myrtle Ave NE
+    phone: 202-860-2088
+    email: 5C02@anc.dc.gov
+    chair: false
+    first_name: Lauren
+    last_name: Rogers
+    suffix: ''
+    zip: '20018'
+  5C03:
+    smd: 5C03
+    address: '3823 Comm J. Barney Dr., NE'
+    phone: ''
+    email: 5C03@anc.dc.gov
+    chair: false
+    first_name: Robert
+    last_name: Looper
+    suffix: III
+    zip: '20018'
+  5C04:
+    smd: 5C04
+    address: 2116 R St NE
+    phone: ''
+    email: 5C04@anc.dc.gov
+    chair: true
+    first_name: Jacqueline
+    last_name: Manning
+    suffix: ''
+    zip: '20002'
+  5C05:
+    smd: 5C05
+    address: 1363 Downing St NE
+    phone: 202-374-4264
+    email: 5C05@anc.dc.gov
+    chair: false
+    first_name: Darlene
+    last_name: Oliver
+    suffix: ''
+    zip: '20018'
+  5C06:
+    smd: 5C06
+    address: 2531 14th St NE
+    phone: 202-894-0847
+    email: 5C06@anc.dc.gov
+    chair: false
+    first_name: Kirsten
+    last_name: Williams
+    suffix: ''
+    zip: '20018'
+  5C07:
+    smd: 5C07
+    address: 2914 25th St NE
+    phone: 202-670-8543
+    email: 5C07@anc.dc.gov
+    chair: false
+    first_name: Jeremiah
+    last_name: Montague
+    suffix: Jr
+    zip: '20018'
+  5D01:
+    smd: 5D01
+    address: '1868 Corcoran Street, NE'
+    phone: ''
+    email: 5D01@anc.dc.gov
+    chair: false
+    first_name: Ryan
+    last_name: Linehan
+    suffix: ''
+    zip: '20002'
+  5D02:
+    smd: 5D02
+    address: '1239 16th Street, NE'
+    phone: ''
+    email: 5D02@anc.dc.gov
+    chair: false
+    first_name: Keisha L.
+    last_name: Shropshire
+    suffix: ''
+    zip: '20002'
+  5D03:
+    smd: 5D03
+    address: '1100 21st St NE #104'
+    phone: ''
+    email: 5D03@anc.dc.gov
+    chair: false
+    first_name: Steven C.
+    last_name: Motley
+    suffix: Sr
+    zip: '20002'
+  5D04:
+    smd: 5D04
+    address: "2114 I Street, NE \_#3"
+    phone: ''
+    email: 5D04@anc.dc.gov
+    chair: false
+    first_name: Bernice S
+    last_name: Blacknell
+    suffix: ''
+    zip: '20002'
+  5D05:
+    smd: 5D05
+    address: 813 20th St NE
+    phone: ''
+    email: 5D05@anc.dc.gov
+    chair: false
+    first_name: Sydelle
+    last_name: Moore
+    suffix: ''
+    zip: '20002'
+  5D06:
+    smd: 5D06
+    address: 1147 Oates St NE
+    phone: ''
+    email: 5D06@anc.dc.gov
+    chair: false
+    first_name: Jason E.
+    last_name: Burkett
+    suffix: ''
+    zip: '20002'
+  5D07:
+    smd: 5D07
+    address: '1519 Trinidad Avenue, NE'
+    phone: ''
+    email: 5D07@anc.dc.gov
+    chair: true
+    first_name: Clarence
+    last_name: Lee
+    suffix: ''
+    zip: '20002'
+  '5E01':
+    smd: '5E01'
+    address: 608 Regent Place NE
+    phone: 202-656-1324
+    email: 5E01@anc.dc.gov
+    chair: false
+    first_name: Nick
+    last_name: Cheolas
+    suffix: ''
+    zip: '20017'
+  '5E02':
+    smd: '5E02'
+    address: 401 Edgewood Street NE
+    phone: ''
+    email: 5E02@anc.dc.gov
+    chair: false
+    first_name: Patricia
+    last_name: Williams
+    suffix: ''
+    zip: '20017'
+  '5E03':
+    smd: '5E03'
+    address: 2027 3rd St NE
+    phone: ''
+    email: 5E03@anc.dc.gov
+    chair: false
+    first_name: Cortney
+    last_name: Segmen
+    suffix: ''
+    zip: '20002'
+  '5E04':
+    smd: '5E04'
+    address: "34 R Street \_NE"
+    phone: ''
+    email: 5E04@anc.dc.gov
+    chair: false
+    first_name: Sylvia M.
+    last_name: Pinkney
+    suffix: ''
+    zip: '20002'
+  '5E05':
+    smd: '5E05'
+    address: 107 P Street NW
+    phone: ''
+    email: 5E05@anc.dc.gov
+    chair: true
+    first_name: Bradley Ashton
+    last_name: Thomas
+    suffix: ''
+    zip: '20001'
+  '5E06':
+    smd: '5E06'
+    address: 86 R St NW Apt A
+    phone: 410-705-4070
+    email: 5E06@anc.dc.gov
+    chair: false
+    first_name: Karla M.
+    last_name: Lewis
+    suffix: ''
+    zip: '20001'
+  '5E07':
+    smd: '5E07'
+    address: 49 T Street NW
+    phone: ''
+    email: 5E07@anc.dc.gov
+    chair: false
+    first_name: Bertha G.
+    last_name: Holliday
+    suffix: ''
+    zip: '20001'
+  '5E08':
+    smd: '5E08'
+    address: 158 Adams St NW
+    phone: 202-821-5346
+    email: 5E08@anc.dc.gov
+    chair: false
+    first_name: Robert Vinson
+    last_name: Brannum
+    suffix: ''
+    zip: '20001'
+  '5E09':
+    smd: '5E09'
+    address: 41 Adams Street NW
+    phone: ''
+    email: 5E09@anc.dc.gov
+    chair: false
+    first_name: Dianne
+    last_name: Barnes
+    suffix: ''
+    zip: '20001'
+  '5E10':
+    smd: '5E10'
+    address: 200 Bryant Street NE
+    phone: 202-594-7850
+    email: 5E10@anc.dc.gov
+    chair: false
+    first_name: Nancy Darlene
+    last_name: Jones
+    suffix: ''
+    zip: '20002'
+  6A01:
+    smd: 6A01
+    address: 704 10th Street NE
+    phone: ''
+    email: 6A01@anc.dc.gov
+    chair: false
+    first_name: Marie-Claire
+    last_name: Brown
+    suffix: ''
+    zip: '20002'
+  6A02:
+    smd: 6A02
+    address: '631 10th Street, NE'
+    phone: ''
+    email: 6A02@anc.dc.gov
+    chair: false
+    first_name: Phil
+    last_name: Toomajian
+    suffix: ''
+    zip: '20002'
+  6A03:
+    smd: 6A03
+    address: '217 10th Street, NE'
+    phone: ''
+    email: 6A03@anc.dc.gov
+    chair: false
+    first_name: Mike
+    last_name: Soderman
+    suffix: ''
+    zip: '20002'
+  6A04:
+    smd: 6A04
+    address: 1216 Constitution Ave. NE
+    phone: ''
+    email: 6A04@anc.dc.gov
+    chair: true
+    first_name: Amber
+    last_name: Gove
+    suffix: ''
+    zip: '20002'
+  6A05:
+    smd: 6A05
+    address: 1315 Corbin Place NE
+    phone: 202-780-0745
+    email: 6A05@anc.dc.gov
+    chair: false
+    first_name: Ruth Ann
+    last_name: Hudson
+    suffix: ''
+    zip: '20002'
+  6A06:
+    smd: 6A06
+    address: '1368 Emerald Street, NE'
+    phone: ''
+    email: 6A06@anc.dc.gov
+    chair: false
+    first_name: Stephanie
+    last_name: Zimny
+    suffix: ''
+    zip: '20002'
+  6A07:
+    smd: 6A07
+    address: '1744 E Street, NE'
+    phone: ''
+    email: 6A07@anc.dc.gov
+    chair: false
+    first_name: Sondra
+    last_name: Phillips-Gilbert
+    suffix: ''
+    zip: '20002'
+  6A08:
+    smd: 6A08
+    address: 31 15th St NE
+    phone: ''
+    email: 6A08@anc.dc.gov
+    chair: false
+    first_name: Brian
+    last_name: Alcorn
+    suffix: ''
+    zip: '20002'
+  6B01:
+    smd: 6B01
+    address: 407 2nd Street SE
+    phone: ''
+    email: 6B01@anc.dc.gov
+    chair: false
+    first_name: Jennifer E.
+    last_name: Samolyk
+    suffix: ''
+    zip: '20003'
+  6B02:
+    smd: 6B02
+    address: 129 6th Street SE
+    phone: ''
+    email: 6B02@anc.dc.gov
+    chair: false
+    first_name: Gerald
+    last_name: Sroufe
+    suffix: ''
+    zip: '20003'
+  6B03:
+    smd: 6B03
+    address: 622 1/2 I St SE
+    phone: ''
+    email: 6B03@anc.dc.gov
+    chair: false
+    first_name: Brian
+    last_name: Ready
+    suffix: ''
+    zip: '20003'
+  6B04:
+    smd: 6B04
+    address: '423 12th Street, SE'
+    phone: ''
+    email: 6B04@anc.dc.gov
+    chair: false
+    first_name: Kirsten
+    last_name: Oldenburg
+    suffix: ''
+    zip: '20003'
+  6B05:
+    smd: 6B05
+    address: 824 D St SE
+    phone: ''
+    email: 6B05@anc.dc.gov
+    chair: false
+    first_name: Steve
+    last_name: Holtzman
+    suffix: ''
+    zip: '20003'
+  6B06:
+    smd: 6B06
+    address: 926 14th St SE
+    phone: ''
+    email: 6B06@anc.dc.gov
+    chair: false
+    first_name: Corey
+    last_name: Holman
+    suffix: ''
+    zip: '20003'
+  6B07:
+    smd: 6B07
+    address: 1330 L St SE
+    phone: ''
+    email: 6B07@anc.dc.gov
+    chair: false
+    first_name: Kelly
+    last_name: Waud
+    suffix: ''
+    zip: '20003'
+  6B08:
+    smd: 6B08
+    address: '1436 Independence Avenue, SE'
+    phone: ''
+    email: 6B08@anc.dc.gov
+    chair: true
+    first_name: Chander
+    last_name: Jayaraman
+    suffix: ''
+    zip: '20003'
+  6B09:
+    smd: 6B09
+    address: 320 17th St SE
+    phone: ''
+    email: 6B09@anc.dc.gov
+    chair: false
+    first_name: Kasie
+    last_name: Clark
+    suffix: ''
+    zip: '20003'
+  6B10:
+    smd: 6B10
+    address: '1837 A Street, SE'
+    phone: ''
+    email: 6B10@anc.dc.gov
+    chair: false
+    first_name: Kathryn Denise Rucker
+    last_name: Krepp
+    suffix: ''
+    zip: '20003'
+  6C01:
+    smd: 6C01
+    address: 10 4th Street NE
+    phone: ''
+    email: 6C01@anc.dc.gov
+    chair: false
+    first_name: Christine
+    last_name: Healey
+    suffix: ''
+    zip: '20002'
+  6C02:
+    smd: 6C02
+    address: '234 E Street, NE'
+    phone: ''
+    email: 6C02@anc.dc.gov
+    chair: true
+    first_name: Karen
+    last_name: Wirt
+    suffix: ''
+    zip: '20002'
+  6C03:
+    smd: 6C03
+    address: 315 7th St NE
+    phone: 202-441-0778
+    email: 6C03@anc.dc.gov
+    chair: false
+    first_name: Jay
+    last_name: Adelstein
+    suffix: ''
+    zip: '20002'
+  6C04:
+    smd: 6C04
+    address: '312 E Street, NE'
+    phone: ''
+    email: 6C04@anc.dc.gov
+    chair: false
+    first_name: Mark
+    last_name: Eckenwiler
+    suffix: ''
+    zip: '20002'
+  6C05:
+    smd: 6C05
+    address: 608 6th St NE
+    phone: ''
+    email: 6C05@anc.dc.gov
+    chair: false
+    first_name: Joel
+    last_name: Kelty
+    suffix: ''
+    zip: '20002'
+  6C06:
+    smd: 6C06
+    address: '1160 1st St NE #718'
+    phone: 585-666-7364
+    email: 6C06@anc.dc.gov
+    chair: false
+    first_name: Robb
+    last_name: Dooling
+    suffix: ''
+    zip: '20002'
+  6D01:
+    smd: 6D01
+    address: "700 7th Street SW\_Apt. 725"
+    phone: ''
+    email: 6D01@anc.dc.gov
+    chair: true
+    first_name: Gail
+    last_name: Fast
+    suffix: ''
+    zip: '20024'
+  6D02:
+    smd: 6D02
+    address: 28 K Street SE
+    phone: ''
+    email: 6D02@anc.dc.gov
+    chair: false
+    first_name: Anna
+    last_name: Forgie
+    suffix: ''
+    zip: '20003'
+  6D03:
+    smd: 6D03
+    address: '301 G Street SW #609'
+    phone: ''
+    email: 6D03@anc.dc.gov
+    chair: false
+    first_name: Ronald R.
+    last_name: Collins
+    suffix: ''
+    zip: '20024'
+  6D04:
+    smd: 6D04
+    address: '423 N Street, SW'
+    phone: ''
+    email: 6D04@anc.dc.gov
+    chair: false
+    first_name: Andy
+    last_name: Litsky
+    suffix: ''
+    zip: '20024'
+  6D05:
+    smd: 6D05
+    address: '301 M St SW #820'
+    phone: 718-213-6770
+    email: 6D05@anc.dc.gov
+    chair: false
+    first_name: Anthony
+    last_name: Dale
+    suffix: ''
+    zip: '20024'
+  6D06:
+    smd: 6D06
+    address: '44 O Street, SW'
+    phone: ''
+    email: 6D06@anc.dc.gov
+    chair: false
+    first_name: Rhonda N.
+    last_name: Hamilton
+    suffix: ''
+    zip: '20024'
+  6D07:
+    smd: 6D07
+    address: "301 Tingey St SE\_ #433"
+    phone: 202-930-3720
+    email: 6D07@anc.dc.gov
+    chair: false
+    first_name: Edward
+    last_name: Daniels
+    suffix: ''
+    zip: '20003'
+  '6E01':
+    smd: '6E01'
+    address: '1519 8th Street, NW'
+    phone: ''
+    email: 6E01@anc.dc.gov
+    chair: false
+    first_name: Alexander M. "Alex"
+    last_name: Padro
+    suffix: ''
+    zip: '20001'
+  '6E02':
+    smd: '6E02'
+    address: '1702 5th Street., NW'
+    phone: ''
+    email: 6E02@anc.dc.gov
+    chair: false
+    first_name: Michael J.
+    last_name: Brown
+    suffix: ''
+    zip: '20001'
+  '6E03':
+    smd: '6E03'
+    address: '1340 5th Street, NW'
+    phone: ''
+    email: 6E03@anc.dc.gov
+    chair: false
+    first_name: Frank S.
+    last_name: Wiggins
+    suffix: ''
+    zip: '20001'
+  '6E04':
+    smd: '6E04'
+    address: ''
+    phone: ''
+    email: 6E04@anc.dc.gov
+    chair: false
+    last_name: Vacant
+    first_name: ''
+    suffix: ''
+    zip: '20001'
+  '6E05':
+    smd: '6E05'
+    address: 460 L Street NW
+    phone: ''
+    email: 6E05@anc.dc.gov
+    chair: true
+    first_name: Alex
+    last_name: Marriott
+    suffix: ''
+    zip: '20001'
+  '6E06':
+    smd: '6E06'
+    address: 40 New York Avenue NW
+    phone: ''
+    email: 6E06@anc.dc.gov
+    chair: false
+    first_name: Alvin
+    last_name: Judd
+    suffix: Sr
+    zip: '20001'
+  '6E07':
+    smd: '6E07'
+    address: 43 K Street NW
+    phone: ''
+    email: 6E07@anc.dc.gov
+    chair: false
+    first_name: Kevin M.
+    last_name: Rogers
+    suffix: ''
+    zip: '20001'
+  7B01:
+    smd: 7B01
+    address: 3200 S Street SE
+    phone: ''
+    email: 7B01@anc.dc.gov
+    chair: false
+    first_name: Patricia
+    last_name: Howard-Chittams
+    suffix: ''
+    zip: '20019'
+  7B02:
+    smd: 7B02
+    address: '2918 Akron Place, SE'
+    phone: ''
+    email: 7B02@anc.dc.gov
+    chair: false
+    first_name: Tiffany L.
+    last_name: Brown
+    suffix: ''
+    zip: '20020'
+  7B03:
+    smd: 7B03
+    address: 2402 L'Enfant Square SE
+    phone: ''
+    email: 7B03@anc.dc.gov
+    chair: false
+    first_name: Benjamin
+    last_name: Crane
+    suffix: ''
+    zip: '20020'
+  7B04:
+    smd: 7B04
+    address: 3525 Highwood Drive SE
+    phone: ''
+    email: 7B04@anc.dc.gov
+    chair: false
+    first_name: Nicole
+    last_name: Smith-McDermott
+    suffix: ''
+    zip: '20020'
+  7B05:
+    smd: 7B05
+    address: '3200 S Street, SE'
+    phone: ''
+    email: 7B05@anc.dc.gov
+    chair: false
+    first_name: Villareal "VJ"
+    last_name: Johnson
+    suffix: II
+    zip: '20020'
+  7B06:
+    smd: 7B06
+    address: 3636 Bangor St SE
+    phone: ''
+    email: 7B06@anc.dc.gov
+    chair: false
+    first_name: April
+    last_name: Pradier
+    suffix: ''
+    zip: '20020'
+  7B07:
+    smd: 7B07
+    address: '3452 N Street, SE'
+    phone: ''
+    email: 7B07@anc.dc.gov
+    chair: true
+    first_name: D. L.
+    last_name: Humphrey
+    suffix: ''
+    zip: '20019'
+  7C01:
+    smd: 7C01
+    address: '501 50th Place, NE'
+    phone: ''
+    email: 7C01@anc.dc.gov
+    chair: false
+    first_name: Patricia A.
+    last_name: Malloy
+    suffix: ''
+    zip: '20019'
+  7C02:
+    smd: 7C02
+    address: 5314 East Capitol St NE
+    phone: 301-520-7717
+    email: 7C02@anc.dc.gov
+    chair: false
+    first_name: Lawrence
+    last_name: Davin
+    suffix: ''
+    zip: '20019'
+  7C03:
+    smd: 7C03
+    address: '4904 Fitch Place, NE'
+    phone: ''
+    email: 7C03@anc.dc.gov
+    chair: false
+    first_name: Catherine A.
+    last_name: Woods
+    suffix: ''
+    zip: '20019'
+  7C04:
+    smd: 7C04
+    address: 920 49th Street NE
+    phone: ''
+    email: 7C04@anc.dc.gov
+    chair: false
+    first_name: Anthony Lorenzo
+    last_name: Green
+    suffix: ''
+    zip: '20019'
+  7C05:
+    smd: 7C05
+    address: '328 62nd Street, NE'
+    phone: ''
+    email: 7C05@anc.dc.gov
+    chair: false
+    first_name: Mary L.
+    last_name: Gaffney
+    suffix: ''
+    zip: '20019'
+  7C06:
+    smd: 7C06
+    address: '5318 Jay Street, NE'
+    phone: 202-536-6283
+    email: 7C06@anc.dc.gov
+    chair: false
+    first_name: Arnold
+    last_name: Smith
+    suffix: ''
+    zip: '20019'
+  7C07:
+    smd: 7C07
+    address: '4805 Meade Street, NE'
+    phone: ''
+    email: 7C07@anc.dc.gov
+    chair: true
+    first_name: Antawan
+    last_name: Holmes
+    suffix: ''
+    zip: '20019'
+  7D01:
+    smd: 7D01
+    address: 554 24th St NE
+    phone: 202-399-1238
+    email: 7D01@anc.dc.gov
+    chair: false
+    first_name: Tamara
+    last_name: Blair
+    suffix: ''
+    zip: '20019'
+  7D02:
+    smd: 7D02
+    address: '1104 42nd Street, NE'
+    phone: ''
+    email: 7D02@anc.dc.gov
+    chair: false
+    first_name: Siraaj M.
+    last_name: Hasan
+    suffix: ''
+    zip: '2001'
+  7D03:
+    smd: 7D03
+    address: '4401 Minnesota Avenue, NE'
+    phone: ''
+    email: 7D03@anc.dc.gov
+    chair: false
+    first_name: Dorothy
+    last_name: Douglas
+    suffix: ''
+    zip: '20019'
+  7D04:
+    smd: 7D04
+    address: 318 34th Place NE
+    phone: ''
+    email: 7D04@anc.dc.gov
+    chair: false
+    first_name: Cinque E.
+    last_name: Culver
+    suffix: ''
+    zip: '20019'
+  7D05:
+    smd: 7D05
+    address: ''
+    phone: ''
+    email: 7D05@anc.dc.gov
+    chair: false
+    first_name: Aretha
+    last_name: Jackson
+    suffix: ''
+    zip: '20019'
+  7D06:
+    smd: 7D06
+    address: '4409 Jay Street, NE'
+    phone: ''
+    email: 7D06@anc.dc.gov
+    chair: true
+    first_name: Sherice A.
+    last_name: Muhammad
+    suffix: ''
+    zip: '20019'
+  7D07:
+    smd: 7D07
+    address: 604 Parkside Place NE
+    phone: ''
+    email: 7D07@anc.dc.gov
+    chair: false
+    first_name: Artilie
+    last_name: Wright
+    suffix: ''
+    zip: '20019'
+  '7E01':
+    smd: '7E01'
+    address: 703 Chaplin St SE
+    phone: ''
+    email: 7E01@anc.dc.gov
+    chair: false
+    first_name: Veda
+    last_name: Rasheed
+    suffix: ''
+    zip: '20019'
+  '7E02':
+    smd: '7E02'
+    address: '4239 Massachusetts Avenue, SE'
+    phone: ''
+    email: 7E02@anc.dc.gov
+    chair: false
+    first_name: Linda S.
+    last_name: Green
+    suffix: ''
+    zip: '20019'
+  '7E03':
+    smd: '7E03'
+    address: P.O. Box 10307
+    phone: ''
+    email: 7E03@anc.dc.gov
+    chair: false
+    first_name: Ebbon A.
+    last_name: Allen
+    suffix: ''
+    zip: '20020'
+  '7E04':
+    smd: '7E04'
+    address: 4839 Bass Place SE
+    phone: ''
+    email: 7E04@anc.dc.gov
+    chair: false
+    first_name: Takiyah
+    last_name: Tate
+    suffix: ''
+    zip: '20019'
+  '7E05':
+    smd: '7E05'
+    address: 4932 A St SE
+    phone: ''
+    email: 7E05@anc.dc.gov
+    chair: false
+    first_name: Victor L.
+    last_name: Horton
+    suffix: ''
+    zip: '20019'
+  '7E06':
+    smd: '7E06'
+    address: 5336 Call Place SE
+    phone: 202-374-7424
+    email: 7E06@anc.dc.gov
+    chair: true
+    first_name: Delia
+    last_name: Houseal
+    suffix: ''
+    zip: '20019'
+  '7E07':
+    smd: '7E07'
+    address: 11 58th St SE
+    phone: ''
+    email: 7E07@anc.dc.gov
+    chair: false
+    first_name: Yolanda
+    last_name: Fields
+    suffix: ''
+    zip: '20019'
+  7F01:
+    smd: 7F01
+    address: 4020 Minnesota Avenue NE
+    phone: ''
+    email: 7F01@anc.dc.gov
+    chair: true
+    first_name: Tyrell M.
+    last_name: Holcomb
+    suffix: ''
+    zip: '20019'
+  7F02:
+    smd: 7F02
+    address: 4433 C Street SE
+    phone: ''
+    email: 7F02@anc.dc.gov
+    chair: false
+    first_name: Terrance
+    last_name: Hunter
+    suffix: ''
+    zip: '20019'
+  7F03:
+    smd: 7F03
+    address: '515 46th Street, SE'
+    phone: ''
+    email: 7F03@anc.dc.gov
+    chair: false
+    first_name: Sheila Carson
+    last_name: Carr
+    suffix: ''
+    zip: '20019'
+  7F04:
+    smd: 7F04
+    address: 3423 Minnesota Avenue SE
+    phone: ''
+    email: 7F04@anc.dc.gov
+    chair: false
+    first_name: Charlene
+    last_name: Exum
+    suffix: ''
+    zip: '20019'
+  7F05:
+    smd: 7F05
+    address: 3735 D St SE
+    phone: ''
+    email: 7F05@anc.dc.gov
+    chair: false
+    first_name: Brittany N.
+    last_name: Hughes
+    suffix: ''
+    zip: '20019'
+  7F06:
+    smd: 7F06
+    address: 3444 Croffut Place SE
+    phone: ''
+    email: 7F06@anc.dc.gov
+    chair: false
+    first_name: Carol E.
+    last_name: Fletcher
+    suffix: ''
+    zip: '20019'
+  7F07:
+    smd: 7F07
+    address: ''
+    phone: ''
+    email: 7F07@anc.dc.gov
+    chair: false
+    last_name: Vacant
+    first_name: ''
+    suffix: ''
+    zip: '20019'
+  8A01:
+    smd: 8A01
+    address: '1936 Naylor Road SE #102'
+    phone: 202-422-4957
+    email: 8A01@anc.dc.gov
+    chair: false
+    first_name: Holly
+    last_name: Muhammad
+    suffix: ''
+    zip: '20020'
+  8A02:
+    smd: 8A02
+    address: 1620 Ridge Place SE
+    phone: ''
+    email: 8A02@anc.dc.gov
+    chair: false
+    first_name: Barbara J.
+    last_name: Clark
+    suffix: ''
+    zip: '20020'
+  8A03:
+    smd: 8A03
+    address: 2409 S St SE
+    phone: ''
+    email: 8A03@anc.dc.gov
+    chair: false
+    first_name: Brian K
+    last_name: Thompson
+    suffix: ''
+    zip: '20020'
+  8A04:
+    smd: 8A04
+    address: 2317 16th Street SE Unit 101
+    phone: ''
+    email: 8A04@anc.dc.gov
+    chair: true
+    first_name: Troy Donte
+    last_name: Prestwood
+    suffix: ''
+    zip: '20020'
+  8A05:
+    smd: 8A05
+    address: '1926 15th Street, SE'
+    phone: 202-957-7010
+    email: 8A05@anc.dc.gov
+    chair: false
+    first_name: Dorcas
+    last_name: Agyei
+    suffix: ''
+    zip: '20020'
+  8A06:
+    smd: 8A06
+    address: '1262 Talbert St SE #7A'
+    phone: 202-815-1616
+    email: 8A06@anc.dc.gov
+    chair: false
+    first_name: Tyón
+    last_name: Jones
+    suffix: ''
+    zip: '20020'
+  8A07:
+    smd: 8A07
+    address: 1491 Howard Road SE
+    phone: 202-780-5504
+    email: 8A07@anc.dc.gov
+    chair: false
+    first_name: Hanna
+    last_name: Baker
+    suffix: ''
+    zip: '20020'
+  8B01:
+    smd: 8B01
+    address: 2437 Wagner Street SE
+    phone: ''
+    email: 8B01@anc.dc.gov
+    chair: false
+    first_name: Leonard Lee
+    last_name: Watson
+    suffix: Jr
+    zip: '20020'
+  8B02:
+    smd: 8B02
+    address: '2345 Skyland Place SE #826'
+    phone: ''
+    email: 8B02@anc.dc.gov
+    chair: false
+    first_name: Paul
+    last_name: Trantham
+    suffix: ''
+    zip: '20030'
+  8B03:
+    smd: 8B03
+    address: 1808 Morris Road SE
+    phone: ''
+    email: 8B03@anc.dc.gov
+    chair: false
+    first_name: Charles H.
+    last_name: Wilson
+    suffix: ''
+    zip: '20020'
+  8B04:
+    smd: 8B04
+    address: 1618 Gainesville St SE
+    phone: ''
+    email: 8B04@anc.dc.gov
+    chair: false
+    first_name: Darrell Danny
+    last_name: Gaston
+    suffix: ''
+    zip: '20020'
+  8B05:
+    smd: 8B05
+    address: 2740 Knox Terrace SE
+    phone: ''
+    email: 8B05@anc.dc.gov
+    chair: false
+    first_name: Betty
+    last_name: Scippio
+    suffix: ''
+    zip: '20020'
+  8B06:
+    smd: 8B06
+    address: '3416 25th St SE #13'
+    phone: 202-718-8435
+    email: 8B06@anc.dc.gov
+    chair: false
+    first_name: Humam
+    last_name: Abdulmalik
+    suffix: ''
+    zip: '20020'
+  8B07:
+    smd: 8B07
+    address: 3574 Stanton Road SE
+    phone: ''
+    email: 8B07@anc.dc.gov
+    chair: true
+    first_name: Keeon
+    last_name: Bassett
+    suffix: ''
+    zip: '20020'
+  8C01:
+    smd: 8C01
+    address: 'c/o RISE, 2730 Martin Luther King, Jr. Ave SE'
+    phone: 202-779-3904
+    email: 8C01@anc.dc.gov
+    chair: true
+    first_name: Mike
+    last_name: Austin
+    suffix: ''
+    zip: '20032'
+  8C02:
+    smd: 8C02
+    address: ''
+    phone: ''
+    email: 8C02@anc.dc.gov
+    chair: false
+    first_name: Chyla D.
+    last_name: Evans
+    suffix: ''
+    zip: '20020'
+  8C03:
+    smd: 8C03
+    address: 'c/o RISE, 2730 Martin Luther King, Jr. Ave SE'
+    phone: 202-854-9580
+    email: 8C03@anc.dc.gov
+    chair: false
+    first_name: Robinette
+    last_name: Woodland
+    suffix: ''
+    zip: '20032'
+  8C04:
+    smd: 8C04
+    address: 211 Savannah St SE Apt A
+    phone: ''
+    email: 8C04@anc.dc.gov
+    chair: false
+    first_name: Regina Sharlita
+    last_name: Pixley
+    suffix: ''
+    zip: '20032'
+  8C05:
+    smd: 8C05
+    address: 3825 South Capitol St SW
+    phone: 240-515-6447
+    email: 8C05@anc.dc.gov
+    chair: false
+    first_name: Mustafa
+    last_name: Abdul-Salaam
+    suffix: ''
+    zip: '20032'
+  8C06:
+    smd: 8C06
+    address: 1142 Sumner Road SE
+    phone: ''
+    email: 8C06@anc.dc.gov
+    chair: false
+    first_name: Rhonda L.
+    last_name: Edwards-Hines
+    suffix: ''
+    zip: '20020'
+  8C07:
+    smd: 8C07
+    address: PO Box 30564
+    phone: ''
+    email: 8C07@anc.dc.gov
+    chair: false
+    first_name: Salim
+    last_name: Adofo
+    suffix: ''
+    zip: '20032'
+  8D01:
+    smd: 8D01
+    address: '816 Southern Avenue SE #204'
+    phone: ''
+    email: 8D01@anc.dc.gov
+    chair: false
+    first_name: Patricia
+    last_name: Carmon
+    suffix: ''
+    zip: '20032'
+  8D02:
+    smd: 8D02
+    address: 4612 6th Street SE
+    phone: ''
+    email: 8D02@anc.dc.gov
+    chair: true
+    first_name: Olivia L.
+    last_name: Henderson
+    suffix: ''
+    zip: '20032'
+  8D03:
+    smd: 8D03
+    address: 4335 4th Street SE
+    phone: ''
+    email: 8D03@anc.dc.gov
+    chair: false
+    first_name: Absalom
+    last_name: Jordan
+    suffix: ''
+    zip: '20032'
+  8D04:
+    smd: 8D04
+    address: 4660 MLK Avenue SW
+    phone: ''
+    email: 8D04@anc.dc.gov
+    chair: false
+    first_name: Monique T.
+    last_name: Diop
+    suffix: ''
+    zip: '20032'
+  8D05:
+    smd: 8D05
+    address: '34 Galveston Place SW #1'
+    phone: ''
+    email: 8D05@anc.dc.gov
+    chair: false
+    first_name: Ellen
+    last_name: Armstead
+    suffix: ''
+    zip: '20032'
+  8D06:
+    smd: 8D06
+    address: 4346 MLK Avenue SW
+    phone: ''
+    email: 8D06@anc.dc.gov
+    chair: false
+    first_name: LaVerne R.
+    last_name: Glenn
+    suffix: ''
+    zip: '20032'
+  8D07:
+    smd: 8D07
+    address: 19 Atlantic St SE
+    phone: ''
+    email: 8D07@anc.dc.gov
+    chair: false
+    first_name: Constance
+    last_name: Mobley
+    suffix: ''
+    zip: '20032'
+  '8E01':
+    smd: '8E01'
+    address: 1430 Tobias Drive SE
+    phone: 202-860-0881
+    email: 8E01@anc.dc.gov
+    chair: false
+    first_name: Adeoye
+    last_name: Owolewa
+    suffix: ''
+    zip: '20020'
+  '8E02':
+    smd: '8E02'
+    address: 1882 Alabama Ave SE
+    phone: 202-317-1490
+    email: 8E02@anc.dc.gov
+    chair: false
+    first_name: Cheryl
+    last_name: Moore
+    suffix: ''
+    zip: '20020'
+  '8E03':
+    smd: '8E03'
+    address: 3225 23rd Street SE
+    phone: ''
+    email: 8E03@anc.dc.gov
+    chair: false
+    first_name: Monica
+    last_name: Watts
+    suffix: ''
+    zip: '20020'
+  '8E04':
+    smd: '8E04'
+    address: 1313 Congress Street SE
+    phone: ''
+    email: 8E04@anc.dc.gov
+    chair: true
+    first_name: Kendall
+    last_name: Simmons
+    suffix: ''
+    zip: '20032'
+  '8E05':
+    smd: '8E05'
+    address: 1922 Valley Ave SE
+    phone: ''
+    email: 8E05@anc.dc.gov
+    chair: false
+    first_name: Christopher L.
+    last_name: Hawthorne
+    suffix: ''
+    zip: '20032'
+  '8E06':
+    smd: '8E06'
+    address: 559 Foxhall Place SE
+    phone: ''
+    email: 8E06@anc.dc.gov
+    chair: false
+    first_name: Karlene
+    last_name: Armstead
+    suffix: ''
+    zip: '20032'
+  '8E07':
+    smd: '8E07'
+    address: 855 Barnaby Street SE
+    phone: ''
+    email: 8E07@anc.dc.gov
+    chair: false
+    first_name: Stephen A.
+    last_name: Slaughter
+    suffix: ''
+    zip: '20032'
