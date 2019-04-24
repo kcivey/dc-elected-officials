@@ -1,4 +1,4 @@
-updated: '2019-04-17'
+updated: '2019-04-24'
 commissioners:
   1A01:
     smd: 1A01
@@ -162,12 +162,12 @@ commissioners:
     zip: '20009'
   1B05:
     smd: 1B05
-    address: '2101 New Hampshire Ave NW #312'
+    address: ''
     phone: ''
     email: 1B05@anc.dc.gov
     chair: false
-    first_name: James
-    last_name: Cordes
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20009'
   1B06:
@@ -182,12 +182,12 @@ commissioners:
     zip: '20009'
   1B07:
     smd: 1B07
-    address: 2639 15th Street NW
+    address: ''
     phone: ''
     email: 1B07@anc.dc.gov
     chair: false
-    first_name: Jessica Laura
-    last_name: Smith
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20009'
   1B08:
@@ -712,12 +712,12 @@ commissioners:
     zip: '20005'
   2F05:
     smd: 2F05
-    address: 1133 14th Street NW
+    address: ''
     phone: ''
     email: 2F05@anc.dc.gov
     chair: false
-    first_name: Ron
-    last_name: Rubin
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20005'
   2F06:
@@ -2112,12 +2112,12 @@ commissioners:
     zip: '20002'
   6C06:
     smd: 6C06
-    address: '1160 1st St NE #718'
-    phone: 585-666-7364
+    address: ''
+    phone: ''
     email: 6C06@anc.dc.gov
     chair: false
-    first_name: Robb
-    last_name: Dooling
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20002'
   6D01:
@@ -2703,7 +2703,7 @@ commissioners:
   8B03:
     smd: 8B03
     address: 1808 Morris Road SE
-    phone: ''
+    phone: 702-626-2593
     email: 8B03@anc.dc.gov
     chair: false
     first_name: Charles H.
@@ -2723,7 +2723,7 @@ commissioners:
   8B05:
     smd: 8B05
     address: 2740 Knox Terrace SE
-    phone: ''
+    phone: 202-415-0660
     email: 8B05@anc.dc.gov
     chair: false
     first_name: Betty
@@ -2823,7 +2823,7 @@ commissioners:
   8D01:
     smd: 8D01
     address: '816 Southern Avenue SE #204'
-    phone: ''
+    phone: 202-431-1699
     email: 8D01@anc.dc.gov
     chair: false
     first_name: Patricia
@@ -2833,7 +2833,7 @@ commissioners:
   8D02:
     smd: 8D02
     address: 4612 6th Street SE
-    phone: ''
+    phone: 202-905-6818
     email: 8D02@anc.dc.gov
     chair: true
     first_name: Olivia L.
@@ -2873,7 +2873,7 @@ commissioners:
   8D06:
     smd: 8D06
     address: 4346 MLK Avenue SW
-    phone: ''
+    phone: 202-290-6698
     email: 8D06@anc.dc.gov
     chair: false
     first_name: LaVerne R.
