@@ -28,12 +28,12 @@ function pause(result) {
     });
 }
 
-module.exports = function (uri, options) {
+module.exports = function (uri, options = {}) {
     if (typeof uri === 'string') {
-        options = {uri};
+        options.uri = uri;
     }
     else {
-        options.uri = uri;
+        options = uri;
     }
     options.transform = pause;
     return cacheReady.then(rp => rp(options));
