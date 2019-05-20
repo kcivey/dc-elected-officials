@@ -1,4 +1,4 @@
-updated: '2019-04-24'
+updated: '2019-05-20'
 commissioners:
   1A01:
     smd: 1A01
@@ -152,12 +152,12 @@ commissioners:
     zip: '20009'
   1B04:
     smd: 1B04
-    address: ''
+    address: '1440 W Street, NW'
     phone: ''
     email: 1B04@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Deborah
+    last_name: Thomas
     suffix: ''
     zip: '20009'
   1B05:
