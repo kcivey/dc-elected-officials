@@ -1,4 +1,4 @@
-updated: '2019-05-20'
+updated: '2019-06-05'
 commissioners:
   1A01:
     smd: 1A01
@@ -2913,7 +2913,7 @@ commissioners:
   '8E03':
     smd: '8E03'
     address: 3225 23rd Street SE
-    phone: ''
+    phone: 202-903-1440
     email: 8E03@anc.dc.gov
     chair: false
     first_name: Monica
@@ -2923,7 +2923,7 @@ commissioners:
   '8E04':
     smd: '8E04'
     address: 1313 Congress Street SE
-    phone: ''
+    phone: 202-200-1340
     email: 8E04@anc.dc.gov
     chair: true
     first_name: Kendall
@@ -2933,7 +2933,7 @@ commissioners:
   '8E05':
     smd: '8E05'
     address: 1922 Valley Ave SE
-    phone: ''
+    phone: 202-425-0563
     email: 8E05@anc.dc.gov
     chair: false
     first_name: Christopher L.
@@ -2953,7 +2953,7 @@ commissioners:
   '8E07':
     smd: '8E07'
     address: 855 Barnaby Street SE
-    phone: ''
+    phone: 202-503-0017
     email: 8E07@anc.dc.gov
     chair: false
     first_name: Stephen A.
