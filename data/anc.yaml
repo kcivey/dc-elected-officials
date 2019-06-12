@@ -1,4 +1,4 @@
-updated: '2019-06-05'
+updated: '2019-06-12'
 commissioners:
   1A01:
     smd: 1A01
@@ -692,12 +692,12 @@ commissioners:
     zip: '20005'
   2F03:
     smd: 2F03
-    address: 1227 15th St NW
+    address: 1421 Massachusetts Ave NW
     phone: ''
     email: 2F03@anc.dc.gov
     chair: false
-    first_name: Tom
-    last_name: Alexander
+    first_name: John
+    last_name: Bottino
     suffix: ''
     zip: '20005'
   2F04:
@@ -2903,7 +2903,7 @@ commissioners:
   '8E02':
     smd: '8E02'
     address: 1882 Alabama Ave SE
-    phone: 202-317-1490
+    phone: 202-903-8733
     email: 8E02@anc.dc.gov
     chair: false
     first_name: Cheryl
