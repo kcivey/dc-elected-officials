@@ -1,4 +1,4 @@
-updated: '2019-06-12'
+updated: '2019-06-18'
 commissioners:
   1A01:
     smd: 1A01
@@ -2112,12 +2112,12 @@ commissioners:
     zip: '20002'
   6C06:
     smd: 6C06
-    address: ''
+    address: 506 M Street NE
     phone: ''
     email: 6C06@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Drew
+    last_name: Courtney
     suffix: ''
     zip: '20002'
   6D01:
