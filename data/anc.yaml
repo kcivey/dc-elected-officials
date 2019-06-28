@@ -1,4 +1,4 @@
-updated: '2019-06-18'
+updated: '2019-06-28'
 commissioners:
   1A01:
     smd: 1A01
@@ -2412,7 +2412,7 @@ commissioners:
     zip: '20019'
   7D02:
     smd: 7D02
-    address: '1104 42nd Street, NE'
+    address: 1104 42nd Street NE
     phone: ''
     email: 7D02@anc.dc.gov
     chair: false
@@ -2422,7 +2422,7 @@ commissioners:
     zip: '2001'
   7D03:
     smd: 7D03
-    address: '4401 Minnesota Avenue, NE'
+    address: 4401 Minnesota Avenue NE
     phone: ''
     email: 7D03@anc.dc.gov
     chair: false
@@ -2442,7 +2442,7 @@ commissioners:
     zip: '20019'
   7D05:
     smd: 7D05
-    address: ''
+    address: '4254 East Capitol Street #2'
     phone: ''
     email: 7D05@anc.dc.gov
     chair: false
@@ -2452,7 +2452,7 @@ commissioners:
     zip: '20019'
   7D06:
     smd: 7D06
-    address: '4409 Jay Street, NE'
+    address: 4409 Jay Street NE
     phone: ''
     email: 7D06@anc.dc.gov
     chair: true
@@ -2582,7 +2582,7 @@ commissioners:
     zip: '20019'
   7F05:
     smd: 7F05
-    address: 3735 D St SE
+    address: ''
     phone: ''
     email: 7F05@anc.dc.gov
     chair: false
