@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const moment = require('moment');
 const personData = require('./data/person.json');
-const anc = require('./anc');
+const anc = require('./lib/anc');
 let councils = null;
 let persons = null;
 

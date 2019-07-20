@@ -5,7 +5,7 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const _ = require('lodash');
 const yaml = require('js-yaml');
-const request = require('./request');
+const request = require('./lib/request');
 const ancHomeUrl = 'https://anc.dc.gov/';
 const ancYamlFile = __dirname + '/data/anc.yaml';
 
