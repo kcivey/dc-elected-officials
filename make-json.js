@@ -18,7 +18,7 @@ fs.readdirSync(personDir).forEach(file => {
     personData[d.code] = camelizeObject(d);
 });
 
-fs.writeFileSync(personFile, JSON.stringify(camelizeObject(personData)));
+fs.writeFileSync(personFile, JSON.stringify(personData));
 
 const ancData = yaml.safeLoad(fs.readFileSync(ancYamlFile));
 ancData.commissioners = Object.entries(ancData.commissioners).reduce(
