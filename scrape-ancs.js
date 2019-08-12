@@ -2,6 +2,7 @@
 
 const url = require('url');
 const fs = require('fs');
+const assert = require('assert');
 const cheerio = require('cheerio');
 const _ = require('lodash');
 const yaml = require('js-yaml');
@@ -11,7 +12,8 @@ const ancYamlFile = __dirname + '/data/anc.yaml';
 
 request(ancHomeUrl).then(html => cheerio.load(html))
     .then(getAncData)
-    .then(writeYamlFile);
+    .then(writeYamlFile)
+    .catch(console.error);
 
 async function getAncData($) {
     const links = $('ul.menu-sub > li.leaf > a').get();
@@ -22,6 +24,7 @@ async function getAncData($) {
         if (!m) {
             continue;
         }
+        console.log(m[0]);
         const ancUrl = url.resolve(ancHomeUrl, $a.attr('href'));
         $ = await getCheerio(ancUrl);
         const headers = $('table > thead > tr > th')
@@ -86,18 +89,19 @@ function getCheerio(requestOptions) {
 }
 
 function writeYamlFile(commissioners) {
-    return new Promise(function (resolve, reject) {
-        const data = {
-            updated: (new Date).toISOString().substr(0, 10),
-            commissioners,
-        };
-        fs.writeFile(ancYamlFile, yaml.safeDump(data), function (err) {
-            if (err) {
-                reject(err);
-            }
-            else {
-                resolve();
-            }
-        });
-    });
+    const oldYaml = fs.readFileSync(ancYamlFile);
+    const oldCommissioners = yaml.safeLoad(oldYaml).commissioners;
+    try {
+        assert.deepStrictEqual(commissioners, oldCommissioners);
+        return false; // unchanged
+    }
+    catch (err) {
+        console.warn('Commissioners have changed');
+    }
+    const data = {
+        updated: new Date().toISOString().substr(0, 10),
+        commissioners,
+    };
+    fs.writeFileSync(ancYamlFile, yaml.safeDump(data));
+    return true;
 }
