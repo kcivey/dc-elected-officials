@@ -1,4 +1,4 @@
-updated: '2019-07-19'
+updated: '2019-08-18'
 commissioners:
   1A01:
     smd: 1A01
@@ -982,12 +982,12 @@ commissioners:
     zip: '20007'
   3D10:
     smd: 3D10
-    address: ''
+    address: 4301 Massachuetts Ave. NW
     phone: ''
     email: 3D10@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Jeremy Del
+    last_name: Moral
     suffix: ''
     zip: '20016'
   '3E01':
