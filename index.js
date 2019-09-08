@@ -152,7 +152,7 @@ function getCouncils() {
             });
         });
         councils = _.pick(councils, Object.keys(councils).sort());
-        _.each(councils, function (c, date) {
+        councils.forEach(function (c) {
             members = _.union(_.difference(members, c.remove), c.add);
             c.members = members.slice(); // make copy before further modification
         });

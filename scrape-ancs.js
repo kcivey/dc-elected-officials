@@ -26,7 +26,7 @@ async function getAncData($) {
         }
         console.log(m[0]);
         const ancUrl = url.resolve(ancHomeUrl, $a.attr('href'));
-        $ = await getCheerio(ancUrl);
+        $ = await getCheerio(ancUrl); // eslint-disable-line require-atomic-updates
         const headers = $('table > thead > tr > th')
             .map((i, th) => $(th).text().trim().toLowerCase())
             .get();
