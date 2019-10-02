@@ -24,7 +24,7 @@
     "cache-manager-fs": "^1.0.8",
     "cheerio": "^1.0.0-rc.3",
     "csv-stringify": "^5.3.3",
-    "eslint": "^6.3.0",
+    "eslint": "^6.5.1",
     "lodash": "^4.17.15",
     "request": "^2.88.0",
     "request-plus": "^2.0.0"
