@@ -1,4 +1,4 @@
-updated: '2019-08-18'
+updated: '2019-10-02'
 commissioners:
   1A01:
     smd: 1A01
@@ -2222,12 +2222,12 @@ commissioners:
     zip: '20001'
   '6E04':
     smd: '6E04'
-    address: ''
+    address: 437 New york Avenue NW
     phone: ''
     email: 6E04@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Rachelle
+    last_name: Nigro
     suffix: ''
     zip: '20001'
   '6E05':
