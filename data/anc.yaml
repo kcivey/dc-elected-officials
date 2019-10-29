@@ -1,4 +1,4 @@
-updated: '2019-10-02'
+updated: '2019-10-29'
 commissioners:
   1A01:
     smd: 1A01
@@ -272,12 +272,12 @@ commissioners:
     zip: '20009'
   1C04:
     smd: 1C04
-    address: 1953 Calvert St NW
+    address: '3025 Ontario Rd., NW'
     phone: ''
     email: 1C04@anc.dc.gov
     chair: false
-    first_name: Douglas
-    last_name: Ely
+    first_name: John V.
+    last_name: Zottoli
     suffix: ''
     zip: '20009'
   1C05:
@@ -2162,12 +2162,12 @@ commissioners:
     zip: '20024'
   6D05:
     smd: 6D05
-    address: '301 M St SW #820'
-    phone: 718-213-6770
+    address: ''
+    phone: ''
     email: 6D05@anc.dc.gov
     chair: false
-    first_name: Anthony
-    last_name: Dale
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20024'
   6D06:
