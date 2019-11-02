@@ -9,6 +9,7 @@ positions:
   - office: 'At-Large Member (1b), Council of the District of Columbia'
     start: '1985-01-02'
     end: '1989-01-02'
+    end_type: retirement
   - office: 'At-Large Member (1b), Council of the District of Columbia'
     start: '1997-01-02'
     end: '2009-01-02'

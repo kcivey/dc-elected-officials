@@ -9,6 +9,7 @@ positions:
   - office: 'Ward 5 Member, Council of the District of Columbia'
     start: '1999-01-02'
     end: '2007-01-02'
+    end_type: higher_unsuccessful
   - office: 'At-Large Member (1a), Council of the District of Columbia'
     election: '2011-04-26'
     start: '2011-05-10'
