@@ -15,25 +15,34 @@ request(ancHomeUrl).then(html => cheerio.load(html))
     .then(writeYamlFile)
     .catch(console.error);
 
-async function getAncData($) {
-    const links = $('ul.menu-sub > li.leaf > a').get();
+async function getAncData($home) {
+    const links = $home('ul.menu-sub > li.leaf > a').get();
     const data = {};
     for (const a of links) {
-        const $a = $(a);
-        let m = $a.text().trim().match(/^ANC\s+[1-8][A-G]$/);
+        const $a = $home(a);
+        let m = $a.text()
+            .trim()
+            .match(/^ANC\s+[1-8][A-G]$/);
         if (!m) {
             continue;
         }
         console.log(m[0]);
         const ancUrl = url.resolve(ancHomeUrl, $a.attr('href'));
-        $ = await getCheerio(ancUrl); // eslint-disable-line require-atomic-updates
+        const $ = await getCheerio(ancUrl); // eslint-disable-line require-atomic-updates
         const headers = $('table > thead > tr > th')
-            .map((i, th) => $(th).text().trim().toLowerCase())
+            .map(function (i, th) {
+                return $(th).text()
+                    .trim()
+                    .toLowerCase();
+            })
             .get();
         const rows = $('table > tbody > tr').get();
         for (const row of rows) {
             const values = $(row).find('td')
-                .map((i, th) => $(th).text().trim())
+                .map(function (i, th) {
+                    return $(th).text()
+                        .trim();
+                })
                 .get();
             const record = _.zipObject(headers, values);
             if (!record.name) {
@@ -99,7 +108,8 @@ function writeYamlFile(commissioners) {
         console.warn('Commissioners have changed');
     }
     const data = {
-        updated: new Date().toISOString().substr(0, 10),
+        updated: new Date().toISOString()
+            .substr(0, 10),
         commissioners,
     };
     fs.writeFileSync(ancYamlFile, yaml.safeDump(data));
