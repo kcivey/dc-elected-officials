@@ -1,4 +1,4 @@
-updated: '2019-11-10'
+updated: '2019-11-22'
 commissioners:
   1A01:
     smd: 1A01
@@ -1712,7 +1712,7 @@ commissioners:
     zip: '20018'
   5D01:
     smd: 5D01
-    address: '1868 Corcoran Street, NE'
+    address: 1834 Central Place NE
     phone: ''
     email: 5D01@anc.dc.gov
     chair: false
