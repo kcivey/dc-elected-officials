@@ -1,4 +1,4 @@
-updated: '2019-11-22'
+updated: '2019-12-16'
 commissioners:
   1A01:
     smd: 1A01
@@ -1562,12 +1562,12 @@ commissioners:
     zip: '20017'
   5A06:
     smd: 5A06
-    address: 90 Webster Street NE
+    address: ''
     phone: ''
     email: 5A06@anc.dc.gov
     chair: false
-    first_name: A. Jamaal
-    last_name: Lampkin
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20011'
   5A07:
@@ -1662,13 +1662,13 @@ commissioners:
     zip: '20018'
   5C03:
     smd: 5C03
-    address: '3823 Comm J. Barney Dr., NE'
+    address: ''
     phone: ''
     email: 5C03@anc.dc.gov
     chair: false
-    first_name: Robert
-    last_name: Looper
-    suffix: III
+    last_name: Vacant
+    first_name: ''
+    suffix: ''
     zip: '20018'
   5C04:
     smd: 5C04
