@@ -1,4 +1,4 @@
-updated: '2019-12-16'
+updated: '2019-12-30'
 commissioners:
   1A01:
     smd: 1A01
@@ -2162,12 +2162,12 @@ commissioners:
     zip: '20024'
   6D05:
     smd: 6D05
-    address: ''
+    address: 387 O Street SW
     phone: ''
     email: 6D05@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Fredrica
+    last_name: Kramer
     suffix: ''
     zip: '20024'
   6D06:
