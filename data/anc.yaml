@@ -1,4 +1,4 @@
-updated: '2020-01-16'
+updated: '2020-02-05'
 commissioners:
   1A01:
     smd: 1A01
@@ -325,7 +325,7 @@ commissioners:
     address: 1641 Monroe Street NW
     phone: ''
     email: 1D01@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Jon
     last_name: Stewart
     suffix: ''
@@ -335,7 +335,7 @@ commissioners:
     address: 1651 Newton Street NW
     phone: ''
     email: 1D02@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Robin
     last_name: Sandenburgh
     suffix: ''
@@ -375,7 +375,7 @@ commissioners:
     address: '532 20th Street NW #312'
     phone: ''
     email: 2A01@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Patrick
     last_name: Kennedy
     suffix: ''
@@ -405,7 +405,7 @@ commissioners:
     address: '600 New Hampshire Avenue NW #610'
     phone: ''
     email: 2A04@anc.dc.gov
-    chair: true
+    chair: false
     first_name: William Kennedy
     last_name: Smith
     suffix: ''
@@ -1355,7 +1355,7 @@ commissioners:
     address: 1216 Madison Street NW
     phone: ''
     email: 4C01@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Charlotte
     last_name: Nugent
     suffix: ''
@@ -1405,7 +1405,7 @@ commissioners:
     address: 3803 13th St NW
     phone: ''
     email: 4C06@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Bennett
     last_name: Hilley
     suffix: ''
@@ -1985,7 +1985,7 @@ commissioners:
     address: 622 1/2 I St SE
     phone: ''
     email: 6B03@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Brian
     last_name: Ready
     suffix: ''
@@ -2035,7 +2035,7 @@ commissioners:
     address: '1436 Independence Avenue, SE'
     phone: ''
     email: 6B08@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Chander
     last_name: Jayaraman
     suffix: ''
@@ -2225,7 +2225,7 @@ commissioners:
     address: 437 New york Avenue NW
     phone: ''
     email: 6E04@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Rachelle
     last_name: Nigro
     suffix: ''
@@ -2235,7 +2235,7 @@ commissioners:
     address: 460 L Street NW
     phone: ''
     email: 6E05@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Alex
     last_name: Marriott
     suffix: ''
@@ -2416,8 +2416,8 @@ commissioners:
     phone: ''
     email: 7D02@anc.dc.gov
     chair: false
-    first_name: Siraaj M.
-    last_name: Hasan
+    last_name: "Siraaj M. Hasan\n\t\t\tActing Chairperson"
+    first_name: ''
     suffix: ''
     zip: '2001'
   7D03:
@@ -2452,12 +2452,12 @@ commissioners:
     zip: '20019'
   7D06:
     smd: 7D06
-    address: 4409 Jay Street NE
+    address: ''
     phone: ''
     email: 7D06@anc.dc.gov
-    chair: true
-    first_name: Sherice A.
-    last_name: Muhammad
+    chair: false
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20019'
   7D07:
@@ -2705,7 +2705,7 @@ commissioners:
     address: 1808 Morris Road SE
     phone: 702-626-2593
     email: 8B03@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Charles H.
     last_name: Wilson
     suffix: ''
@@ -2745,7 +2745,7 @@ commissioners:
     address: 3574 Stanton Road SE
     phone: ''
     email: 8B07@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Keeon
     last_name: Bassett
     suffix: ''
@@ -2925,7 +2925,7 @@ commissioners:
     address: 1313 Congress Street SE
     phone: 202-200-1340
     email: 8E04@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Kendall
     last_name: Simmons
     suffix: ''
@@ -2955,7 +2955,7 @@ commissioners:
     address: 855 Barnaby Street SE
     phone: 202-503-0017
     email: 8E07@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Stephen A.
     last_name: Slaughter
     suffix: ''
