@@ -1,4 +1,4 @@
-updated: '2020-02-05'
+updated: '2020-02-07'
 commissioners:
   1A01:
     smd: 1A01
@@ -245,19 +245,19 @@ commissioners:
     address: 1841 California Street NW
     phone: ''
     email: 1C01@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Amir
     last_name: Irani
     suffix: ''
     zip: '20009'
   1C02:
     smd: 1C02
-    address: '2410 20th St NW #201'
-    phone: 410-705-4166
+    address: ''
+    phone: ''
     email: 1C02@anc.dc.gov
     chair: false
-    first_name: Bridget
-    last_name: Pooley
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20009'
   1C03:
@@ -265,7 +265,7 @@ commissioners:
     address: '1849 Kalorama Road, NW Apt. 2'
     phone: ''
     email: 1C03@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Ted
     last_name: Guthrie
     suffix: ''
@@ -312,12 +312,12 @@ commissioners:
     zip: '20009'
   1C08:
     smd: 1C08
-    address: 1664-D Beekman Place NW
+    address: ''
     phone: ''
     email: 1C08@anc.dc.gov
     chair: false
-    first_name: Amanda Fox
-    last_name: Perry
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20009'
   1D01:
@@ -2222,7 +2222,7 @@ commissioners:
     zip: '20001'
   '6E04':
     smd: '6E04'
-    address: 437 New york Avenue NW
+    address: "437 New york Avenue NW\_ #809"
     phone: ''
     email: 6E04@anc.dc.gov
     chair: true
