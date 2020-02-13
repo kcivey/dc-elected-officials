@@ -1,4 +1,4 @@
-updated: '2020-02-07'
+updated: '2020-02-13'
 commissioners:
   1A01:
     smd: 1A01
@@ -472,12 +472,12 @@ commissioners:
     zip: '20008'
   2B03:
     smd: 2B03
-    address: 1712 R St NW
+    address: ''
     phone: ''
     email: 2B03@anc.dc.gov
     chair: false
-    first_name: Lucky
-    last_name: Barbieri
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20009'
   2B04:
