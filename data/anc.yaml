@@ -1,4 +1,4 @@
-updated: '2020-02-13'
+updated: '2020-02-22'
 commissioners:
   1A01:
     smd: 1A01
@@ -1042,12 +1042,12 @@ commissioners:
     zip: '20016'
   3F01:
     smd: 3F01
-    address: 3728 Veazey Street NW
+    address: ''
     phone: ''
     email: 3F01@anc.dc.gov
-    chair: true
-    first_name: David
-    last_name: Dickinson
+    chair: false
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20008'
   3F02:
@@ -1095,7 +1095,7 @@ commissioners:
     address: 3652 Alton Place NW
     phone: ''
     email: 3F06@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Monika
     last_name: Nemeth
     suffix: ''
@@ -2182,7 +2182,7 @@ commissioners:
     zip: '20024'
   6D07:
     smd: 6D07
-    address: "301 Tingey St SE\_ #433"
+    address: '1111 New Jersey Ave SE, #720'
     phone: 202-930-3720
     email: 6D07@anc.dc.gov
     chair: false
@@ -2953,7 +2953,7 @@ commissioners:
   '8E07':
     smd: '8E07'
     address: 855 Barnaby Street SE
-    phone: 202-503-0017
+    phone: 202-427-3044
     email: 8E07@anc.dc.gov
     chair: true
     first_name: Stephen A.
