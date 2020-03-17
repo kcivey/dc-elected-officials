@@ -20,7 +20,7 @@
     "moment": "^2.24.0"
   },
   "devDependencies": {
-    "cache-manager": "^3.1.0",
+    "cache-manager": "^3.2.0",
     "cache-manager-fs": "^1.0.8",
     "chai": "^4.2.0",
     "cheerio": "^1.0.0-rc.3",
