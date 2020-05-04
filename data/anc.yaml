@@ -1,4 +1,4 @@
-updated: '2020-03-17'
+updated: '2020-05-04'
 commissioners:
   1A01:
     smd: 1A01
@@ -182,12 +182,12 @@ commissioners:
     zip: '20009'
   1B07:
     smd: 1B07
-    address: ''
+    address: 2633 15th Street NW
     phone: ''
     email: 1B07@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Marcia
+    last_name: Shia
     suffix: ''
     zip: '20009'
   1B08:
@@ -312,12 +312,12 @@ commissioners:
     zip: '20009'
   1C08:
     smd: 1C08
-    address: ''
+    address: 2000 16th St NW
     phone: ''
     email: 1C08@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Christopher
+    last_name: Jackson
     suffix: ''
     zip: '20009'
   1D01:
@@ -1042,12 +1042,12 @@ commissioners:
     zip: '20016'
   3F01:
     smd: 3F01
-    address: ''
+    address: 3930 Connecticut Avenue NW
     phone: ''
     email: 3F01@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: David
+    last_name: Cristeal
     suffix: ''
     zip: '20008'
   3F02:
