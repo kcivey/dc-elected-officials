@@ -1,4 +1,4 @@
-updated: '2020-05-06'
+updated: '2020-05-16'
 commissioners:
   1A01:
     smd: 1A01
@@ -2705,7 +2705,7 @@ commissioners:
     address: 1808 Morris Road SE
     phone: 702-626-2593
     email: 8B03@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Charles H.
     last_name: Wilson
     suffix: ''
@@ -2745,7 +2745,7 @@ commissioners:
     address: 3574 Stanton Road SE
     phone: ''
     email: 8B07@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Keeon
     last_name: Johnson
     suffix: ''
