@@ -1,0 +1,13 @@
+code: pinto_brooke
+name: Brooke Pinto
+short_name: Pinto
+wikipedia: 'https://en.wikipedia.org/wiki/Brooke_Pinto'
+birth_date: '1992-06-01' # guess from articles
+gender: F
+party: D
+positions:
+  - office: 'Ward 2 Member, Council of the District of Columbia'
+    election: '2020-06-16'
+    start: '2020-06-27'
+    start_type: special
+    end: null
