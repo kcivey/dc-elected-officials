@@ -1,6 +1,6 @@
 {
   "name": "dc-elected-officials",
-  "version": "0.8.8",
+  "version": "0.9.0",
   "description": "Information on current and historical elected officials of the District of Columbia",
   "repository": {
     "type": "git",
