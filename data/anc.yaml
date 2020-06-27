@@ -1,4 +1,4 @@
-updated: '2020-05-16'
+updated: '2020-06-27'
 commissioners:
   1A01:
     smd: 1A01
@@ -316,7 +316,7 @@ commissioners:
     phone: ''
     email: 1C08@anc.dc.gov
     chair: false
-    first_name: Christopher
+    first_name: Chris
     last_name: Jackson
     suffix: ''
     zip: '20009'
@@ -375,7 +375,7 @@ commissioners:
     address: '532 20th Street NW #312'
     phone: ''
     email: 2A01@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Patrick
     last_name: Kennedy
     suffix: ''
@@ -446,8 +446,8 @@ commissioners:
     phone: ''
     email: 2A08@anc.dc.gov
     chair: false
-    first_name: James
-    last_name: Harnett
+    last_name: "James Harnett\n\t\t\tActing Chairperson"
+    first_name: ''
     suffix: ''
     zip: '20052'
   2B01:
@@ -836,18 +836,18 @@ commissioners:
     phone: ''
     email: 3C04@anc.dc.gov
     chair: false
-    first_name: Robert"Beau"
+    first_name: Robert "Beau"
     last_name: Finley
     suffix: ''
     zip: '20036'
   3C05:
     smd: 3C05
-    address: 3601 Connecticut Avenue NW
+    address: ''
     phone: ''
     email: 3C05@anc.dc.gov
     chair: false
-    first_name: Emma
-    last_name: Hersh
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20008'
   3C06:
@@ -1562,12 +1562,12 @@ commissioners:
     zip: '20017'
   5A06:
     smd: 5A06
-    address: ''
+    address: '230 Varnum Street, NE'
     phone: ''
     email: 5A06@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Claudia
+    last_name: Barragan
     suffix: ''
     zip: '20011'
   5A07:
@@ -1662,12 +1662,12 @@ commissioners:
     zip: '20018'
   5C03:
     smd: 5C03
-    address: ''
+    address: 3129 Fort Lincoln Dr NE
     phone: ''
     email: 5C03@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Pierre
+    last_name: Hines
     suffix: ''
     zip: '20018'
   5C04:
@@ -1762,12 +1762,12 @@ commissioners:
     zip: '20002'
   5D06:
     smd: 5D06
-    address: 1147 Oates St NE
+    address: ''
     phone: ''
     email: 5D06@anc.dc.gov
     chair: false
-    first_name: Jason E.
-    last_name: Burkett
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20002'
   5D07:
@@ -2042,12 +2042,12 @@ commissioners:
     zip: '20003'
   6B09:
     smd: 6B09
-    address: 320 17th St SE
+    address: ''
     phone: ''
     email: 6B09@anc.dc.gov
     chair: false
-    first_name: Kasie
-    last_name: Clark
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20003'
   6B10:
@@ -2342,12 +2342,12 @@ commissioners:
     zip: '20019'
   7C02:
     smd: 7C02
-    address: 5314 East Capitol St NE
-    phone: 301-520-7717
+    address: ''
+    phone: ''
     email: 7C02@anc.dc.gov
     chair: false
-    first_name: Lawrence
-    last_name: Davin
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20019'
   7C03:
