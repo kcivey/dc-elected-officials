@@ -1,4 +1,4 @@
-updated: '2020-07-29'
+updated: '2020-08-22'
 commissioners:
   1A01:
     smd: 1A01
@@ -62,12 +62,12 @@ commissioners:
     zip: '20010'
   1A07:
     smd: 1A07
-    address: '3538 10th St NW #A'
-    phone: 401-644-6271
+    address: ''
+    phone: ''
     email: 1A07@anc.dc.gov
     chair: false
-    first_name: Jen
-    last_name: Bundy
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20010'
   1A08:
@@ -412,12 +412,12 @@ commissioners:
     zip: '20037'
   2A05:
     smd: 2A05
-    address: '725 24th Street NW #709'
+    address: 725 24th Street NW
     phone: ''
     email: 2A05@anc.dc.gov
     chair: false
-    first_name: Philip J.
-    last_name: Schrefer
+    first_name: Evelyn
+    last_name: Hudson
     suffix: ''
     zip: '20037'
   2A06:
@@ -432,12 +432,12 @@ commissioners:
     zip: '20037'
   2A07:
     smd: 2A07
-    address: 2141 I St NW
+    address: ''
     phone: ''
     email: 2A07@anc.dc.gov
     chair: false
-    first_name: Detrick
-    last_name: Campbell
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20037'
   2A08:
@@ -852,12 +852,12 @@ commissioners:
     zip: '20008'
   3C06:
     smd: 3C06
-    address: 3700 39th Street NW
+    address: ''
     phone: ''
     email: 3C06@anc.dc.gov
     chair: false
-    first_name: Angela
-    last_name: Bradbery
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20016'
   3C07:
@@ -992,12 +992,12 @@ commissioners:
     zip: '20016'
   '3E01':
     smd: '3E01'
-    address: 4515 Yuma Street NW
+    address: ''
     phone: ''
     email: 3E01@anc.dc.gov
     chair: false
-    first_name: Greg
-    last_name: Ehrhardt
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20016'
   '3E02':
@@ -2532,12 +2532,12 @@ commissioners:
     zip: '20019'
   '7E07':
     smd: '7E07'
-    address: 11 58th St SE
+    address: ''
     phone: ''
     email: 7E07@anc.dc.gov
     chair: false
-    first_name: Yolanda
-    last_name: Fields
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20019'
   7F01:
