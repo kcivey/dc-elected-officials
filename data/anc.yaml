@@ -1,4 +1,4 @@
-updated: '2020-08-22'
+updated: '2020-10-30'
 commissioners:
   1A01:
     smd: 1A01
@@ -172,12 +172,12 @@ commissioners:
     zip: '20009'
   1B06:
     smd: 1B06
-    address: 1308 Clifton Street NW
+    address: ''
     phone: ''
     email: 1B06@anc.dc.gov
     chair: false
-    first_name: Jennifer
-    last_name: Bristol
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20009'
   1B07:
@@ -292,12 +292,12 @@ commissioners:
     zip: '20009'
   1C06:
     smd: 1C06
-    address: '1620 Fuller St NW #411'
+    address: ''
     phone: ''
     email: 1C06@anc.dc.gov
     chair: false
-    first_name: Michaela
-    last_name: Wright
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20009'
   1C07:
@@ -402,12 +402,12 @@ commissioners:
     zip: '20037'
   2A04:
     smd: 2A04
-    address: '600 New Hampshire Avenue NW #610'
+    address: ''
     phone: ''
     email: 2A04@anc.dc.gov
     chair: false
-    first_name: William Kennedy
-    last_name: Smith
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20037'
   2A05:
@@ -952,12 +952,12 @@ commissioners:
     zip: '20007'
   3D07:
     smd: 3D07
-    address: 4400 Massachusetts Ave. NW
+    address: ''
     phone: ''
     email: 3D07@anc.dc.gov
     chair: false
-    first_name: Taylor
-    last_name: Berlin
+    last_name: Vacant
+    first_name: ''
     suffix: ''
     zip: '20016'
   3D08:
@@ -1632,13 +1632,13 @@ commissioners:
     zip: '20017'
   5B05:
     smd: 5B05
-    address: '3742 12th St NE #2'
+    address: '1009 Sigsbee Place, NE'
     phone: ''
     email: 5B05@anc.dc.gov
     chair: false
-    first_name: Landon
-    last_name: Jones
-    suffix: ''
+    first_name: John J.
+    last_name: Feeley
+    suffix: Jr
     zip: '20017'
   5C01:
     smd: 5C01
@@ -2893,7 +2893,7 @@ commissioners:
   '8E01':
     smd: '8E01'
     address: 1430 Tobias Drive SE
-    phone: 202-860-0881
+    phone: 202-390-9480
     email: 8E01@anc.dc.gov
     chair: false
     first_name: Adeoye
