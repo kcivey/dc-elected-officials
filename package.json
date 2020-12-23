@@ -16,15 +16,15 @@
   },
   "dependencies": {
     "camelize": "^1.0.0",
-    "js-yaml": "^3.14.0",
-    "moment": "^2.27.0"
+    "js-yaml": "^3.14.1",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
-    "cache-manager": "^3.3.0",
+    "cache-manager": "^3.4.0",
     "cache-manager-fs": "^1.0.8",
     "chai": "^4.2.0",
-    "cheerio": "^1.0.0-rc.3",
-    "csv-stringify": "^5.5.1",
+    "cheerio": "^1.0.0-rc.5",
+    "csv-stringify": "^5.5.3",
     "eslint": "^6.8.0",
     "lodash": "^4.17.20",
     "mocha": "^7.2.0",
