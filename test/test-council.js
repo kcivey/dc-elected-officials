@@ -10,7 +10,7 @@ describe(
             function () {
                 const councils = dceo.getCouncils();
                 expect(councils).to.be.an('object');
-                expect(Object.keys(councils)).to.be.an('array').of.length(46);
+                expect(Object.keys(councils)).to.be.an('array').of.length(47);
                 const firstDate = Object.keys(councils)[0];
                 expect(firstDate).to.equal('1975-01-02');
                 const council = councils[firstDate];
