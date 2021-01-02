@@ -8,4 +8,5 @@ party: I
 positions:
   - office: 'At-Large Member (1b), Council of the District of Columbia'
     start: '2013-01-02'
-    end: null
+    end: '2021-01-02'
+    end_type: retirement
