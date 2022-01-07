@@ -1,4 +1,4 @@
-updated: '2021-12-22'
+updated: '2022-01-07'
 commissioners:
   1A01:
     smd: 1A01
@@ -915,7 +915,7 @@ commissioners:
     address: '4050 52nd Terrace, NW'
     phone: 240-903-4004
     email: 3D03@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Paige
     last_name: Ela
     suffix: ''
@@ -965,7 +965,7 @@ commissioners:
     address: '4201 Cathedral Ave, NW #123E'
     phone: 202-630-5295
     email: 3D08@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Benjamin
     last_name: Bergmann
     suffix: ''
@@ -1723,7 +1723,7 @@ commissioners:
   5D02:
     smd: 5D02
     address: 1210 Meigs Place NE
-    phone: 202-841-9383
+    phone: 202-240-8460
     email: 5D02@anc.dc.gov
     chair: false
     first_name: Salvador
@@ -2195,7 +2195,7 @@ commissioners:
     address: '806 Rhode Island Ave, NW #1'
     phone: ''
     email: 6E01@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Michael
     last_name: Eichler
     suffix: ''
@@ -2225,7 +2225,7 @@ commissioners:
     address: "437 New york Avenue NW\_ #809"
     phone: ''
     email: 6E04@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Rachelle
     last_name: Nigro
     suffix: ''
@@ -2615,7 +2615,7 @@ commissioners:
     address: '1936 Naylor Road, SE #102'
     phone: 202-422-4957
     email: 8A01@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Holly
     last_name: Muhammad
     suffix: ''
@@ -2655,7 +2655,7 @@ commissioners:
     address: P.O. Box 30700
     phone: 202-940-3594
     email: 8A05@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Jamila
     last_name: White
     suffix: ''
