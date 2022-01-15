@@ -1,4 +1,4 @@
-updated: '2022-01-07'
+updated: '2022-01-15'
 commissioners:
   1A01:
     smd: 1A01
@@ -75,7 +75,7 @@ commissioners:
     address: '608 Rock Creek Church Road, NW'
     phone: ''
     email: 1A08@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Kent C.
     last_name: Boese
     suffix: ''
@@ -85,7 +85,7 @@ commissioners:
     address: '743 Morton Street, NW'
     phone: 202-805-7310
     email: 1A09@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Michael
     last_name: Wray
     suffix: ''
@@ -685,7 +685,7 @@ commissioners:
     address: '1301 Rhode Island Avenue, NW'
     phone: ''
     email: 2F02@anc.dc.gov
-    chair: true
+    chair: false
     first_name: John
     last_name: Guggenmos
     suffix: ''
@@ -715,7 +715,7 @@ commissioners:
     address: '1300 N Street, NW'
     phone: 202-670-0618
     email: 2F05@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Sherene
     last_name: Joseph
     suffix: ''
@@ -1173,11 +1173,11 @@ commissioners:
   3G07:
     smd: 3G07
     address: ''
-    phone: ''
+    phone: 202-329-6816
     email: 3G07@anc.dc.gov
     chair: false
-    last_name: Vacant
-    first_name: ''
+    first_name: Charles
+    last_name: Cadwell
     suffix: ''
     zip: '20015'
   4A01:
@@ -1985,7 +1985,7 @@ commissioners:
     address: '622 1/2 I Street, SE'
     phone: ''
     email: 6B03@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Brian
     last_name: Ready
     suffix: ''
@@ -2015,7 +2015,7 @@ commissioners:
     address: '926 14th Street, SE'
     phone: ''
     email: 6B06@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Corey
     last_name: Holman
     suffix: ''
@@ -2485,7 +2485,7 @@ commissioners:
     address: P.O. Box 6703
     phone: ''
     email: 7E02@anc.dc.gov
-    chair: true
+    chair: false
     first_name: Tiera J.
     last_name: Fletcher
     suffix: ''
@@ -2525,7 +2525,7 @@ commissioners:
     address: 5336 Call Place SE
     phone: 202-374-7424
     email: 7E06@anc.dc.gov
-    chair: false
+    chair: true
     first_name: Delia
     last_name: Houseal
     suffix: ''
