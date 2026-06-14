@@ -1,0 +1,11 @@
+code: felder_wendell
+name: Wendell Felder
+short_name: Felder
+wikipedia: 'https://en.wikipedia.org/wiki/Wendell_Felder'
+birth_date: '1990-09-16'
+gender: M
+party: D
+positions:
+  - office: 'Ward 7 Member, Council of the District of Columbia'
+    start: '2023-01-02'
+    end: null

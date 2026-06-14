@@ -1,0 +1,12 @@
+code: crawford_doni
+name: Doni Crawford
+short_name: D Crawford
+wikipedia: 'https://en.wikipedia.org/wiki/Doni_Crawford'
+birth_date: '1989-09-20' # not accurate -- somewhere between 1989-05-21 and 1990-01-20
+gender: F
+party: I
+positions:
+  - office: 'At-Large Member (2a), Council of the District of Columbia'
+    start: '2025-01-20'
+    start_type: appointment
+    end: null

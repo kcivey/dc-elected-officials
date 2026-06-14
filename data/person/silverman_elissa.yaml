@@ -8,4 +8,5 @@ party: I
 positions:
   - office: 'At-Large Member (2a), Council of the District of Columbia'
     start: '2015-01-02'
-    end: null
+    end: '2023-01-02'
+    end_type: defeat

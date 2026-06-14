@@ -1,0 +1,11 @@
+code: frumin_matt
+name: Matt Frumin
+short_name: Frumin
+wikipedia: 'https://en.wikipedia.org/wiki/Matthew_Frumin'
+birth_date: '1959-05-09' # https://x.com/councilofdc/status/1788578934289809643
+gender: M
+party: D
+positions:
+  - office: 'Ward 3 Member, Council of the District of Columbia'
+    start: '2023-01-02'
+    end: null

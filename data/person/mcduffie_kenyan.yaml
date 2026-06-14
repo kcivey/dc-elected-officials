@@ -4,10 +4,21 @@ short_name: McDuffie
 wikipedia: 'https://en.wikipedia.org/wiki/Kenyan_McDuffie'
 birth_date: '1975-09-29' # https://twitter.com/councilofdc/status/781456495439261696 and 36 when elected
 gender: M
-party: D
+party:
+  - date: '0000-00-00'
+    party: D
+  - date: '2022-07-01'
+    party: I
+  - date: '2026-01-06'
+    party: D
 positions:
   - office: 'Ward 5 Member, Council of the District of Columbia'
     election: '2012-05-15'
     start: '2012-05-30'
     start_type: special
-    end: null
+    end: '2023-01-02'
+    end_type: higher
+  - office: 'At-Large Member (2a), Council of the District of Columbia'
+    start: '2023-01-02'
+    end: '2026-01-05'
+    end_type: resignation
