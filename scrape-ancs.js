@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
-const url = require('url');
 const fs = require('fs');
 const assert = require('assert');
 const cheerio = require('cheerio');
 const _ = require('lodash');
 const yaml = require('js-yaml');
 const request = require('./lib/request');
-const ancHomeUrl = 'https://anc.dc.gov/';
+const ancHomeUrl = 'https://oanc.dc.gov/landing-page/ancs-ward';
 const ancYamlFile = __dirname + '/data/anc.yaml';
 
 request(ancHomeUrl).then(html => cheerio.load(html))
@@ -16,7 +15,8 @@ request(ancHomeUrl).then(html => cheerio.load(html))
     .catch(console.error);
 
 async function getAncData($home) {
-    const links = $home('ul.menu-sub > li.leaf > a').get();
+    const links = $home('div.anc-item > div.uk-padding-remove > a').get();
+    assert(links.length > 40, `Only ${links.length} ANCs found`);
     const data = {};
     for (const a of links) {
         const $a = $home(a);
@@ -27,7 +27,7 @@ async function getAncData($home) {
             continue;
         }
         console.log(m[0]);
-        const ancUrl = url.resolve(ancHomeUrl, $a.attr('href'));
+        const ancUrl = new URL($a.attr('href'), ancHomeUrl).toString();
         const $ = await getCheerio(ancUrl); // eslint-disable-line require-atomic-updates
         const headers = $('table > thead > tr > th')
             .map(function (i, th) {
@@ -37,6 +37,7 @@ async function getAncData($home) {
             })
             .get();
         const rows = $('table > tbody > tr').get();
+        assert(rows.length > 1, `Only ${rows.length} SMDs found`);
         for (const row of rows) {
             const values = $(row).find('td')
                 .map(function (i, th) {
@@ -48,10 +49,11 @@ async function getAncData($home) {
             if (!record.name) {
                 continue;
             }
-            m = record.name.match(/^(.+?)\s+Chairperson$/);
+            m = record.name.match(/^(.+?)\s*((?:Vice )?Chairperson|Secretary|Treasurer)$/);
             if (m) {
                 record.name = m[1];
-                record.chair = true;
+                record.title = m[2];
+                record.chair = m[2] === 'Chairperson';
             }
             else {
                 record.chair = false;
@@ -85,6 +87,9 @@ async function getAncData($home) {
             }
             else { // phone is missing on some ANC pages
                 record.phone = '';
+            }
+            if (/protected]$/.test(record.email)) {
+                record.email = record.smd + '@anc.dc.gov';
             }
             data[record.smd] = record;
         }
