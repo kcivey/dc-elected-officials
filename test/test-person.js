@@ -9,7 +9,7 @@ describe(
             'getPersons',
             function () {
                 const persons = dceo.getPersons();
-                expect(persons).to.be.an('array').of.length(59);
+                expect(persons).to.be.an('array').of.length(65);
                 const person = persons[0];
                 expect(person).to.be.instanceOf(dceo.Person);
                 expect(person.age()).to.be.a('number');
