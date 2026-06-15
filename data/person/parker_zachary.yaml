@@ -1,0 +1,11 @@
+code: parker_zachary
+name: Zachary Parker
+short_name: Parker
+wikipedia: 'https://en.wikipedia.org/wiki/Zachary_Parker'
+birth_date: '1987-03-12'
+gender: M
+party: D
+positions:
+  - office: 'Ward 5 Member, Council of the District of Columbia'
+    start: '2023-01-02'
+    end: null
